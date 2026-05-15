@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -23,9 +23,7 @@
       position: relative;
       overflow: hidden;
     }
-    .answer:hover {
-      transform: translateY(-4px) scale(1.02);
-    }
+    .answer:hover { transform: translateY(-4px) scale(1.02); }
     .answer::before {
       content: '';
       position: absolute;
@@ -65,44 +63,27 @@
       50% { transform: scale(1.05); }
     }
     .hidden { display: none !important; }
-    .ladder-item {
-      transition: all .3s ease;
-    }
+    .ladder-item { transition: all .3s ease; }
     .ladder-item.active {
       background: rgba(255,255,255,0.25) !important;
       transform: scale(1.03);
       font-weight: 700;
     }
-    .ladder-item.passed {
-      opacity: 0.9;
-      border-left: 3px solid #22c55e;
-    }
-    .ladder-item.milestone {
-      border-left: 3px solid #ffd700;
-    }
+    .ladder-item.passed { opacity: 0.9; border-left: 3px solid #22c55e; }
+    .ladder-item.milestone { border-left: 3px solid #ffd700; }
 
-    /* Volume bar */
     .volume-bar {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
+      position: fixed; bottom: 20px; right: 20px;
       backdrop-filter: blur(14px);
       background: rgba(255,255,255,0.12);
       border: 1px solid rgba(255,255,255,0.18);
-      border-radius: 14px;
-      padding: 8px 14px;
+      border-radius: 14px; padding: 8px 14px;
       z-index: 999;
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
+      display: flex; flex-direction: column; gap: 4px;
       min-width: 130px;
       box-shadow: 0 10px 40px rgba(0,0,0,0.12);
     }
-    .volume-bar .vol-row {
-      display: flex;
-      align-items: center;
-      gap: 5px;
-    }
+    .volume-bar .vol-row { display: flex; align-items: center; gap: 5px; }
     .volume-bar .vol-icon { font-size: 0.85em; min-width: 18px; text-align: center; }
     .volume-bar input[type="range"] {
       width: 60px; height: 3px;
@@ -115,23 +96,18 @@
       background: white; cursor: pointer;
     }
     .volume-bar .vol-pct { font-size: 0.65em; min-width: 22px; color: rgba(255,255,255,0.7); }
-
-    /* Level selector */
     .level-selector label { margin: 0 8px; font-size: 0.9em; cursor: pointer; }
     .level-selector input[type="radio"] { accent-color: #06b6d4; margin-right: 3px; }
   </style>
 </head>
 <body class="min-h-screen flex items-center justify-center p-4 lg:p-6 bg-gradient-to-br from-cyan-200 via-sky-100 to-indigo-200">
-
-  <!-- Background decorations -->
   <div class="absolute inset-0 overflow-hidden pointer-events-none">
     <div class="absolute w-96 h-96 bg-pink-300/30 rounded-full blur-3xl -top-20 -left-10 floating"></div>
     <div class="absolute w-[500px] h-[500px] bg-cyan-300/30 rounded-full blur-3xl bottom-0 right-0 floating" style="animation-delay:2s"></div>
     <div class="absolute w-72 h-72 bg-yellow-200/40 rounded-full blur-3xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 floating" style="animation-delay:1s"></div>
   </div>
 
-  <!-- Volume Bar (always visible) -->
-   <div class="volume-bar text-white/80">
+  <div class="volume-bar text-white/80">
     <div class="vol-row">
       <span id="musicIcon" class="vol-icon cursor-pointer" onclick="toggleMute('music')">🎵</span>
       <input type="range" id="musicVolume" min="0" max="100" value="40">
@@ -144,7 +120,6 @@
     </div>
   </div>
 
-  <!-- START SCREEN -->
   <div id="startScreen" class="relative z-10 w-full max-w-2xl mx-auto glass rounded-[32px] p-10 text-slate-800 text-center">
     <div id="startContent">
       <h1 class="text-4xl lg:text-5xl font-bold leading-tight mb-4">
@@ -152,24 +127,19 @@
       </h1>
       <p class="text-slate-500 text-lg mb-4">Edición Colombia 🇨🇴</p>
       <p class="text-slate-600 mb-6">Responde preguntas y gana hasta <strong class="text-cyan-600">$300.000.000</strong></p>
-
       <div class="mb-6 text-sm text-slate-600">
         <p><i data-lucide="shield" class="w-4 h-4 inline"></i> <strong>Hitos garantizados:</strong></p>
         <div id="milestoneDisplay" class="mt-2"></div>
       </div>
-
       <div class="level-selector mb-6 text-slate-600">
         <strong>Seguros:</strong>
         <label><input type="radio" name="levelMode" value="3" checked onchange="updateLevelInfo()"> 3 seguros</label>
         <label><input type="radio" name="levelMode" value="5" onchange="updateLevelInfo()"> 5 seguros</label>
         <div id="levelInfo" class="text-xs text-slate-500 mt-2"></div>
       </div>
-
       <div class="text-sm text-slate-500 mb-6"><i data-lucide="help-circle" class="w-4 h-4 inline"></i> Ayudas: 50:50 · 📞 Llamada · 👥 Público</div>
-
       <button id="startBtn" class="bg-white text-slate-800 px-10 py-4 rounded-3xl font-semibold shadow-xl hover:scale-105 transition disabled:opacity-50 disabled:cursor-not-allowed" onclick="showReadyScreen()" disabled>Cargando...</button>
     </div>
-
     <div id="readyContent" class="hidden">
       <div class="mb-6"><i data-lucide="play-circle" class="w-12 h-12 text-cyan-500"></i></div>
       <h2 class="text-3xl font-bold mb-4">¿Listo para jugar?</h2>
@@ -180,23 +150,18 @@
     </div>
   </div>
 
-  <!-- GAME AREA -->
   <main id="gameArea" class="relative z-10 w-full max-w-7xl grid lg:grid-cols-[1fr_320px] gap-6 items-start hidden">
     <section class="glass rounded-[32px] p-6 lg:p-10 text-slate-800">
       <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-6">
         <div>
           <p class="uppercase tracking-[0.3em] text-sm font-semibold text-slate-500 mb-2">Concurso interactivo</p>
-          <h1 class="text-3xl lg:text-4xl font-bold leading-tight">
-            ¿Quién quiere ser <span id="highlight" class="text-cyan-600">Millonario?</span>
-          </h1>
+          <h1 class="text-3xl lg:text-4xl font-bold leading-tight">¿Quién quiere ser <span id="highlight" class="text-cyan-600">Millonario?</span></h1>
         </div>
         <div class="glass rounded-3xl px-6 py-4 pulse-soft text-center min-w-[140px]">
           <p class="text-xs text-slate-500">Premio actual</p>
           <h2 id="money" class="text-2xl lg:text-3xl font-bold">$0</h2>
         </div>
       </div>
-
-      <!-- Progress bar -->
       <div class="mb-6 flex items-center gap-4">
         <div class="flex-1 h-4 bg-white/30 rounded-full overflow-hidden">
           <div id="progress" class="h-full w-[0%] rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 transition-all duration-700"></div>
@@ -206,8 +171,6 @@
           <span id="levelText" class="font-semibold text-slate-600 whitespace-nowrap">Nivel 1</span>
         </div>
       </div>
-
-      <!-- Question card -->
       <div id="questionCard" class="glass rounded-[28px] p-6 lg:p-8 mb-6 transition-all duration-700">
         <div class="flex items-center gap-3 mb-5">
           <div id="difficultyIcon" class="w-10 h-10 lg:w-12 lg:h-12 rounded-2xl bg-white/40 flex items-center justify-center text-slate-700 shrink-0">
@@ -221,35 +184,18 @@
             </div>
           </div>
         </div>
-        <h2 id="question" class="text-xl lg:text-2xl xl:text-3xl font-bold leading-relaxed text-slate-800">
-          Cargando pregunta...
-        </h2>
+        <h2 id="question" class="text-xl lg:text-2xl xl:text-3xl font-bold leading-relaxed text-slate-800">Cargando pregunta...</h2>
       </div>
-
-      <!-- Answers -->
       <div id="answers" class="grid md:grid-cols-2 gap-3 lg:gap-4"></div>
-
-      <!-- Lifelines -->
       <div class="mt-6">
         <p class="text-xs text-slate-500 uppercase tracking-wider mb-3 font-semibold">Ayudas</p>
         <div class="flex flex-wrap gap-3">
-        <button id="btn5050" class="glass px-4 py-3 rounded-2xl font-medium hover:scale-105 transition flex items-center gap-3 text-sm disabled:opacity-30 disabled:cursor-not-allowed" onclick="useLifeline('5050')">
-          <i data-lucide="split-square-horizontal" class="w-4 h-4"></i>
-          <span>50 / 50</span>
-        </button>
-        <button id="btnPhone" class="glass px-4 py-3 rounded-2xl font-medium hover:scale-105 transition flex items-center gap-3 text-sm disabled:opacity-30 disabled:cursor-not-allowed" onclick="useLifeline('phone')">
-          <i data-lucide="phone-call" class="w-4 h-4"></i>
-          <span>Llamar amigo</span>
-        </button>
-        <button id="btnPublic" class="glass px-4 py-3 rounded-2xl font-medium hover:scale-105 transition flex items-center gap-3 text-sm disabled:opacity-30 disabled:cursor-not-allowed" onclick="useLifeline('public')">
-          <i data-lucide="users" class="w-4 h-4"></i>
-          <span>Opinión público</span>
-        </button>
+          <button id="btn5050" class="glass px-4 py-3 rounded-2xl font-medium hover:scale-105 transition flex items-center gap-3 text-sm disabled:opacity-30 disabled:cursor-not-allowed" onclick="useLifeline('5050')"><i data-lucide="split-square-horizontal" class="w-4 h-4"></i><span>50 / 50</span></button>
+          <button id="btnPhone" class="glass px-4 py-3 rounded-2xl font-medium hover:scale-105 transition flex items-center gap-3 text-sm disabled:opacity-30 disabled:cursor-not-allowed" onclick="useLifeline('phone')"><i data-lucide="phone-call" class="w-4 h-4"></i><span>Llamar amigo</span></button>
+          <button id="btnPublic" class="glass px-4 py-3 rounded-2xl font-medium hover:scale-105 transition flex items-center gap-3 text-sm disabled:opacity-30 disabled:cursor-not-allowed" onclick="useLifeline('public')"><i data-lucide="users" class="w-4 h-4"></i><span>Opinión público</span></button>
+        </div>
       </div>
-    </div>
     </section>
-
-    <!-- Sidebar: Money ladder -->
     <aside class="glass rounded-[32px] p-6 text-slate-800 h-fit">
       <div class="flex items-center justify-between mb-5">
         <h2 class="text-xl font-bold">Escalera</h2>
@@ -259,7 +205,6 @@
     </aside>
   </main>
 
-  <!-- END SCREEN -->
   <div id="endScreen" class="relative z-10 w-full max-w-lg mx-auto glass rounded-[32px] p-10 text-slate-800 text-center hidden">
     <div id="endContent">
       <h1 id="endTitle" class="text-4xl font-bold mb-4"></h1>
@@ -272,636 +217,21 @@
     </div>
   </div>
 
-  <!-- Powered by -->
   <div class="fixed bottom-4 left-0 w-full text-center z-40 text-xs text-slate-400 pointer-events-none">
     <span class="glass inline-block px-3 py-1 rounded-full pointer-events-auto">⚡ Powered by jhonvega</span>
   </div>
 
-  <!-- Modal -->
   <div id="modal" class="fixed inset-0 bg-black/40 backdrop-blur-sm z-50 hidden items-center justify-center" style="display:none;">
     <div class="glass rounded-[32px] p-8 max-w-md w-full mx-4 text-slate-800 text-center">
       <div class="modal-title text-2xl font-bold mb-4" id="modalTitle"></div>
       <div class="modal-text text-base text-slate-600 mb-6" id="modalText"></div>
-      <button class="close-modal bg-white text-slate-800 px-6 py-3 rounded-2xl font-semibold shadow hover:scale-105 transition">Cerrar</button>
+      <button class="close-modal bg-white text-slate-800 px-6 py-3 rounded-2xl font-semibold shadow hover:scale-105 transition" onclick="closeModal()">Cerrar</button>
     </div>
   </div>
 
-  <script>
-    let questionsDB = [];
-    let currentQuestion = 0;
-    let currentPrize = 0;
-    let lifelines = { '5050': true, 'phone': true, 'public': true };
-    let timer;
-    let timeLeft = 30;
-    let shuffledQuestions = [];
-    let used5050 = false;
-    let currentCorrectIndex = 0;
-    let awaitingMilestoneChoice = false;
-
-    const prizeLadder = [
-      100000, 200000, 300000, 500000, 1000000,
-      2000000, 3000000, 5000000, 7000000, 10000000,
-      15000000, 20000000, 50000000, 100000000, 150000000,
-      200000000, 250000000, 300000000, 400000000, 500000000
-    ];
-
-    const themes = {
-      facil: {
-        bg: 'from-cyan-200 via-sky-100 to-indigo-200',
-        accent: 'text-cyan-600',
-        progress: 'from-cyan-500 to-blue-500',
-        icon: 'sparkles',
-        label: 'Fácil'
-      },
-      media: {
-        bg: 'from-orange-200 via-amber-100 to-pink-100',
-        accent: 'text-orange-600',
-        progress: 'from-orange-500 to-pink-500',
-        icon: 'flame',
-        label: 'Media'
-      },
-      dificil: {
-        bg: 'from-violet-300 via-fuchsia-200 to-pink-200',
-        accent: 'text-violet-700',
-        progress: 'from-violet-500 to-fuchsia-500',
-        icon: 'shield-alert',
-        label: 'Difícil'
-      }
-    };
-
-    // --- Level config ---
-    function getLevelMode() {
-      const sel = document.querySelector('input[name="levelMode"]:checked');
-      return sel ? parseInt(sel.value) : 3;
-    }
-    function getTotalQuestions() { return getLevelMode() === 5 ? 20 : 10; }
-    function getMilestones() { return getLevelMode() === 5 ? [3, 7, 11, 15, 19] : [3, 6, 9]; }
-    function isMilestoneReached() { return getMilestones().includes(currentQuestion); }
-
-    function updateLevelInfo() {
-      const mode = getLevelMode();
-      const total = getTotalQuestions();
-      document.getElementById('levelInfo').innerHTML = mode === 3
-        ? '<i data-lucide="layers" class="w-3.5 h-3.5 inline"></i> 3 seguros · 10 preguntas · Fácil → Difícil'
-        : '<i data-lucide="layers" class="w-3.5 h-3.5 inline"></i> 5 seguros · 20 preguntas · Fácil → Difícil 🚀';
-      const m = getMilestones();
-      document.getElementById('milestoneDisplay').innerHTML = m.map(i =>
-        '<p>Pregunta ' + (i + 1) + ': ' + formatMoney(prizeLadder[i]) + '</p>'
-      ).join('');
-    }
-
-    // --- Audio (3 canales independientes) ---
-    function getVol(id) { const el = document.getElementById(id); return el ? parseInt(el.value) / 100 : 0.5; }
-
-    const bgPlayer = { audio: null };
-    const ambPlayer = { audio: null };
-    const sfxPlayer = { audio: null };
-
-    function enc(u) { return encodeURI(u); }
-
-    function playBg(src, loop = true) {
-      try { if (bgPlayer.audio) { bgPlayer.audio.pause(); bgPlayer.audio.onended = null; bgPlayer.audio.src = ''; bgPlayer.audio.load(); } } catch(e) {}
-      bgPlayer.audio = new Audio(enc(src));
-      bgPlayer.audio.loop = loop;
-      bgPlayer.audio.volume = getVol('musicVolume');
-      bgPlayer.audio.play().catch(() => {});
-      return bgPlayer.audio;
-    }
-    function stopBg() { try { if (bgPlayer.audio) { bgPlayer.audio.pause(); bgPlayer.audio.onended = null; bgPlayer.audio.src = ''; bgPlayer.audio.load(); } } catch(e) {} }
-
-    function playAmb(src) {
-      try { if (ambPlayer.audio) { ambPlayer.audio.pause(); ambPlayer.audio.onended = null; ambPlayer.audio.src = ''; ambPlayer.audio.load(); } } catch(e) {}
-      ambPlayer.audio = new Audio(enc(src));
-      ambPlayer.audio.volume = getVol('musicVolume') * 0.6;
-      ambPlayer.audio.play().catch(() => {});
-      return ambPlayer.audio;
-    }
-    function stopAmb() { try { if (ambPlayer.audio) { ambPlayer.audio.pause(); ambPlayer.audio.onended = null; ambPlayer.audio.src = ''; ambPlayer.audio.load(); } } catch(e) {} }
-
-    function playSfx(src) {
-      try { if (sfxPlayer.audio) { sfxPlayer.audio.pause(); sfxPlayer.audio.onended = null; sfxPlayer.audio.src = ''; sfxPlayer.audio.load(); } } catch(e) {}
-      sfxPlayer.audio = new Audio(enc(src));
-      sfxPlayer.audio.volume = getVol('sfxVolume');
-      sfxPlayer.audio.play().catch(() => {});
-      return sfxPlayer.audio;
-    }
-    function stopSfx() { try { if (sfxPlayer.audio) { sfxPlayer.audio.pause(); sfxPlayer.audio.onended = null; sfxPlayer.audio.src = ''; sfxPlayer.audio.load(); } } catch(e) {} }
-    function stopAllAudio() { stopBg(); stopAmb(); stopSfx(); }
-
-    function updateAllVolumes() {
-      const mv = getVol('musicVolume');
-      const sv = getVol('sfxVolume');
-      try { if (bgPlayer.audio) bgPlayer.audio.volume = mv; } catch(e) {}
-      try { if (ambPlayer.audio) ambPlayer.audio.volume = mv * 0.6; } catch(e) {}
-      try { if (sfxPlayer.audio) sfxPlayer.audio.volume = sv; } catch(e) {}
-    }
-
-    const audioFiles = {
-      temaPrincipal: 'assets/tema principal.mp3',
-      introJuego: 'assets/inicio juego_.mp3',
-      atencion: ['assets/pregunta-de-atencion_.mp3', 'assets/pregunta-tencion.mp3'],
-      votacion: ['assets/pregunta-votacion.mp3', 'assets/ayuda publico.mp3'],
-      suspenso: 'assets/pregunta-suspenso.mp3',
-      cuentaAtras: 'assets/cuenta-atras.mp3',
-      resultados: 'assets/resultados-del-juego_.mp3',
-      respuestaCorrecta: 'assets/respuesta-correcta.mp3',
-      preguntas: 'assets/preguntas.mp3',
-      inicioPregunta: [
-        'assets/audio/inicio-pregunta/quien-quiere-ser-millonario_ScfDHTc.mp3',
-        'assets/audio/inicio-pregunta/que-dificil-me-la-pusiste-diablo.mp3'
-      ],
-            correctas: [
-                'assets/audio/respuestas-correctas/adam-sandler-que-ricooooo.mp3',
-                'assets/audio/respuestas-correctas/blue-label-de-johnnie-walker.mp3',
-                'assets/audio/respuestas-correctas/corre-pocoyo_ZmkqM4O.mp3',
-                'assets/audio/respuestas-correctas/el-monte-everest-no-tiene-nada-en-contra-de-mi.mp3',
-                'assets/audio/respuestas-correctas/el-senor-de-la-noche-don-omar.mp3',
-                'assets/audio/respuestas-correctas/esquivo-esquivo_lC4gBbN.mp3',
-                'assets/audio/respuestas-correctas/intro-uefa-champions-league2.mp3',
-                'assets/audio/respuestas-correctas/la-bebecita-saturado.mp3',
-                'assets/audio/respuestas-correctas/los-noto-asustados-petro.mp3',
-                'assets/audio/respuestas-correctas/senor-me-has-mirado-a-los-ojos.mp3',
-                'assets/audio/respuestas-correctas/si-a-bueno.mp3',
-                'assets/audio/respuestas-correctas/super-excelente-maravilloso.mp3',
-                'assets/audio/respuestas-correctas/ya-no-aguanto-mas.mp3'
-            ],
-      incorrectas: [
-        'assets/audio/respuestas-incorrectas/arrepientete-hijo-del-diablo.mp3',
-        'assets/audio/respuestas-incorrectas/fail-sound-effect.mp3',
-        'assets/audio/respuestas-incorrectas/miau-triste.mp3',
-        'assets/audio/respuestas-incorrectas/nadie-ama-a-calvin-por-chaparro.mp3',
-        'assets/audio/respuestas-incorrectas/no-creo.mp3',
-        'assets/audio/respuestas-incorrectas/no-estes-fumando.mp3',
-        'assets/audio/respuestas-incorrectas/oh-no-no-no-tik-tok-song-sound-effect.mp3',
-        'assets/audio/respuestas-incorrectas/quede-minimo-comun.mp3',
-        'assets/audio/respuestas-incorrectas/sad_sad.mp3',
-        'assets/audio/respuestas-incorrectas/spongebob-fail.mp3'
-      ],
-      poderes: [
-        'assets/audio/poderes-habilidades/damn-damn-damn-son.mp3',
-        'assets/audio/poderes-habilidades/va-jugar-o-que.mp3',
-        'assets/audio/poderes-habilidades/dios-mio-salvame.mp3'
-      ],
-      ayudas: [
-        'assets/audio/ayudas/a-colombia-la-esta-matando-la-pereza.mp3',
-        'assets/audio/ayudas/a-mi-se-me-hace-que-eres-marica_INzinVu.mp3',
-        'assets/audio/ayudas/among-us-role-reveal-sound.mp3',
-        'assets/audio/ayudas/detecto-de-marica-activado.mp3',
-        'assets/audio/ayudas/estaba-paralizado-con-mucho-miedo.mp3',
-        'assets/audio/ayudas/identificate.mp3',
-        'assets/audio/ayudas/los-noto-asustados-petro.mp3',
-        'assets/audio/ayudas/no-puedo-tengo-sida.mp3',
-        'assets/audio/ayudas/no-sea-tan-sapo-tan-lambon-marica.mp3',
-        'assets/audio/ayudas/pelea-de-invalidos-south-park.mp3',
-        'assets/audio/ayudas/por-favor-necesito-pito-me-muero.mp3',
-        'assets/audio/ayudas/por-fin-apareciste-malnacido-picoro.mp3',
-        'assets/audio/ayudas/que-bendicion.mp3',
-        'assets/audio/ayudas/se-ha-detectado-un-peruano.mp3',
-        'assets/audio/ayudas/senora-su-hijo-esta-biendo_dFaNfQi.mp3',
-        'assets/audio/ayudas/n0-digas-mamadas.mp3'
-      ],
-      faciles: ['assets/audio/preguntas-faciles/alarma-petro.mp3','assets/audio/preguntas-faciles/anime-ahh.mp3','assets/audio/preguntas-faciles/buenos-dias-estrellitas.mp3'],
-            dificiles: ['assets/audio/preguntas-dificiles/acostate-a-dormir.mp3','assets/audio/preguntas-dificiles/en-ese-momento-cell-sintio-el-verdadero-terror-v-descarga.mp3','assets/audio/preguntas-dificiles/ya-no-aguanto-mas_GRvlFPI.mp3','assets/audio/respuestas-correctas/tuve-fe.mp3'],
-      mitadJuego: ['assets/audio/mitad-juego/quiero-tomar-cerveza.mp3'],
-      musicaPreguntas: ['assets/preguntas.mp3','assets/pregunta-suspenso.mp3','assets/audio/inicio-pregunta/quien-quiere-ser-millonario_ScfDHTc.mp3']
-    };
-
-    function pickRandom(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
-    let lastPlayedFile = '';
-    function pickRandomNoRepeat(arr) {
-      if (!arr || !arr.length) return null;
-      const filtered = arr.filter(f => f !== lastPlayedFile);
-      const file = filtered.length ? pickRandom(filtered) : pickRandom(arr);
-      lastPlayedFile = file;
-      return file;
-    }
-    function getGamePhase() {
-      const pct = (currentQuestion + 1) / getTotalQuestions();
-      if (pct <= 0.4) return 'early';
-      if (pct <= 0.7) return 'mid';
-      return 'late';
-    }
-    function playSfxRandom(listKey) { const list = audioFiles[listKey]; if (!list || !list.length) return null; return playSfx(pickRandomNoRepeat(list)); }
-    function playSfxRandomly(listKey, prob = 0.4) { if (Math.random() < prob) return playSfxRandom(listKey); return null; }
-
-    // --- Game functions ---
-    function formatMoney(amount) { return '$' + amount.toLocaleString('es-CO'); }
-    function cryptoRandom() {
-      const arr = new Uint32Array(1);
-      crypto.getRandomValues(arr);
-      return arr[0] / (0xFFFFFFFF + 1);
-    }
-
-    function shuffleArray(array) {
-      const a = [...array];
-      for (let i = a.length - 1; i > 0; i--) {
-        const j = Math.floor(cryptoRandom() * (i + 1));
-        [a[i], a[j]] = [a[j], a[i]];
-      }
-      return a;
-    }
-
-    async function loadQuestions() {
-      try {
-        const r = await fetch('questions.json');
-        if (!r.ok) throw Error('Error');
-        questionsDB = await r.json();
-        document.getElementById('startBtn').disabled = false;
-        document.getElementById('startBtn').textContent = '¡COMENZAR!';
-        try { lucide.createIcons(); } catch(e) {}
-        updateLevelInfo();
-      } catch (e) {
-        document.getElementById('startBtn').textContent = 'Error al cargar';
-      }
-    }
-
-    function selectQuestionsByDifficulty() {
-      const easy = shuffleArray(questionsDB.filter(q => q.difficulty === 'facil'));
-      const med = shuffleArray(questionsDB.filter(q => q.difficulty === 'media'));
-      const hard = shuffleArray(questionsDB.filter(q => q.difficulty === 'dificil'));
-      if (getLevelMode() === 5) {
-        return [...easy.slice(0,4), ...med.slice(0,8), ...hard.slice(0,8)];
-      }
-      return [...easy.slice(0,4), ...med.slice(0,3), ...hard.slice(0,3)];
-    }
-
-    function showReadyScreen() {
-      document.getElementById('startContent').classList.add('hidden');
-      document.getElementById('readyContent').classList.remove('hidden');
-      try { lucide.createIcons(); } catch(e) {}
-      playBg(audioFiles.temaPrincipal);
-
-      if (questionsDB.length) {
-        shuffledQuestions = selectQuestionsByDifficulty();
-        currentQuestion = 0;
-        document.getElementById('loadingPreguntas').textContent = '✅ Preguntas listas';
-        document.getElementById('btnIniciar').disabled = false;
-      } else {
-        document.getElementById('loadingPreguntas').textContent = '⏳ Cargando banco de preguntas...';
-        const check = setInterval(() => {
-          if (questionsDB.length) {
-            shuffledQuestions = selectQuestionsByDifficulty();
-            currentQuestion = 0;
-            document.getElementById('loadingPreguntas').textContent = '✅ Preguntas listas';
-            document.getElementById('btnIniciar').disabled = false;
-            clearInterval(check);
-          }
-        }, 300);
-      }
-    }
-
-    function startGame() {
-      if (!shuffledQuestions.length) {
-        if (!questionsDB.length) {
-          document.getElementById('loadingPreguntas').textContent = '⏳ Aún cargando preguntas, espera un momento...';
-          return;
-        }
-        shuffledQuestions = selectQuestionsByDifficulty();
-        currentQuestion = 0;
-      }
-      currentPrize = 0;
-      lifelines = { '5050': true, 'phone': true, 'public': true };
-      used5050 = false;
-
-      stopAllAudio();
-      document.getElementById('startScreen').classList.add('hidden');
-      document.getElementById('endScreen').classList.add('hidden');
-      document.getElementById('gameArea').classList.remove('hidden');
-      renderMoneyLadder();
-
-      playSfx(audioFiles.introJuego);
-      loadQuestionWithSound();
-    }
-    window.addEventListener('DOMContentLoaded', loadQuestions);
-
-    function applyTheme(diff) {
-      const t = themes[diff] || themes.facil;
-      document.body.className = 'min-h-screen flex items-center justify-center p-4 lg:p-6 bg-gradient-to-br ' + t.bg + ' transition-all duration-1000';
-      document.getElementById('highlight').className = t.accent;
-      document.getElementById('startHighlight').className = t.accent;
-      document.getElementById('progress').className = 'h-full rounded-full bg-gradient-to-r ' + t.progress + ' transition-all duration-700';
-    }
-
-    const difficultyIcons = { 'facil': 'sparkles', 'media': 'flame', 'dificil': 'shield-alert' };
-    const difficultyLabels = { 'facil': 'Fácil', 'media': 'Media', 'dificil': 'Difícil' };
-
-    function renderMoneyLadder() {
-      const total = getTotalQuestions();
-      const container = document.getElementById('levels');
-      container.innerHTML = '';
-      document.getElementById('ladderTotal').textContent = total + ' niveles';
-      for (let i = total - 1; i >= 0; i--) {
-        const div = document.createElement('div');
-        let cls = 'ladder-item rounded-2xl px-4 py-2 font-semibold transition-all duration-500 ';
-        if (i === currentQuestion) cls += 'bg-white/30 text-slate-900 scale-105 shadow-lg';
-        else if (i < currentQuestion) cls += 'bg-white/20 text-slate-700';
-        else cls += 'bg-white/10 text-slate-500';
-        if (getMilestones().includes(i)) cls += ' milestone';
-        if (i < currentQuestion) cls += ' passed';
-        div.className = cls;
-        div.innerHTML = '<div class="flex justify-between items-center"><span>' + (i + 1) + '</span><span>' + formatMoney(prizeLadder[i]) + '</span></div>';
-        container.appendChild(div);
-      }
-    }
-
-    function getCurrentDifficulty() { const q = shuffledQuestions[currentQuestion]; return q ? q.difficulty || 'media' : 'media'; }
-
-    function playQuestionMusic() {
-      stopAmb();
-      const list = audioFiles.musicaPreguntas;
-      if (list && list.length) playAmb(pickRandom(list));
-    }
-
-    function loadQuestionWithSound() {
-      const diff = getCurrentDifficulty();
-      const phase = getGamePhase();
-      let introAudio = null;
-      if (phase !== 'early' && diff === 'dificil') {
-        introAudio = playSfx(audioFiles.suspenso);
-      } else if (phase === 'late' && Math.random() < 0.25) {
-        introAudio = playSfxRandom('inicioPregunta');
-      }
-      if (phase !== 'early') playSfxRandomly('faciles', 0.15);
-      if (introAudio) introAudio.onended = () => playQuestionMusic();
-      else playQuestionMusic();
-      loadQuestion();
-    }
-
-    function loadQuestion() {
-      const total = getTotalQuestions();
-      if (currentQuestion >= total) { endGame(true); return; }
-      const q = shuffledQuestions[currentQuestion];
-      const diff = q.difficulty || 'media';
-      const t = themes[diff] || themes.facil;
-
-      const permutated = q.answers.map((text, i) => ({ text, original: i }));
-      const shuffledAnswers = shuffleArray(permutated);
-      currentCorrectIndex = shuffledAnswers.findIndex(item => item.original === q.correct);
-
-      applyTheme(diff);
-      document.getElementById('difficultyText').textContent = 'Dificultad ' + t.label;
-      document.getElementById('difficultyIcon').innerHTML = '<i data-lucide="' + t.icon + '" class="w-5 h-5 lg:w-6 lg:h-6"></i>';
-      document.getElementById('categoryBadge').textContent = q.category || '';
-      document.getElementById('question').textContent = q.question;
-      document.getElementById('money').textContent = formatMoney(prizeLadder[currentQuestion]);
-      document.getElementById('levelText').textContent = 'Pregunta ' + (currentQuestion + 1) + '/' + total;
-
-      const pct = ((currentQuestion + 1) / total) * 100;
-      document.getElementById('progress').style.width = pct + '%';
-
-      const answersContainer = document.getElementById('answers');
-      answersContainer.innerHTML = '';
-      const letters = ['A','B','C','D'];
-      shuffledAnswers.forEach((item, index) => {
-        const btn = document.createElement('button');
-        btn.className = 'answer glass rounded-3xl p-4 lg:p-5 text-left font-medium text-base lg:text-lg text-slate-800';
-        btn.innerHTML = '<div class="flex items-center gap-3 lg:gap-4"><div class="w-10 h-10 lg:w-12 lg:h-12 rounded-2xl bg-white/30 flex items-center justify-center font-bold shrink-0">' + letters[index] + '</div><span>' + item.text + '</span></div>';
-        btn.onclick = () => checkAnswer(index);
-        answersContainer.appendChild(btn);
-      });
-      renderMoneyLadder();
-      startTimer();
-      try { lucide.createIcons(); } catch(e) {}
-    }
-
-    function startTimer() {
-      clearInterval(timer);
-      timeLeft = 30;
-      document.getElementById('timerDisplay').textContent = timeLeft;
-      document.getElementById('timerDisplay').classList.remove('timer-warn');
-      timer = setInterval(() => {
-        timeLeft--;
-        document.getElementById('timerDisplay').textContent = Math.max(0, timeLeft);
-        if (timeLeft <= 10) document.getElementById('timerDisplay').classList.add('timer-warn');
-        else document.getElementById('timerDisplay').classList.remove('timer-warn');
-        if (timeLeft === 10 && getCurrentDifficulty() === 'dificil') playSfx(audioFiles.cuentaAtras);
-        if (timeLeft < 0) { timeLeft = 0; clearInterval(timer); }
-      }, 1000);
-    }
-
-    function checkAnswer(selectedIndex) {
-      clearInterval(timer);
-      if (sfxPlayer.audio) sfxPlayer.audio.onended = null;
-      stopSfx();
-      stopAmb();
-      const q = shuffledQuestions[currentQuestion];
-      const buttons = document.querySelectorAll('.answer');
-      buttons.forEach(b => b.disabled = true);
-      if (selectedIndex === currentCorrectIndex) {
-        buttons[selectedIndex].classList.add('correct');
-        currentPrize = prizeLadder[currentQuestion];
-        const phase = getGamePhase();
-        playSfx(audioFiles.respuestaCorrecta);
-        if (phase !== 'early' && q.difficulty === 'media' && Math.random() < 0.3) playSfxRandom('correctas');
-        if (phase !== 'early' && q.difficulty === 'dificil') {
-          if (Math.random() < 0.6) playSfxRandom('correctas');
-          if (Math.random() < 0.4) playSfxRandom('dificiles');
-        }
-
-        const wasMilestone = isMilestoneReached();
-
-        setTimeout(() => {
-          currentQuestion++;
-          used5050 = false;
-
-          if (wasMilestone && currentQuestion < getTotalQuestions()) {
-            const m = getMilestones();
-            const milestoneIdx = m.indexOf(currentQuestion - 1);
-            if (milestoneIdx === 1) playSfx('assets/audio/preguntas-faciles/buenos-dias-estrellitas.mp3');
-            setTimeout(() => showMilestoneChoice(prizeLadder[currentQuestion - 1]), 800);
-          } else {
-            loadQuestionWithSound();
-          }
-        }, 2500);
-      } else {
-        buttons[selectedIndex].classList.add('wrong');
-        buttons[currentCorrectIndex].classList.add('correct');
-        stopAmb();
-        const failAudio = playSfxRandom('incorrectas');
-        if (failAudio) {
-          failAudio.onended = () => endGame(false);
-        } else {
-          setTimeout(() => endGame(false), 2500);
-        }
-      }
-    }
-
-    function useLifeline(type) {
-      if (!lifelines[type]) { showModal('Comodín Agotado', 'Ya has usado este comodín.'); return; }
-      const q = shuffledQuestions[currentQuestion];
-      if (type === '5050') {
-        if (used5050) { showModal('Comodín Agotado', 'Ya usaste el 50:50 en esta pregunta.'); return; }
-        use5050(q); playSfxRandom('poderes'); playSfxRandomly('atencion', 0.4);
-      } else if (type === 'phone') {
-        usePhone(q); playSfxRandom('ayudas'); playSfxRandomly('atencion', 0.5);
-      } else {
-        usePublic(q); playSfxRandom('votacion'); playSfxRandomly('ayudas', 0.6);
-      }
-      lifelines[type] = false;
-      document.getElementById('btn' + (type === '5050' ? '5050' : type.charAt(0).toUpperCase() + type.slice(1))).disabled = true;
-    }
-
-    function use5050(q) {
-      const buttons = document.querySelectorAll('.answer');
-      const toRemove = shuffleArray([0,1,2,3].filter(i => i !== currentCorrectIndex)).slice(0,2);
-      toRemove.forEach(i => { buttons[i].style.opacity = '0.25'; buttons[i].disabled = true; });
-      used5050 = true;
-    }
-
-    function usePhone(q) {
-      const confidence = Math.random();
-      const msg = confidence > 0.6
-        ? 'Tu amigo dice: "Estoy ' + Math.floor(confidence * 100) + '% seguro de que es la opción ' + String.fromCharCode(65 + currentCorrectIndex) + '"'
-        : 'Tu amigo dice: "Creo que es la opción ' + String.fromCharCode(65 + Math.floor(Math.random() * 4)) + ', pero no estoy muy seguro..."';
-      showModal('📞 Llamada a un Amigo', msg);
-    }
-
-    function usePublic(q) {
-      const p = [0,0,0,0]; let r = 100;
-      p[currentCorrectIndex] = Math.floor(Math.random() * 40) + 40; r -= p[currentCorrectIndex];
-      for (let i = 0; i < 4; i++) { if (i !== currentCorrectIndex) { if (i === 3) p[i] = r; else { const v = Math.floor(Math.random() * r); p[i] = v; r -= v; } } }
-      const l = ['A','B','C','D'];
-      showModal('👥 Ayuda del Público', 'Distribución:\n' + l.map((a,i) => a + ': ' + p[i] + '%').join('\n'));
-    }
-
-    function usePhone(q) {
-      const c = Math.random();
-      const msg = c > 0.6
-        ? 'Tu amigo dice: "Estoy ' + Math.floor(c * 100) + '% seguro de que es la opción ' + String.fromCharCode(65 + q.correct) + '"'
-        : 'Tu amigo dice: "Creo que es la opción ' + String.fromCharCode(65 + Math.floor(Math.random() * 4)) + ', pero no estoy muy seguro..."';
-      showModal('📞 Llamada a un Amigo', msg);
-    }
-
-    function usePublic(q) {
-      const p = [0,0,0,0]; let r = 100;
-      p[q.correct] = Math.floor(Math.random() * 40) + 40; r -= p[q.correct];
-      for (let i = 0; i < 4; i++) { if (i !== q.correct) { if (i === 3) p[i] = r; else { const v = Math.floor(Math.random() * r); p[i] = v; r -= v; } } }
-      const l = ['A','B','C','D'];
-      showModal('👥 Ayuda del Público', 'Distribución:\n' + l.map((a,i) => a + ': ' + p[i] + '%').join('\n'));
-    }
-
-    function showModal(title, text) {
-      document.getElementById('modalTitle').textContent = title;
-      document.getElementById('modalText').textContent = text;
-      const md = document.getElementById('modal');
-      md.classList.remove('hidden');
-      md.style.display = 'flex';
-    }
-
-    function closeModal() { document.getElementById('modal').style.display = 'none'; }
-
-    function showMilestoneChoice(prize) {
-      awaitingMilestoneChoice = true;
-      console.log('[seguro] mostrando modal con $' + formatMoney(prize));
-      const modal = document.getElementById('modal');
-      modal.innerHTML = '<div class="bg-white/95 backdrop-blur-sm rounded-[32px] p-8 max-w-md w-full mx-4 text-slate-800 text-center shadow-2xl">' +
-        '<div class="text-2xl font-bold mb-4">🏆 ¡SEGURO ALCANZADO! 🏆</div>' +
-        '<div class="text-base text-slate-600 mb-6">Has asegurado <b>' + formatMoney(prize) + '</b>.<br><br>¿Qué deseas hacer?</div>' +
-        '<div class="flex flex-col sm:flex-row gap-3 justify-center">' +
-        '<button id="continueBtn" class="bg-white text-slate-800 px-6 py-3 rounded-2xl font-semibold shadow hover:scale-105 transition">🎯 Seguir jugando</button>' +
-        '<button id="retireBtn" class="bg-emerald-500 text-white px-6 py-3 rounded-2xl font-semibold shadow hover:scale-105 transition">💰 Retirarme con ' + formatMoney(prize) + '</button>' +
-        '</div></div>';
-      modal.classList.remove('hidden');
-      modal.style.display = 'flex';
-      document.getElementById('continueBtn').onclick = () => {
-        awaitingMilestoneChoice = false; modal.style.display = 'none';
-        restoreModal(); loadQuestionWithSound();
-      };
-      document.getElementById('retireBtn').onclick = () => {
-        awaitingMilestoneChoice = false; modal.style.display = 'none'; restoreModal();
-        const meme = playSfxRandom('ayudas');
-        if (meme) meme.onended = () => endGame(false, false, prize);
-        else endGame(false, false, prize);
-      };
-    }
-
-    function restoreModal() {
-      const modal = document.getElementById('modal');
-      modal.innerHTML = '<div class="bg-white/95 backdrop-blur-sm rounded-[32px] p-8 max-w-md w-full mx-4 text-slate-800 text-center shadow-2xl">' +
-        '<div class="modal-title text-2xl font-bold mb-4" id="modalTitle"></div>' +
-        '<div class="modal-text text-base text-slate-600 mb-6" id="modalText"></div>' +
-        '<button class="close-modal bg-white text-slate-800 px-6 py-3 rounded-2xl font-semibold shadow hover:scale-105 transition" onclick="closeModal()">Cerrar</button></div>';
-    }
-
-    function goToStart() {
-      stopAllAudio();
-      document.getElementById('endScreen').classList.add('hidden');
-      document.getElementById('startContent').classList.remove('hidden');
-      document.getElementById('readyContent').classList.add('hidden');
-      document.getElementById('startScreen').classList.remove('hidden');
-      updateLevelInfo();
-      playBg(audioFiles.temaPrincipal);
-    }
-
-    function endGame(won, timeout = false, retiredPrize = 0) {
-      clearInterval(timer);
-      stopAllAudio();
-      document.getElementById('gameArea').classList.add('hidden');
-      document.getElementById('endScreen').classList.remove('hidden');
-      playBg(audioFiles.resultados);
-      const t = document.getElementById('endTitle');
-      const m = document.getElementById('endMessage');
-      const p = document.getElementById('endPrize');
-      if (retiredPrize > 0) {
-        t.textContent = '💰 ¡Sabia decisión! 💰';
-        m.textContent = 'Te retiraste a tiempo. ¡Bien jugado!';
-        p.textContent = 'Te llevas: ' + formatMoney(retiredPrize);
-        return;
-      }
-      if (timeout) { t.textContent = '⏰ ¡Se acabó el tiempo!'; m.textContent = 'No respondiste a tiempo.'; }
-      else if (won) { t.textContent = '🎉 ¡FELICIDADES! 🎉'; m.textContent = '¡Eres millonario! Respondiste correctamente todas las preguntas.'; p.textContent = formatMoney(prizeLadder[getTotalQuestions() - 1]); return; }
-      else { t.textContent = '❌ PERDISTE'; m.textContent = 'Respuesta incorrecta.'; }
-      let gp = 0;
-      for (const ms of [...getMilestones()].reverse()) { if (currentQuestion > ms) { gp = prizeLadder[ms]; break; } }
-      p.textContent = gp > 0 ? 'Te llevas: ' + formatMoney(gp) : 'No ganas premio. ¡Inténtalo de nuevo!';
-    }
-
-    function restartGame() { stopAllAudio(); shuffledQuestions = []; startGame(); }
-
-    // Volume controls
-    let musicMuted = false, sfxMuted = false;
-    const musicSlider = document.getElementById('musicVolume');
-    const sfxSlider = document.getElementById('sfxVolume');
-    const musicLabel = document.getElementById('musicVolumeLabel');
-    const sfxLabel = document.getElementById('sfxVolumeLabel');
-    const musicIcon = document.getElementById('musicIcon');
-    const sfxIcon = document.getElementById('sfxIcon');
-
-    function toggleMute(type) {
-      if (type === 'music') {
-        musicMuted = !musicMuted;
-        musicSlider.value = musicMuted ? '0' : (musicSlider.dataset.last || '40');
-        musicLabel.textContent = musicSlider.value + '%';
-        musicIcon.textContent = musicMuted ? '🔇' : '🎵';
-      } else {
-        sfxMuted = !sfxMuted;
-        sfxSlider.value = sfxMuted ? '0' : (sfxSlider.dataset.last || '70');
-        sfxLabel.textContent = sfxSlider.value + '%';
-        sfxIcon.textContent = sfxMuted ? '🔇' : '🔊';
-      }
-      updateAllVolumes();
-    }
-
-    musicSlider.addEventListener('input', function() {
-      musicLabel.textContent = this.value + '%';
-      musicMuted = this.value === '0';
-      musicIcon.textContent = musicMuted ? '🔇' : '🎵';
-      if (this.value !== '0') this.dataset.last = this.value;
-      updateAllVolumes();
-    });
-    sfxSlider.addEventListener('input', function() {
-      sfxLabel.textContent = this.value + '%';
-      sfxMuted = this.value === '0';
-      sfxIcon.textContent = sfxMuted ? '🔇' : '🔊';
-      if (this.value !== '0') this.dataset.last = this.value;
-      updateAllVolumes();
-    });
-
-    window.onclick = function(e) {
-      if (awaitingMilestoneChoice) return;
-      const modal = document.getElementById('modal');
-      if (e.target === modal) closeModal();
-    };
-  </script>
+  <script src="js/audio.js"></script>
+  <script src="js/questions.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
