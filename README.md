@@ -1,106 +1,142 @@
-# ¿Quién Quiere Ser Millonario? - Edición Colombia 🇨🇴
+# 🍺 ¿Quién quiere ser el Borracho?
 
-Juego web interactivo inspirado en el clásico programa de televisión "¿Quién quiere ser millonario?", con temática colombiana y cultura pop de los años 90 y 2000.
+Juego web de preguntas con temática de tragos. Responde correctamente para evitar los shots. Si pierdes, la ruleta decide tu castigo.
 
 ## 🎮 ¿De qué trata?
 
-Pon a prueba tus conocimientos respondiendo 15 preguntas de opción múltiple. Cada respuesta correcta te acerca más al premio máximo de **$300.000.000 COP**. Pero cuidado: una respuesta incorrecta y el juego termina.
+Pon a prueba tus conocimientos respondiendo preguntas de opción múltiple. Cada respuesta correcta te acerca a la victoria. Cada respuesta incorrecta activa la **ruleta de castigos** que decide cuántos shots tomas (o repartes).
 
-### Categorías de preguntas
+### Llegaste a un seguro
 
-- **Colombia** — Historia, geografía, cultura, deportes y personajes colombianos
-- **Dibujos animados** — Series animadas clásicas de los 80s, 90s y 2000s
-- **Series de TV** — Programas de televisión colombianos e internacionales
-- **Películas** — Cine clásico, blockbusters y cine colombiano
-- **Jerga colombiana** — Expresiones y modismos del habla popular
-- **Preguntas graciosas** — Chistes, colmos y humor ligero
-- **Tecnología retro** — Gadgets y tecnología de los 90s y 2000s
+Cada ciertas preguntas alcanzas una **zona segura**. Puedes retirarte y activar una **ruleta de retiro** (con daños colaterales para los demás), o seguir jugando para ser el Rey de la fiesta.
+
+### Ruletas
+
+- **🎰 Ruleta de castigo** — Al perder: decide qué te toca (desde salvarte hasta 3 shots)
+- **🎲 Ruleta de retiro** — Al retirarte en un seguro: castigos compartidos con la mesa
+- **🪙 Moneda** — Si sale en la ruleta, la lanzas manualmente (cara = 2 shots, sello = nada)
+
+---
 
 ## 🎯 Cómo jugar
 
-1. Presiona **COMENZAR** en la pantalla de inicio
-2. Se te presentarán 15 preguntas con 4 opciones cada una
-3. Tienes **30 segundos** para responder cada pregunta
-4. Selecciona la respuesta que creas correcta haciendo clic en ella
+1. Elige **3 o 5 zonas seguras** en la pantalla de inicio
+2. Presiona **COMENZAR** y luego **INICIAR**
+3. Responde cada pregunta en **30 segundos**
+4. Al llegar a una zona segura, decide si seguir o retirarte
+5. Si pierdes, la ruleta de castigo decide tu destino
 
-### Premios y hitos garantizados
-
-| Pregunta | Premio |
-|---|---|
-| 5 | $1.000.000 |
-| 10 | $10.000.000 |
-| 15 | $300.000.000 |
-
-Si fallas antes de la pregunta 5, no ganas nada. Si fallas después de un hito, te llevas el premio de ese hito.
-
-### Comodines
-
-Tienes **3 comodines** disponibles durante toda la partida:
-
-- **50:50** — Elimina 2 respuestas incorrectas (una vez por pregunta)
-- **📞 Llamada** — Un amigo te dará su opinión (no siempre confiable)
-- **👥 Público** — El público vota y muestra los porcentajes
+---
 
 ## 🛠️ Tecnologías
 
-- HTML5, CSS3 y JavaScript (vanilla, sin frameworks)
-- Archivo JSON externo para el banco de preguntas
-- Diseño responsive adaptable a móviles
-- Sin dependencias externas
+- HTML5, CSS3 y JavaScript vanilla
+- Tailwind CSS (CDN) + Lucide Icons (CDN)
+- Banco de preguntas en 3 archivos JSON separados por dificultad
+- Sonidos en 3 canales independientes (música, ambiente, efectos)
+- `crypto.getRandomValues()` para aleatoriedad criptográfica
+- Despliegue automático a GitHub Pages vía GitHub Actions
+
+---
 
 ## 📂 Estructura del proyecto
 
 ```
 quien-quiere-ser-millonario/
-├── index.html              # Página principal con el juego completo
-├── questions.json          # Banco de preguntas (editable)
-├── README.md               # Este archivo
+├── index.html              # Interfaz principal (HTML + Tailwind CSS)
+├── js/
+│   ├── audio.js            # Sistema de audio (3 canales, playlists, mute)
+│   ├── questions.js        # Carga y selección de preguntas por dificultad
+│   ├── roulette.js         # Ruleta de castigo/retiro + moneda
+│   ├── game.js             # Lógica del juego (checkAnswer, timer, seguros)
+│   └── main.js             # Init, eventos DOM, control de volumen
+├── questions.json          # Banco combinado (185 preguntas, autogenerado)
+├── faciles.json            # Preguntas fáciles (70)
+├── medias.json             # Preguntas medias (50)
+├── dificiles.json          # Preguntas difíciles (65)
 ├── assets/
-│   └── audio/              # Carpeta para música y efectos (opcional)
-└── .github/
-    └── workflows/
-        └── deploy.yml      # Despliegue automático a GitHub Pages
+│   ├── audio/              # Memes organizados por categoría
+│   │   ├── inicio-pregunta/
+│   │   ├── respuestas-correctas/
+│   │   ├── respuestas-incorrectas/
+│   │   ├── poderes-habilidades/
+│   │   ├── ayudas/
+│   │   ├── preguntas-faciles/
+│   │   ├── preguntas-dificiles/
+│   │   └── mitad-juego/
+│   ├── audios/             # Fuente original de audios (intacta)
+│   └── *.mp3               # Sonidos del juego (tema, ruleta, votación...)
+├── .github/
+│   └── workflows/
+│       └── deploy.yml      # Deploy automático a GitHub Pages
+└── README.md
 ```
+
+---
 
 ## 🚀 Despliegue en GitHub Pages
 
-Este proyecto incluye un workflow de GitHub Actions para desplegar automáticamente a GitHub Pages cada vez que hagas push a la rama `main`.
-
-### Pasos para activar:
-
 1. Sube el repositorio a GitHub
-2. Ve a **Settings > Pages** del repositorio
-3. En "Source", selecciona **GitHub Actions**
-4. El workflow `Deploy to GitHub Pages` se ejecutará automáticamente
+2. Ve a **Settings > Pages**
+3. En **Build and deployment > Source**, selecciona **GitHub Actions**
+4. Haz push a `main` — el workflow se ejecuta automáticamente
 
-El sitio quedará disponible en `https://<tu-usuario>.github.io/<nombre-repo>/`
+URL: `https://<tu-usuario>.github.io/<nombre-repo>/`
 
-## ✏️ Cómo personalizar
+---
+
+## ✏️ Personalizar
 
 ### Editar preguntas
 
-Abre `questions.json` y verás la estructura de cada pregunta:
+Las preguntas están en 3 archivos JSON separados por dificultad. Cada uno tiene esta estructura:
 
 ```json
 {
-    "question": "Texto de la pregunta",
-    "answers": ["Opción A", "Opción B", "Opción C", "Opción D"],
-    "correct": 0,
-    "category": "colombia"
+  "preguntas": [
+    {
+      "id": 1,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el ogro verde que vive en un pantano?",
+      "opciones": ["Hulk", "Shrek", "Sulley", "Mike Wazowski"],
+      "respuesta_correcta": "Shrek"
+    }
+  ]
 }
 ```
 
-- `correct`: índice de la respuesta correcta (0 = A, 1 = B, 2 = C, 3 = D)
-- `category`: categoría para organización (no afecta el juego)
+Después de editar, regenera `questions.json`:
 
-### Agregar música
+```bash
+node -e "
+const fs = require('fs');
+const path = require('path');
+const dir = __dirname;
+function readJSON(file) { return JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8')); }
+function convert(data, diff) {
+  const key = data.preguntas ? 'preguntas' : 'preguntas_continuacion_hardcore';
+  return data[key].map(q => {
+    const idx = q.opciones.indexOf(q.respuesta_correcta);
+    return { question: q.pregunta, answers: q.opciones, correct: idx, category: q.categoria, difficulty: diff };
+  }).filter(q => q.correct !== -1);
+}
+const all = [...convert(readJSON('faciles.json'),'facil'), ...convert(readJSON('medias.json'),'media'), ...convert(readJSON('dificiles.json'),'dificil')];
+fs.writeFileSync(path.join(dir, 'questions.json'), JSON.stringify(all, null, 2), 'utf8');
+console.log('Total:', all.length);
+"
+```
 
-Coloca archivos `.mp3` o `.ogg` en `assets/audio/` y edita el script en `index.html` para reproducirlos. El juego usa el botón COMENZAR como interacción del usuario, requisito para que los navegadores permitan autoplay de audio.
+### Agregar música y efectos
 
-### Cambiar premios
+Coloca archivos `.mp3` en sus carpetas correspondientes dentro de `assets/audio/` o directamente en `assets/`. El juego los referencia desde `js/audio.js` en el objeto `audioFiles`.
 
-Edita el array `prizeLadder` dentro de `index.html` para modificar los montos.
+### Cambiar la escalera de tragos
+
+Edita el array `drinkLadder` en `js/game.js` para modificar las consecuencias de cada pregunta.
+
+---
 
 ## 📝 Licencia
 
-Proyecto personal sin fines comerciales. Inspirado en el formato original de "Who Wants to Be a Millionaire?" de la cadena ABC.
+Proyecto personal sin fines comerciales.
