@@ -1,5 +1,7 @@
 // game.js — Lógica principal del juego: variables, flujo, respuestas, comodines, timer
 
+function gLog(msg) { console.log('[game ' + new Date().toISOString().substr(11,12) + '] ' + msg); }
+
 let questionsDB           = [];
 let currentQuestion       = 0;
 let currentPrize          = 0;
@@ -123,13 +125,14 @@ function loadQuestionWithSound() {
   stopSfx();
   const diff = getCurrentDifficulty();
   const phase = getGamePhase();
+  gLog('LOAD SOUND phase=' + phase + ' diff=' + diff);
   let introAudio = null;
   if (phase !== 'early' && diff === 'dificil') {
     introAudio = playSfx(audioFiles.suspenso);
   } else if (phase === 'late' && Math.random() < 0.25) {
     introAudio = playSfxRandom('inicioPregunta');
   }
-  if (phase !== 'early') playSfxRandomly('faciles', 0.15);
+  if (!introAudio && phase !== 'early') playSfxRandomly('faciles', 0.15);
   if (introAudio) introAudio.onended = () => playQuestionMusic();
   else playQuestionMusic();
   loadQuestion();
@@ -140,6 +143,7 @@ function loadQuestion() {
   if (currentQuestion >= total) { endGame(true); return; }
   const q = shuffledQuestions[currentQuestion];
   const diff = q.difficulty || 'media';
+  gLog('>>> Q' + (currentQuestion + 1) + '/' + total + ' [' + diff + '] ' + q.question.substring(0, 50));
   const t = themes[diff] || themes.facil;
 
   const permutated = q.answers.map((text, i) => ({ text, original: i }));
@@ -192,17 +196,21 @@ function checkAnswer(selectedIndex) {
   if (sfxPlayer.audio) sfxPlayer.audio.onended = null;
   stopAmb();
   const q = shuffledQuestions[currentQuestion];
+  gLog('Q' + (currentQuestion + 1) + '/' + getTotalQuestions() + ' ' + q.difficulty + ' ' + (selectedIndex === currentCorrectIndex ? 'CORRECTO' : 'INCORRECTO') + ' phase=' + getGamePhase());
   const buttons = document.querySelectorAll('.answer');
   buttons.forEach(b => b.disabled = true);
   if (selectedIndex === currentCorrectIndex) {
     buttons[selectedIndex].classList.add('correct');
     currentPrize = prizeLadder[currentQuestion];
     const phase = getGamePhase();
-    playSfx(audioFiles.respuestaCorrecta);
-    if (phase !== 'early' && q.difficulty === 'media' && Math.random() < 0.3) playSfxRandom('correctas');
+    const base = playSfx(audioFiles.respuestaCorrecta);
+    if (phase !== 'early' && q.difficulty === 'media' && Math.random() < 0.3) {
+      if (base) base.onended = () => playSfxRandom('correctas');
+    }
     if (phase !== 'early' && q.difficulty === 'dificil') {
-      if (Math.random() < 0.6) playSfxRandom('correctas');
+      if (Math.random() < 0.6) { if (base) base.onended = () => playSfxRandom('correctas'); }
       if (Math.random() < 0.4) playSfxRandom('dificiles');
+    }
     }
 
     const wasMilestone = isMilestoneReached();
@@ -234,6 +242,7 @@ function checkAnswer(selectedIndex) {
 }
 
 function useLifeline(type) {
+  gLog('LIFELINE ' + type);
   if (!lifelines[type]) { showModal('Comodín Agotado', 'Ya has usado este comodín.'); return; }
   const q = shuffledQuestions[currentQuestion];
   if (type === '5050') {
@@ -282,6 +291,7 @@ function showModal(title, text) {
 function closeModal() { document.getElementById('modal').style.display = 'none'; }
 
 function showMilestoneChoice(prize) {
+  gLog('MILESTONE prize=' + formatMoney(prize));
   awaitingMilestoneChoice = true;
   const modal = document.getElementById('modal');
   modal.innerHTML = '<div class="bg-white/95 backdrop-blur-sm rounded-[32px] p-8 max-w-md w-full mx-4 text-slate-800 text-center shadow-2xl">' +

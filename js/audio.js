@@ -1,6 +1,8 @@
 // audio.js — Sistema de audio (3 canales), playlists, volumen, mute
 // Debe cargarse PRIMERO
 
+function log(msg) { console.log('[audio ' + new Date().toISOString().substr(11,12) + '] ' + msg); }
+
 function getVol(id) { const el = document.getElementById(id); return el ? parseInt(el.value) / 100 : 0.5; }
 
 const bgPlayer   = { audio: null };
@@ -10,6 +12,7 @@ const sfxPlayer  = { audio: null };
 function enc(u) { return encodeURI(u); }
 
 function playBg(src, loop = true) {
+  log('► BG  ' + src.split('/').pop());
   try { if (bgPlayer.audio) { bgPlayer.audio.pause(); bgPlayer.audio.onended = null; bgPlayer.audio.src = ''; bgPlayer.audio.load(); } } catch(e) {}
   bgPlayer.audio = new Audio(enc(src));
   bgPlayer.audio.loop = loop;
@@ -17,25 +20,27 @@ function playBg(src, loop = true) {
   bgPlayer.audio.play().catch(() => {});
   return bgPlayer.audio;
 }
-function stopBg() { try { if (bgPlayer.audio) { bgPlayer.audio.pause(); bgPlayer.audio.onended = null; bgPlayer.audio.src = ''; bgPlayer.audio.load(); } } catch(e) {} }
+function stopBg() { log('■ BG  STOP'); try { if (bgPlayer.audio) { bgPlayer.audio.pause(); bgPlayer.audio.onended = null; bgPlayer.audio.src = ''; bgPlayer.audio.load(); } } catch(e) {} }
 
 function playAmb(src) {
+  log('► AMB ' + src.split('/').pop());
   try { if (ambPlayer.audio) { ambPlayer.audio.pause(); ambPlayer.audio.onended = null; ambPlayer.audio.src = ''; ambPlayer.audio.load(); } } catch(e) {}
   ambPlayer.audio = new Audio(enc(src));
   ambPlayer.audio.volume = getVol('musicVolume');
   ambPlayer.audio.play().catch(() => {});
   return ambPlayer.audio;
 }
-function stopAmb() { try { if (ambPlayer.audio) { ambPlayer.audio.pause(); ambPlayer.audio.onended = null; ambPlayer.audio.src = ''; ambPlayer.audio.load(); } } catch(e) {} }
+function stopAmb() { log('■ AMB STOP'); try { if (ambPlayer.audio) { ambPlayer.audio.pause(); ambPlayer.audio.onended = null; ambPlayer.audio.src = ''; ambPlayer.audio.load(); } } catch(e) {} }
 
 function playSfx(src) {
+  log('► SFX ' + src.split('/').pop());
   try { if (sfxPlayer.audio) { sfxPlayer.audio.pause(); sfxPlayer.audio.onended = null; sfxPlayer.audio.src = ''; sfxPlayer.audio.load(); } } catch(e) {}
   sfxPlayer.audio = new Audio(enc(src));
   sfxPlayer.audio.volume = getVol('sfxVolume');
   sfxPlayer.audio.play().catch(() => {});
   return sfxPlayer.audio;
 }
-function stopSfx() { try { if (sfxPlayer.audio) { sfxPlayer.audio.pause(); sfxPlayer.audio.onended = null; sfxPlayer.audio.src = ''; sfxPlayer.audio.load(); } } catch(e) {} }
+function stopSfx() { log('■ SFX STOP'); try { if (sfxPlayer.audio) { sfxPlayer.audio.pause(); sfxPlayer.audio.onended = null; sfxPlayer.audio.src = ''; sfxPlayer.audio.load(); } } catch(e) {} }
 
 function stopAllAudio() { stopBg(); stopAmb(); stopSfx(); }
 
