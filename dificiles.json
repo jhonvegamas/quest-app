@@ -1,0 +1,850 @@
+{
+  "preguntas_continuacion_hardcore": [
+    {
+      "id": 1,
+      "categoria": "Acertijo / Lógica",
+      "dificultad": "Alta",
+      "pregunta": "Si estás en una carrera y adelantas al que va de segundo, ¿en qué posición quedas?",
+      "opciones": [
+        "Primero",
+        "Segundo",
+        "Tercero",
+        "Último"
+      ],
+      "respuesta_correcta": "Segundo"
+    },
+    {
+      "id": 2,
+      "categoria": "Biología",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuántos corazones tiene un pulpo?",
+      "opciones": [
+        "Uno",
+        "Dos",
+        "Tres",
+        "Ninguno"
+      ],
+      "respuesta_correcta": "Tres"
+    },
+    {
+      "id": 3,
+      "categoria": "Matemáticas",
+      "dificultad": "Alta",
+      "pregunta": "Si un médico te receta 3 pastillas y te dice que te tomes una cada media hora, ¿en cuánto tiempo te las habrás tomado todas?",
+      "opciones": [
+        "Una hora y media",
+        "Una hora",
+        "Dos horas",
+        "45 minutos"
+      ],
+      "respuesta_correcta": "Una hora"
+    },
+    {
+      "id": 4,
+      "categoria": "Cultura General",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el río más largo del mundo?",
+      "opciones": [
+        "Nilo",
+        "Amazonas",
+        "Misisipi",
+        "Yangtsé"
+      ],
+      "respuesta_correcta": "Amazonas"
+    },
+    {
+      "id": 5,
+      "categoria": "Astronomía",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el planeta más caliente del sistema solar?",
+      "opciones": [
+        "Mercurio",
+        "Marte",
+        "Júpiter",
+        "Venus"
+      ],
+      "respuesta_correcta": "Venus"
+    },
+    {
+      "id": 6,
+      "categoria": "Acertijo / Lógica",
+      "dificultad": "Alta",
+      "pregunta": "Un granjero tiene 17 ovejas. Todas se mueren menos 9. ¿Cuántas ovejas le quedan?",
+      "opciones": [
+        "8",
+        "17",
+        "9",
+        "Ninguna"
+      ],
+      "respuesta_correcta": "9"
+    },
+    {
+      "id": 7,
+      "categoria": "Biología",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué animal tiene las huellas dactilares más parecidas a las de los humanos?",
+      "opciones": [
+        "Chimpancé",
+        "Koala",
+        "Gorila",
+        "Perro"
+      ],
+      "respuesta_correcta": "Koala"
+    },
+    {
+      "id": 8,
+      "categoria": "Matemáticas",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el resultado de multiplicar todos los números que aparecen en el teclado de un teléfono convencional?",
+      "opciones": [
+        "362.880",
+        "45",
+        "0",
+        "1.024"
+      ],
+      "respuesta_correcta": "0"
+    },
+    {
+      "id": 9,
+      "categoria": "Cultura General",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué país tiene más pirámides en el mundo?",
+      "opciones": [
+        "Egipto",
+        "México",
+        "Sudán",
+        "Perú"
+      ],
+      "respuesta_correcta": "Sudán"
+    },
+    {
+      "id": 10,
+      "categoria": "Física",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es la velocidad de la luz aproximadamente?",
+      "opciones": [
+        "300.000 km/h",
+        "300.000 km/s",
+        "150.000 km/s",
+        "1.000.000 km/s"
+      ],
+      "respuesta_correcta": "300.000 km/s"
+    },
+    {
+      "id": 11,
+      "categoria": "Acertijo",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué es lo que siempre viene, pero nunca llega?",
+      "opciones": [
+        "El pasado",
+        "El correo",
+        "El mañana",
+        "El viento"
+      ],
+      "respuesta_correcta": "El mañana"
+    },
+    {
+      "id": 12,
+      "categoria": "Química",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el único metal que es líquido a temperatura ambiente?",
+      "opciones": [
+        "Plata",
+        "Mercurio",
+        "Plomo",
+        "Galio"
+      ],
+      "respuesta_correcta": "Mercurio"
+    },
+    {
+      "id": 13,
+      "categoria": "Geometría",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuántos lados tiene un heptágono?",
+      "opciones": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "respuesta_correcta": "7"
+    },
+    {
+      "id": 14,
+      "categoria": "Cultura General",
+      "dificultad": "Alta",
+      "pregunta": "¿En qué continente se encuentra el desierto más grande del mundo?",
+      "opciones": [
+        "África (Sahara)",
+        "Asia (Gobi)",
+        "Antártida",
+        "Oceanía"
+      ],
+      "respuesta_correcta": "Antártida"
+    },
+    {
+      "id": 15,
+      "categoria": "Lógica / Matemáticas",
+      "dificultad": "Alta",
+      "pregunta": "Si tres gatos cazan tres ratones en tres minutos, ¿cuánto tiempo tarda un gato en cazar un ratón?",
+      "opciones": [
+        "Un minuto",
+        "Tres minutos",
+        "Nueve minutos",
+        "Medio minuto"
+      ],
+      "respuesta_correcta": "Tres minutos"
+    },
+    {
+      "id": 16,
+      "categoria": "Lógica",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuántos animales de cada especie llevó Moisés en el Arca?",
+      "opciones": [
+        "Dos",
+        "Siete",
+        "Ninguno (fue Noé)",
+        "Uno de cada género"
+      ],
+      "respuesta_correcta": "Ninguno (fue Noé)"
+    },
+    {
+      "id": 17,
+      "categoria": "Geografía",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el país más cercano a los cuatro hemisferios de la Tierra al mismo tiempo?",
+      "opciones": [
+        "Brasil",
+        "Ecuador",
+        "Kiribati",
+        "Nigeria"
+      ],
+      "respuesta_correcta": "Kiribati"
+    },
+    {
+      "id": 18,
+      "categoria": "Biología",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el ave que pone el huevo más grande en relación con su tamaño corporal?",
+      "opciones": [
+        "Avestruz",
+        "Colibrí",
+        "Kiwi",
+        "Cóndor"
+      ],
+      "respuesta_correcta": "Kiwi"
+    },
+    {
+      "id": 19,
+      "categoria": "Matemáticas / Acertijo",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué número sigue en la serie: 1, 11, 21, 1211, 111221...?",
+      "opciones": [
+        "312211",
+        "211211",
+        "122111",
+        "311221"
+      ],
+      "respuesta_correcta": "312211"
+    },
+    {
+      "id": 20,
+      "categoria": "Física",
+      "dificultad": "Alta",
+      "pregunta": "Si lanzas una pelota roja al Mar Azul, ¿cómo sale?",
+      "opciones": [
+        "Violeta",
+        "Mojada",
+        "Flotando",
+        "Empapada"
+      ],
+      "respuesta_correcta": "Mojada"
+    },
+    {
+      "id": 21,
+      "categoria": "Historia / Arte",
+      "dificultad": "Alta",
+      "pregunta": "¿De qué color eran las cajas negras de los aviones originalmente?",
+      "opciones": [
+        "Negro",
+        "Naranja",
+        "Rojo",
+        "Amarillo"
+      ],
+      "respuesta_correcta": "Naranja"
+    },
+    {
+      "id": 22,
+      "categoria": "Biología",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el único mamífero capaz de volar?",
+      "opciones": [
+        "Ardilla voladora",
+        "Murciélago",
+        "Pterodáctilo",
+        "Avestruz"
+      ],
+      "respuesta_correcta": "Murciélago"
+    },
+    {
+      "id": 23,
+      "categoria": "Lógica",
+      "dificultad": "Alta",
+      "pregunta": "Si un tren eléctrico viaja hacia el norte a 100 km/h y el viento sopla hacia el sur, ¿hacia dónde va el humo?",
+      "opciones": [
+        "Hacia el sur",
+        "Hacia el norte",
+        "No sale humo",
+        "Se queda quieto"
+      ],
+      "respuesta_correcta": "No sale humo"
+    },
+    {
+      "id": 24,
+      "categoria": "Química",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el elemento más abundante en el universo?",
+      "opciones": [
+        "Oxígeno",
+        "Helio",
+        "Hidrógeno",
+        "Nitrógeno"
+      ],
+      "respuesta_correcta": "Hidrógeno"
+    },
+    {
+      "id": 25,
+      "categoria": "Cultura General",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es la lengua más hablada del mundo como lengua materna?",
+      "opciones": [
+        "Inglés",
+        "Español",
+        "Chino Mandarín",
+        "Hindi"
+      ],
+      "respuesta_correcta": "Chino Mandarín"
+    },
+    {
+      "id": 26,
+      "categoria": "Geografía / Acertijo",
+      "dificultad": "Alta",
+      "pregunta": "¿En qué estado se encuentra el agua a 0°C?",
+      "opciones": [
+        "Sólido",
+        "Líquido",
+        "Gaseoso",
+        "Depende de la presión"
+      ],
+      "respuesta_correcta": "Depende de la presión"
+    },
+    {
+      "id": 27,
+      "categoria": "Matemáticas",
+      "dificultad": "Alta",
+      "pregunta": "¿Cómo se llama un polígono de 100 lados?",
+      "opciones": [
+        "Centágono",
+        "Hectágono",
+        "Icoságono",
+        "Eneágono"
+      ],
+      "respuesta_correcta": "Hectágono"
+    },
+    {
+      "id": 28,
+      "categoria": "Lógica",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué palabra de 5 letras se escribe más corta si le añades dos letras?",
+      "opciones": [
+        "Breve",
+        "Corta",
+        "Larga",
+        "Rápido"
+      ],
+      "respuesta_correcta": "Corta"
+    },
+    {
+      "id": 29,
+      "categoria": "Astronomía",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es la estrella más cercana a la Tierra?",
+      "opciones": [
+        "Alfa Centauri",
+        "Sirio",
+        "El Sol",
+        "Estrella Polar"
+      ],
+      "respuesta_correcta": "El Sol"
+    },
+    {
+      "id": 30,
+      "categoria": "Biología",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuántos estómagos tiene una vaca?",
+      "opciones": [
+        "Cuatro",
+        "Uno",
+        "Dos",
+        "Tres"
+      ],
+      "respuesta_correcta": "Uno"
+    },
+    {
+      "id": 31,
+      "categoria": "Acertijo",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué tiene manos pero no puede aplaudir?",
+      "opciones": [
+        "Un maniquí",
+        "Un reloj",
+        "Un guante",
+        "Un árbol"
+      ],
+      "respuesta_correcta": "Un reloj"
+    },
+    {
+      "id": 32,
+      "categoria": "Cultura General",
+      "dificultad": "Alta",
+      "pregunta": "¿Quién escribió la famosa obra 'La Odisea'?",
+      "opciones": [
+        "Sócrates",
+        "Platón",
+        "Homero",
+        "Aristóteles"
+      ],
+      "respuesta_correcta": "Homero"
+    },
+    {
+      "id": 33,
+      "categoria": "Matemáticas",
+      "dificultad": "Alta",
+      "pregunta": "Si un círculo tiene un radio de 5 cm, ¿cuál es su diámetro?",
+      "opciones": [
+        "5 cm",
+        "25 cm",
+        "10 cm",
+        "15 cm"
+      ],
+      "respuesta_correcta": "10 cm"
+    },
+    {
+      "id": 34,
+      "categoria": "Biología",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué parte del cuerpo humano no tiene suministro de sangre y recibe oxígeno del aire?",
+      "opciones": [
+        "La córnea",
+        "El tímpano",
+        "Las uñas",
+        "El cabello"
+      ],
+      "respuesta_correcta": "La córnea"
+    },
+    {
+      "id": 35,
+      "categoria": "Acertijo / Lógica",
+      "dificultad": "Alta",
+      "pregunta": "Si tengo 3 manzanas y me quitas 2, ¿cuántas manzanas tienes?",
+      "opciones": [
+        "Una",
+        "Dos",
+        "Tres",
+        "Ninguna"
+      ],
+      "respuesta_correcta": "Dos"
+    },
+    {
+      "id": 36,
+      "categoria": "Geografía",
+      "dificultad": "Alta",
+      "pregunta": "¿En qué país se encuentra la ciudad de Tombuctú?",
+      "opciones": [
+        "Egipto",
+        "Malí",
+        "Marruecos",
+        "Nigeria"
+      ],
+      "respuesta_correcta": "Malí"
+    },
+    {
+      "id": 37,
+      "categoria": "Química",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el gas que le da el color azul a Urano?",
+      "opciones": [
+        "Hidrógeno",
+        "Helio",
+        "Metano",
+        "Nitrógeno"
+      ],
+      "respuesta_correcta": "Metano"
+    },
+    {
+      "id": 38,
+      "categoria": "Lógica",
+      "dificultad": "Alta",
+      "pregunta": "Un hombre camina bajo la lluvia sin paraguas ni sombrero, pero no se moja ni un solo pelo. ¿Por qué?",
+      "opciones": [
+        "Corrió rápido",
+        "Es calvo",
+        "Usó un impermeable",
+        "La lluvia era suave"
+      ],
+      "respuesta_correcta": "Es calvo"
+    },
+    {
+      "id": 39,
+      "categoria": "Historia",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué imperio construyó el Machu Picchu?",
+      "opciones": [
+        "Azteca",
+        "Maya",
+        "Inca",
+        "Olmeca"
+      ],
+      "respuesta_correcta": "Inca"
+    },
+    {
+      "id": 40,
+      "categoria": "Matemáticas",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el valor de Pi redondeado a 4 decimales?",
+      "opciones": [
+        "3.1415",
+        "3.1416",
+        "3.1412",
+        "3.1418"
+      ],
+      "respuesta_correcta": "3.1416"
+    },
+    {
+      "id": 41,
+      "categoria": "Cultura General",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué animal simboliza la paz?",
+      "opciones": [
+        "Águila",
+        "Paloma",
+        "Cisne",
+        "Búho"
+      ],
+      "respuesta_correcta": "Paloma"
+    },
+    {
+      "id": 42,
+      "categoria": "Acertijo",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué es lo que puedes sostener con tu mano derecha pero nunca con la izquierda?",
+      "opciones": [
+        "Tu codo izquierdo",
+        "Tu mano izquierda",
+        "Tu oreja derecha",
+        "Tu mano derecha"
+      ],
+      "respuesta_correcta": "Tu mano derecha"
+    },
+    {
+      "id": 43,
+      "categoria": "Física",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué fuerza nos mantiene unidos a la superficie de la Tierra?",
+      "opciones": [
+        "Magnetismo",
+        "Gravedad",
+        "Inercia",
+        "Fricción"
+      ],
+      "respuesta_correcta": "Gravedad"
+    },
+    {
+      "id": 44,
+      "categoria": "Biología",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el animal más ruidoso del mundo?",
+      "opciones": [
+        "Elefante",
+        "Ballena Azul",
+        "León",
+        "Mono Aullador"
+      ],
+      "respuesta_correcta": "Ballena Azul"
+    },
+    {
+      "id": 45,
+      "categoria": "Lógica",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuántos meses tienen 28 días?",
+      "opciones": [
+        "1",
+        "6",
+        "12",
+        "Depende del año"
+      ],
+      "respuesta_correcta": "12"
+    },
+    {
+      "id": 46,
+      "categoria": "Cultura General",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es la ciudad más poblada del mundo?",
+      "opciones": [
+        "Nueva York",
+        "Tokio",
+        "Ciudad de México",
+        "Pekín"
+      ],
+      "respuesta_correcta": "Tokio"
+    },
+    {
+      "id": 47,
+      "categoria": "Geografía",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué país tiene forma de bota?",
+      "opciones": [
+        "Grecia",
+        "Chile",
+        "Italia",
+        "Portugal"
+      ],
+      "respuesta_correcta": "Italia"
+    },
+    {
+      "id": 48,
+      "categoria": "Acertijo",
+      "dificultad": "Alta",
+      "pregunta": "Cuanto más hay, menos ves. ¿Qué es?",
+      "opciones": [
+        "La luz",
+        "La oscuridad",
+        "La niebla",
+        "El humo"
+      ],
+      "respuesta_correcta": "La oscuridad"
+    },
+    {
+      "id": 49,
+      "categoria": "Biología",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué mamífero pone huevos?",
+      "opciones": [
+        "Canguro",
+        "Ornitorrinco",
+        "Delfín",
+        "Ballena"
+      ],
+      "respuesta_correcta": "Ornitorrinco"
+    },
+    {
+      "id": 50,
+      "categoria": "Matemáticas",
+      "dificultad": "Alta",
+      "pregunta": "¿Cómo se llama el ángulo que mide exactamente 90 grados?",
+      "opciones": [
+        "Obtuso",
+        "Agudo",
+        "Recto",
+        "Llano"
+      ],
+      "respuesta_correcta": "Recto"
+    },
+    {
+      "id": 51,
+      "categoria": "Química",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el principal componente del gas natural?",
+      "opciones": [
+        "Butano",
+        "Propano",
+        "Metano",
+        "Etano"
+      ],
+      "respuesta_correcta": "Metano"
+    },
+    {
+      "id": 52,
+      "categoria": "Lógica",
+      "dificultad": "Alta",
+      "pregunta": "Antes de que se descubriera el Monte Everest, ¿cuál era la montaña más alta del mundo?",
+      "opciones": [
+        "K2",
+        "Kilimanjaro",
+        "El Everest",
+        "Mont Blanc"
+      ],
+      "respuesta_correcta": "El Everest"
+    },
+    {
+      "id": 53,
+      "categoria": "Cultura General",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es la obra más famosa de Miguel de Cervantes?",
+      "opciones": [
+        "La Ilíada",
+        "Don Quijote de la Mancha",
+        "Cien años de soledad",
+        "Fausto"
+      ],
+      "respuesta_correcta": "Don Quijote de la Mancha"
+    },
+    {
+      "id": 54,
+      "categoria": "Astronomía",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué planeta tiene los anillos más visibles?",
+      "opciones": [
+        "Júpiter",
+        "Urano",
+        "Saturno",
+        "Neptuno"
+      ],
+      "respuesta_correcta": "Saturno"
+    },
+    {
+      "id": 55,
+      "categoria": "Acertijo",
+      "dificultad": "Alta",
+      "pregunta": "Si me nombras, desaparezco. ¿Quién soy?",
+      "opciones": [
+        "El viento",
+        "El silencio",
+        "El eco",
+        "La sombra"
+      ],
+      "respuesta_correcta": "El silencio"
+    },
+    {
+      "id": 56,
+      "edited_by": "gemini",
+      "categoria": "Historia",
+      "dificultad": "Alta",
+      "pregunta": "¿En qué país comenzó la Revolución Industrial?",
+      "opciones": [
+        "Francia",
+        "Estados Unidos",
+        "Gran Bretaña",
+        "Alemania"
+      ],
+      "respuesta_correcta": "Gran Bretaña"
+    },
+    {
+      "id": 57,
+      "categoria": "Biología",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el hueso más duro del cuerpo humano?",
+      "opciones": [
+        "El fémur",
+        "La mandíbula",
+        "El cráneo",
+        "La tibia"
+      ],
+      "respuesta_correcta": "La mandíbula"
+    },
+    {
+      "id": 58,
+      "categoria": "Lógica",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué pesa más, 100 kilos de oro o 100 kilos de aire?",
+      "opciones": [
+        "El oro",
+        "El aire",
+        "Pesan lo mismo",
+        "No se puede comparar"
+      ],
+      "respuesta_correcta": "Pesan lo mismo"
+    },
+    {
+      "id": 59,
+      "categoria": "Geografía",
+      "dificultad": "Alta",
+      "pregunta": "Cuál es el país más pequeño del mundo?",
+      "opciones": [
+        "Mónaco",
+        "Nauru",
+        "Ciudad del Vaticano",
+        "San Marino"
+      ],
+      "respuesta_correcta": "Ciudad del Vaticano"
+    },
+    {
+      "id": 60,
+      "categoria": "Física",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué unidad mide la intensidad de la corriente eléctrica?",
+      "opciones": [
+        "Voltio",
+        "Vatio",
+        "Amperio",
+        "Ohmio"
+      ],
+      "respuesta_correcta": "Amperio"
+    },
+    {
+      "id": 61,
+      "categoria": "Matemáticas",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuántos grados suman los ángulos internos de un triángulo?",
+      "opciones": [
+        "90",
+        "180",
+        "360",
+        "270"
+      ],
+      "respuesta_correcta": "180"
+    },
+    {
+      "id": 62,
+      "categoria": "Acertijo",
+      "dificultad": "Alta",
+      "pregunta": "Vuelo sin alas, lloro sin ojos. ¿Qué soy?",
+      "opciones": [
+        "El viento",
+        "La nube",
+        "El humo",
+        "Un fantasma"
+      ],
+      "respuesta_correcta": "La nube"
+    },
+    {
+      "id": 63,
+      "categoria": "Biología",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el músculo más fuerte del cuerpo humano en relación con su tamaño?",
+      "opciones": [
+        "El corazón",
+        "El masetero",
+        "El glúteo mayor",
+        "La lengua"
+      ],
+      "respuesta_correcta": "El masetero"
+    },
+    {
+      "id": 64,
+      "categoria": "Cultura General",
+      "dificultad": "Alta",
+      "pregunta": "¿En qué año se hundió el Titanic?",
+      "opciones": [
+        "1910",
+        "1912",
+        "1914",
+        "1920"
+      ],
+      "respuesta_correcta": "1912"
+    },
+    {
+      "id": 65,
+      "categoria": "Química",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el único metal precioso que no es plateado ni dorado en su estado natural?",
+      "opciones": [
+        "Platino",
+        "Cobre",
+        "Níquel",
+        "Paladio"
+      ],
+      "respuesta_correcta": "Cobre"
+    }
+  ]
+}

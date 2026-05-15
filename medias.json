@@ -1,0 +1,561 @@
+{
+  "juego": "Quién Quiere Ser Millonario - Colombia",
+  "nivel_actual": "Medio",
+  "preguntas": [
+    {
+      "id": 1,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "Según el refrán popular, ¿qué sucede cuando 'el río suena'?",
+      "opciones": [
+        "Es porque piedras trae",
+        "Es porque agua lleva",
+        "Es porque va a llover",
+        "Es porque está crecido"
+      ],
+      "respuesta_correcta": "Es porque piedras trae"
+    },
+    {
+      "id": 2,
+      "categoria": "Música y Parranda",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama la canción de Diomedes Díaz que dice: 'Si la vida fuera estable todo el tiempo...'?",
+      "opciones": [
+        "La Suerte Loca",
+        "La Plata",
+        "Sin Medir Distancias",
+        "El Cóndor Herido"
+      ],
+      "respuesta_correcta": "Sin Medir Distancias"
+    },
+    {
+      "id": 3,
+      "categoria": "Disney",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el muñeco de nieve que sueña con el verano en 'Frozen'?",
+      "opciones": ["Sven", "Kristoff", "Olaf", "Hans"],
+      "respuesta_correcta": "Olaf"
+    },
+    {
+      "id": 4,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "Complete el refrán: 'A falta de pan...'",
+      "opciones": [
+        "...buenas son las arepas",
+        "...bueno es el arroz",
+        "...buena es la yuca",
+        "...buenas son las galletas"
+      ],
+      "respuesta_correcta": "...buenas son las arepas"
+    },
+    {
+      "id": 5,
+      "categoria": "Música para Tomar",
+      "dificultad": "Media",
+      "pregunta": "¿Cuál es el nombre del cantante de música popular conocido como 'El Rey del Despecho'?",
+      "opciones": [
+        "Luis Alberto Posada",
+        "Dario Gómez",
+        "El Charrito Negro",
+        "Yeison Jiménez"
+      ],
+      "respuesta_correcta": "Dario Gómez"
+    },
+    {
+      "id": 6,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "¿A quién se le recomienda 'no mirarle el colmillo' según el dicho?",
+      "opciones": [
+        "A perro que ladra",
+        "A caballo regalado",
+        "A tigre hambriento",
+        "A suegra que visita"
+      ],
+      "respuesta_correcta": "A caballo regalado"
+    },
+    {
+      "id": 7,
+      "categoria": "Disney/Pixar",
+      "dificultad": "Media",
+      "pregunta": "En la película 'Up', ¿con qué transporta el señor Fredricksen su casa?",
+      "opciones": [
+        "Con hélices",
+        "Con globos de colores",
+        "Con un cohete",
+        "Con un imán gigante"
+      ],
+      "respuesta_correcta": "Con globos de colores"
+    },
+    {
+      "id": 8,
+      "categoria": "Telenovelas",
+      "dificultad": "Media",
+      "pregunta": "En 'Yo soy Betty, la fea', ¿cuál era el cargo de 'La Peliteñida' en Ecomoda?",
+      "opciones": [
+        "Gerente de Mercadeo",
+        "Secretaria de presidencia",
+        "Recepcionista",
+        "Diseñadora"
+      ],
+      "respuesta_correcta": "Secretaria de presidencia"
+    },
+    {
+      "id": 9,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "Complete la frase: 'Al que madruga, Dios le ayuda, pero al que no...'",
+      "opciones": [
+        "...se lo lleva la corriente",
+        "...nadie le presta",
+        "...le falta el tinto",
+        "...no le rinde el día"
+      ],
+      "respuesta_correcta": "...no le rinde el día"
+    },
+    {
+      "id": 10,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "¿Qué significa el refrán 'Mucha chispa y poca brasa'?",
+      "opciones": [
+        "Que alguien habla mucho y hace poco",
+        "Que la comida está fría",
+        "Que el fuego se apagó",
+        "Que hay mucho ruido en la fiesta"
+      ],
+      "respuesta_correcta": "Que alguien habla mucho y hace poco"
+    },
+    {
+      "id": 11,
+      "categoria": "Disney",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el pez cirujano azul que tiene mala memoria en 'Buscando a Nemo'?",
+      "opciones": ["Marlin", "Dory", "Nemo", "Bruce"],
+      "respuesta_correcta": "Dory"
+    },
+    {
+      "id": 12,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "Complete el refrán: 'El que mucho abarca...'",
+      "opciones": [
+        "...se cansa rápido",
+        "...poco aprieta",
+        "...todo lo tiene",
+        "...nada termina"
+      ],
+      "respuesta_correcta": "...poco aprieta"
+    },
+    {
+      "id": 13,
+      "categoria": "Música para Tomar",
+      "dificultad": "Media",
+      "pregunta": "¿Quién canta la canción 'Dulce Pecado'?",
+      "opciones": [
+        "Pipe Bueno",
+        "Jhon Alex Castaño",
+        "Jessi Uribe",
+        "Arelys Henao"
+      ],
+      "respuesta_correcta": "Jessi Uribe"
+    },
+    {
+      "id": 14,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "Complete el dicho: 'A Dios rogando y...'",
+      "opciones": [
+        "...con el mazo dando",
+        "...la misa escuchando",
+        "...al prójimo ayudando",
+        "...la vela prendiendo"
+      ],
+      "respuesta_correcta": "...con el mazo dando"
+    },
+    {
+      "id": 15,
+      "categoria": "Disney",
+      "dificultad": "Media",
+      "pregunta": "¿Cuál es el nombre de la villana que quiere hacerse un abrigo con cachorros dálmatas?",
+      "opciones": ["Maléfica", "Ursula", "Cruella de Vil", "Gothel"],
+      "respuesta_correcta": "Cruella de Vil"
+    },
+    {
+      "id": 16,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "Si alguien te dice que 'le dieron gato por liebre', ¿qué le sucedió?",
+      "opciones": [
+        "Lo invitaron a almorzar",
+        "Lo engañaron en una compra",
+        "Adoptó una mascota",
+        "Se ganó la lotería"
+      ],
+      "respuesta_correcta": "Lo engañaron en una compra"
+    },
+    {
+      "id": 17,
+      "categoria": "Música y Parranda",
+      "dificultad": "Media",
+      "pregunta": "¿De qué parte de Colombia es originario el género musical Vallenato?",
+      "opciones": ["Barranquilla", "Valledupar", "Santa Marta", "Montería"],
+      "respuesta_correcta": "Valledupar"
+    },
+    {
+      "id": 18,
+      "categoria": "Videojuegos",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el protagonista del juego 'God of War'?",
+      "opciones": ["Zeus", "Kratos", "Thor", "Atreus"],
+      "respuesta_correcta": "Kratos"
+    },
+    {
+      "id": 19,
+      "categoria": "Disney",
+      "dificultad": "Media",
+      "pregunta": "¿Cuál es el nombre del vaquero protagonista en 'Toy Story'?",
+      "opciones": ["Buzz Lightyear", "Rex", "Woody", "Slinky"],
+      "respuesta_correcta": "Woody"
+    },
+    {
+      "id": 20,
+      "categoria": "Telenovelas",
+      "dificultad": "Media",
+      "pregunta": "En la novela 'Pedro el Escamoso', ¿cómo se llamaba el baile icónico de Pedro Coral?",
+      "opciones": ["El Meneaito", "El Pirulino", "La Macarena", "El Gallinazo"],
+      "respuesta_correcta": "El Pirulino"
+    },
+    {
+      "id": 21,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "Complete el refrán: 'En guerra avisada...'",
+      "opciones": [
+        "...no muere soldado",
+        "...todos corren",
+        "...no hay heridos",
+        "...se gana más fácil"
+      ],
+      "respuesta_correcta": "...no muere soldado"
+    },
+    {
+      "id": 22,
+      "categoria": "Música Pop",
+      "dificultad": "Media",
+      "pregunta": "¿A qué cantante colombiana se le conoce mundialmente como 'La Bichota'?",
+      "opciones": ["Greeicy", "Shakira", "Karol G", "Farina"],
+      "respuesta_correcta": "Karol G"
+    },
+    {
+      "id": 23,
+      "categoria": "Disney",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama la princesa que tiene una larga cabellera mágica en 'Enredados'?",
+      "opciones": ["Mérida", "Rapunzel", "Tiana", "Aurora"],
+      "respuesta_correcta": "Rapunzel"
+    },
+    {
+      "id": 24,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "Según el dicho, ¿quién 'pierde su silla'?",
+      "opciones": [
+        "El que se va para Barranquilla",
+        "El que se duerme en la fiesta",
+        "El que no llega a tiempo",
+        "El que no cuida lo suyo"
+      ],
+      "respuesta_correcta": "El que se va para Barranquilla"
+    },
+    {
+      "id": 25,
+      "categoria": "Música para Tomar",
+      "dificultad": "Media",
+      "pregunta": "Complete la frase de Diomedes: 'Porque la plata que uno se gana, si no se la gasta...'",
+      "opciones": [
+        "...se la roban",
+        "...se la goza otro",
+        "...no sirve de nada",
+        "...se pierde"
+      ],
+      "respuesta_correcta": "...se la goza otro"
+    },
+    {
+      "id": 26,
+      "categoria": "Videojuegos",
+      "dificultad": "Media",
+      "pregunta": "¿En qué consola salió originalmente el juego 'Super Mario 64'?",
+      "opciones": ["Super Nintendo", "Nintendo 64", "GameCube", "Game Boy"],
+      "respuesta_correcta": "Nintendo 64"
+    },
+    {
+      "id": 27,
+      "categoria": "Disney/Pixar",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el rayo de carreras protagonista en 'Cars'?",
+      "opciones": ["Rayo McQueen", "Mate", "Chick Hicks", "Hudson Hornet"],
+      "respuesta_correcta": "Rayo McQueen"
+    },
+    {
+      "id": 28,
+      "categoria": "Telenovelas",
+      "dificultad": "Media",
+      "pregunta": "¿Cuál es el nombre de la actriz que interpretó a 'Betty, la fea'?",
+      "opciones": [
+        "Natalia Ramírez",
+        "Ana María Orozco",
+        "Lorna Paz",
+        "Margarita Rosa de Francisco"
+      ],
+      "respuesta_correcta": "Ana María Orozco"
+    },
+    {
+      "id": 29,
+      "categoria": "Música para Tomar",
+      "dificultad": "Media",
+      "pregunta": "¿Quién canta el éxito 'Guaro' junto a varios artistas populares?",
+      "opciones": [
+        "Christian Nodal",
+        "Pipe Bueno",
+        "Grupo Firme",
+        "Luis Alfonso"
+      ],
+      "respuesta_correcta": "Pipe Bueno"
+    },
+    {
+      "id": 30,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "Si alguien 'se cree la última Coca-Cola del desierto', ¿cómo se está comportando?",
+      "opciones": [
+        "Con mucha sed",
+        "Muy presumido o creído",
+        "Con mucha energía",
+        "Muy generoso"
+      ],
+      "respuesta_correcta": "Muy presumido o creído"
+    },
+    {
+      "id": 31,
+      "categoria": "Disney",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el cangrejo que canta 'Bajo el mar' en 'La Sirenita'?",
+      "opciones": ["Flounder", "Sebastián", "Scuttle", "Tritón"],
+      "respuesta_correcta": "Sebastián"
+    },
+    {
+      "id": 32,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "Complete el dicho: 'Soldado advertido...'",
+      "opciones": [
+        "...no muere en guerra",
+        "...se queda en casa",
+        "...siempre gana",
+        "...no pide permiso"
+      ],
+      "respuesta_correcta": "...no muere en guerra"
+    },
+    {
+      "id": 33,
+      "categoria": "Cultura Pop Colombia",
+      "dificultad": "Media",
+      "pregunta": "¿En qué año ganó la Selección Colombia el histórico 5-0 contra Argentina?",
+      "opciones": ["1990", "1993", "1994", "1998"],
+      "respuesta_correcta": "1993"
+    },
+    {
+      "id": 34,
+      "categoria": "Disney/Pixar",
+      "dificultad": "Media",
+      "pregunta": "¿Cuál es el superpoder de Dash en 'Los Increíbles'?",
+      "opciones": [
+        "Fuerza sobrehumana",
+        "Invisibilidad",
+        "Supervelocidad",
+        "Elasticidad"
+      ],
+      "respuesta_correcta": "Supervelocidad"
+    },
+    {
+      "id": 35,
+      "categoria": "Música para Tomar",
+      "dificultad": "Media",
+      "pregunta": "¿Cuál de estos artistas es el padre del fallecido Martín Elías?",
+      "opciones": [
+        "Poncho Zuleta",
+        "Rafael Orozco",
+        "Diomedes Díaz",
+        "Jorge Oñate"
+      ],
+      "respuesta_correcta": "Diomedes Díaz"
+    },
+    {
+      "id": 36,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "Cuando alguien dice 'amanecerá y veremos', ¿a qué se refiere?",
+      "opciones": [
+        "Que va a madrugar",
+        "Que hay que esperar al futuro para saber algo",
+        "Que no quiere dormir",
+        "Que el día está bonito"
+      ],
+      "respuesta_correcta": "Que hay que esperar al futuro para saber algo"
+    },
+    {
+      "id": 37,
+      "categoria": "Telenovelas",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llamaba el villano principal en 'Pasión de Gavilanes'?",
+      "opciones": [
+        "Fernando Escandón",
+        "Armando Navarro",
+        "Juan Reyes",
+        "Leandro Santos"
+      ],
+      "respuesta_correcta": "Fernando Escandón"
+    },
+    {
+      "id": 38,
+      "categoria": "Disney",
+      "dificultad": "Media",
+      "pregunta": "¿Cuál es el nombre de la marioneta de madera que quiere ser un niño de verdad?",
+      "opciones": ["Gepetto", "Pinocho", "Pepito Grillo", "Figaro"],
+      "respuesta_correcta": "Pinocho"
+    },
+    {
+      "id": 39,
+      "categoria": "Música y Cine",
+      "dificultad": "Media",
+      "pregunta": "¿Quién interpretó el papel de 'La Gaviota' en la versión original de 'Café con aroma de mujer'?",
+      "opciones": [
+        "Alejandra Borrero",
+        "Margarita Rosa de Francisco",
+        "Silvia de Dios",
+        "Carolina Ramírez"
+      ],
+      "respuesta_correcta": "Margarita Rosa de Francisco"
+    },
+    {
+      "id": 40,
+      "categoria": "Videojuegos",
+      "dificultad": "Media",
+      "pregunta": "¿Cuál es el nombre del mundo donde vive Mario Bros?",
+      "opciones": ["Reino Champiñón", "Hyrule", "Dream Land", "Isla Yoshi"],
+      "respuesta_correcta": "Reino Champiñón"
+    },
+    {
+      "id": 41,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "Complete el refrán: 'No hay mal que dure cien años...'",
+      "opciones": [
+        "...ni cuerpo que lo resista",
+        "...ni enfermo que no muera",
+        "...ni deuda que no se pague",
+        "...ni tiempo que no pase"
+      ],
+      "respuesta_correcta": "...ni cuerpo que lo resista"
+    },
+    {
+      "id": 42,
+      "categoria": "Disney",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el mejor amigo extraterrestre de Lilo en su película?",
+      "opciones": ["Nani", "Stitch", "Angel", "Jumba"],
+      "respuesta_correcta": "Stitch"
+    },
+    {
+      "id": 43,
+      "categoria": "Telenovelas",
+      "dificultad": "Media",
+      "pregunta": "¿Qué profesión tenía el protagonista de 'Pedro el Escamoso'?",
+      "opciones": ["Arquitecto", "Chofer", "Vendedor", "Modelo"],
+      "respuesta_correcta": "Chofer"
+    },
+    {
+      "id": 44,
+      "categoria": "Música para Tomar",
+      "dificultad": "Media",
+      "pregunta": "¿Cuál es la frase que Jessi Uribe siempre dice para animar sus canciones?",
+      "opciones": [
+        "¡Ay hombe!",
+        "¡Repítela!",
+        "¡Con mucho gusto!",
+        "¡Suéltala!"
+      ],
+      "respuesta_correcta": "¡Repítela!"
+    },
+    {
+      "id": 45,
+      "categoria": "Disney",
+      "dificultad": "Media",
+      "pregunta": "¿Cuál es el nombre del perro de Mickey Mouse?",
+      "opciones": ["Goofy", "Donald", "Pluto", "Max"],
+      "respuesta_correcta": "Pluto"
+    },
+    {
+      "id": 46,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "¿Qué significa 'ponerse las pilas'?",
+      "opciones": [
+        "Comprar baterías",
+        "Actuar con energía y rapidez",
+        "Irse a dormir",
+        "Estar muy cansado"
+      ],
+      "respuesta_correcta": "Actuar con energía y rapidez"
+    },
+    {
+      "id": 47,
+      "categoria": "Videojuegos",
+      "dificultad": "Media",
+      "pregunta": "¿Cuál es el arma principal de Link en 'The Legend of Zelda'?",
+      "opciones": [
+        "Espada Maestra",
+        "Hacha de guerra",
+        "Arco de luz",
+        "Lanza de fuego"
+      ],
+      "respuesta_correcta": "Espada Maestra"
+    },
+    {
+      "id": 48,
+      "categoria": "Música Pop",
+      "dificultad": "Media",
+      "pregunta": "¿Cuál es el nombre real del cantante Maluma?",
+      "opciones": [
+        "Juan Luis Londoño",
+        "J Balvin",
+        "Camilo Echeverry",
+        "Sebastián Yatra"
+      ],
+      "respuesta_correcta": "Juan Luis Londoño"
+    },
+    {
+      "id": 49,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "Complete el refrán: 'Ojos que no ven...'",
+      "opciones": [
+        "...corazón que no siente",
+        "...pie que tropieza",
+        "...mente que imagina",
+        "...camino perdido"
+      ],
+      "respuesta_correcta": "...corazón que no siente"
+    },
+    {
+      "id": 50,
+      "categoria": "Disney/Pixar",
+      "dificultad": "Media",
+      "pregunta": "¿Cuál es el nombre del niño que viaja al mundo de los muertos en 'Coco'?",
+      "opciones": ["Héctor", "Miguel", "Dante", "Ernesto"],
+      "respuesta_correcta": "Miguel"
+    }
+  ]
+}

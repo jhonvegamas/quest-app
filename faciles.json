@@ -1,0 +1,661 @@
+{
+  "juego": "Quién Quiere Ser Millonario - Colombia",
+  "nivel_actual": "Fácil",
+  "preguntas": [
+    {
+      "id": 1,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el niño genio que tiene un laboratorio secreto en su habitación?",
+      "opciones": ["Jimmy Neutron", "Dexter", "Timmy Turner", "Arnold"],
+      "respuesta_correcta": "Dexter"
+    },
+    {
+      "id": 2,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el ogro verde que vive en un pantano?",
+      "opciones": ["Hulk", "Shrek", "Sulley", "Mike Wazowski"],
+      "respuesta_correcta": "Shrek"
+    },
+    {
+      "id": 3,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "Complete el refrán: 'Camarón que se duerme...'",
+      "opciones": [
+        "Amanece cansado",
+        "Se lo lleva la corriente",
+        "Se vuelve ceviche",
+        "No llega a la cena"
+      ],
+      "respuesta_correcta": "Se lo lleva la corriente"
+    },
+    {
+      "id": 4,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué profesión tiene Mario en sus videojuegos?",
+      "opciones": ["Carpintero", "Plomero", "Electricista", "Bombero"],
+      "respuesta_correcta": "Plomero"
+    },
+    {
+      "id": 5,
+      "categoria": "Música y Cine",
+      "dificultad": "Baja",
+      "pregunta": "¿Quién canta la famosa canción 'Hips Don't Lie' y nació en Barranquilla?",
+      "opciones": ["Karol G", "Shakira", "Greeicy", "Thalía"],
+      "respuesta_correcta": "Shakira"
+    },
+    {
+      "id": 6,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué animal es 'Coraje' en la famosa serie de Cartoon Network?",
+      "opciones": ["Un gato", "Un perro", "Un hámster", "Un conejo"],
+      "respuesta_correcta": "Un perro"
+    },
+    {
+      "id": 7,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué significa chiflón?",
+      "opciones": [
+        "Que se entra el frio",
+        "Un sonido del viento",
+        "Un viejito que roba niños",
+        "Lo que dicen las mamas para que no salga"
+      ],
+      "respuesta_correcta": "Que se entra el frio"
+    },
+    {
+      "id": 8,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el nombre del erizo azul que corre a supervelocidad?",
+      "opciones": ["Crash", "Sonic", "Spyro", "Knuckles"],
+      "respuesta_correcta": "Sonic"
+    },
+    {
+      "id": 9,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el libro más vendido en el mundo después de la Biblia?",
+      "opciones": [
+        "El Señor de los Anillos",
+        "Don Quijote de la Mancha",
+        "El Principito",
+        "Cien años de Soledad"
+      ],
+      "respuesta_correcta": "Don Quijote de la Mancha"
+    },
+    {
+      "id": 10,
+      "categoria": "Música y Cine",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el nombre del protagonista de la saga de películas 'Magos'?",
+      "opciones": [
+        "Ron Weasley",
+        "Draco Malfoy",
+        "Harry Potter",
+        "Neville Longbottom"
+      ],
+      "respuesta_correcta": "Harry Potter"
+    },
+    {
+      "id": 11,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el dueño de los juguetes en la película 'Toy Story'?",
+      "opciones": ["Sid", "Andy", "Riley", "Danny"],
+      "respuesta_correcta": "Andy"
+    },
+    {
+      "id": 12,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "Complete el refrán: 'Más vale pájaro en mano que...'",
+      "opciones": [
+        "Gato en el tejado",
+        "Cien volando",
+        "Huevo en el nido",
+        "Perro ladrando"
+      ],
+      "respuesta_correcta": "Cien volando"
+    },
+    {
+      "id": 13,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿En qué videojuego los jugadores construyen mundos usando cubos?",
+      "opciones": ["Roblox", "Minecraft", "Fortnite", "Los Sims"],
+      "respuesta_correcta": "Minecraft"
+    },
+    {
+      "id": 14,
+      "categoria": "Música y Cine",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué superhéroe de Marvel tiene un escudo circular con una estrella?",
+      "opciones": ["Iron Man", "Capitán América", "Thor", "Spider-Man"],
+      "respuesta_correcta": "Capitán América"
+    },
+    {
+      "id": 15,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el planeta en el que vivimos?",
+      "opciones": ["Marte", "Venus", "Tierra", "Júpiter"],
+      "respuesta_correcta": "Tierra"
+    },
+    {
+      "id": 16,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el nombre del Pokémon amarillo que acompaña a Ash Ketchum?",
+      "opciones": ["Charmander", "Pikachu", "Squirtle", "Bulbasaur"],
+      "respuesta_correcta": "Pikachu"
+    },
+    {
+      "id": 17,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el personaje que representa al café de Colombia?",
+      "opciones": [
+        "Juan Valdez",
+        "Lucho Herrera",
+        "Pibe Valderrama",
+        "Nairo Quintana"
+      ],
+      "respuesta_correcta": "Juan Valdez"
+    },
+    {
+      "id": 18,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el hermano de Mario que viste de verde?",
+      "opciones": ["Wario", "Yoshi", "Luigi", "Bowser"],
+      "respuesta_correcta": "Luigi"
+    },
+    {
+      "id": 19,
+      "categoria": "Música y Cine",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el nombre del barco que se hunde en la película con Leonardo DiCaprio?",
+      "opciones": ["Santa María", "Titanic", "Perla Negra", "Poseidón"],
+      "respuesta_correcta": "Titanic"
+    },
+    {
+      "id": 20,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuántos minutos tiene una hora?",
+      "opciones": ["50", "60", "100", "120"],
+      "respuesta_correcta": "60"
+    },
+    {
+      "id": 21,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama la ciudad donde viven Los Picapiedra?",
+      "opciones": ["Piedradura", "Rocadura", "Villa Calavera", "Metrópolis"],
+      "respuesta_correcta": "Piedradura"
+    },
+    {
+      "id": 22,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "Complete el refrán: 'A caballo regalado...'",
+      "opciones": [
+        "No se le mira el diente",
+        "Se le busca el pelo",
+        "Se le pone silla",
+        "No se le niega el agua"
+      ],
+      "respuesta_correcta": "No se le mira el diente"
+    },
+    {
+      "id": 23,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué animal es Donkey Kong?",
+      "opciones": ["Un gorila", "Un perro", "Un canguro", "Un oso"],
+      "respuesta_correcta": "Un gorila"
+    },
+    {
+      "id": 24,
+      "categoria": "Música y Cine",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el color de la piel de los personajes de la película 'Avatar'?",
+      "opciones": ["Verde", "Rojo", "Azul", "Amarillo"],
+      "respuesta_correcta": "Azul"
+    },
+    {
+      "id": 25,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿En qué continente se encuentra Colombia?",
+      "opciones": ["Europa", "África", "América", "Asia"],
+      "respuesta_correcta": "América"
+    },
+    {
+      "id": 26,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es la comida favorita de las Tortugas Ninja?",
+      "opciones": ["Hamburguesas", "Pizza", "Tacos", "Sushi"],
+      "respuesta_correcta": "Pizza"
+    },
+    {
+      "id": 27,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es la capital de Colombia?",
+      "opciones": ["Medellín", "Cali", "Bogotá", "Barranquilla"],
+      "respuesta_correcta": "Bogotá"
+    },
+    {
+      "id": 28,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama la princesa que Mario debe rescatar siempre?",
+      "opciones": ["Zelda", "Daisy", "Peach", "Rosalina"],
+      "respuesta_correcta": "Peach"
+    },
+    {
+      "id": 29,
+      "categoria": "Música y Cine",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué superhéroe de DC Comics vive en Ciudad Gótica?",
+      "opciones": ["Superman", "Batman", "Flash", "Aquaman"],
+      "respuesta_correcta": "Batman"
+    },
+    {
+      "id": 30,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuántos días tiene un año bisiesto?",
+      "opciones": ["364", "365", "366", "360"],
+      "respuesta_correcta": "366"
+    },
+    {
+      "id": 31,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el gato que siempre intenta atrapar al ratón Jerry?",
+      "opciones": ["Silvestre", "Tom", "Garfield", "Félix"],
+      "respuesta_correcta": "Tom"
+    },
+    {
+      "id": 32,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "En Colombia, si alguien es muy tacaño, se dice que es un...",
+      "opciones": ["Amarrado", "Lanzado", "Relajado", "Avionato"],
+      "respuesta_correcta": "Amarrado"
+    },
+    {
+      "id": 33,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el objetivo principal en el juego 'Pac-Man'?",
+      "opciones": [
+        "Comer puntos",
+        "Saltar obstáculos",
+        "Disparar naves",
+        "Construir casas"
+      ],
+      "respuesta_correcta": "Comer puntos"
+    },
+    {
+      "id": 34,
+      "categoria": "Música y Cine",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el muñeco de nieve que ama los abrazos en 'Frozen'?",
+      "opciones": ["Sven", "Kristoff", "Olaf", "Hans"],
+      "respuesta_correcta": "Olaf"
+    },
+    {
+      "id": 35,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el sentido que usamos para oler?",
+      "opciones": ["Vista", "Tacto", "Olfato", "Gusto"],
+      "respuesta_correcta": "Olfato"
+    },
+    {
+      "id": 36,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿En qué serie de TV vivían en una vecindad?",
+      "opciones": [
+        "El Chavo del 8",
+        "Los Simpson",
+        "Padre de Familia",
+        "La Niñera"
+      ],
+      "respuesta_correcta": "El Chavo del 8"
+    },
+    {
+      "id": 37,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál de estos platos es típico de la región antioqueña?",
+      "opciones": ["Bandeja Paisa", "Ajiaco", "Mote de Queso", "Lechona"],
+      "respuesta_correcta": "Bandeja Paisa"
+    },
+    {
+      "id": 38,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es la consola de videojuegos creada por Microsoft?",
+      "opciones": ["PlayStation", "Xbox", "Nintendo Switch", "Sega Genesis"],
+      "respuesta_correcta": "Xbox"
+    },
+    {
+      "id": 39,
+      "categoria": "Música y Cine",
+      "dificultad": "Baja",
+      "pregunta": "¿Quién es el 'Rey del Pop'?",
+      "opciones": [
+        "Elvis Presley",
+        "Michael Jackson",
+        "Prince",
+        "Freddie Mercury"
+      ],
+      "respuesta_correcta": "Michael Jackson"
+    },
+    {
+      "id": 40,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el animal terrestre más rápido del mundo?",
+      "opciones": ["León", "Caballo", "Guepardo", "Tigre"],
+      "respuesta_correcta": "Guepardo"
+    },
+    {
+      "id": 41,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el nombre de la esponja que vive en una piña debajo del mar?",
+      "opciones": ["Patricio", "Calamardo", "Bob Esponja", "Arenita"],
+      "respuesta_correcta": "Bob Esponja"
+    },
+    {
+      "id": 42,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "Complete el refrán: 'Dime con quién andas y...'",
+      "opciones": [
+        "Te diré quién eres",
+        "Te diré a dónde vas",
+        "Te diré qué haces",
+        "Te diré qué compras"
+      ],
+      "respuesta_correcta": "Te diré quién eres"
+    },
+    {
+      "id": 43,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué tipo de animal es Pikachu?",
+      "opciones": ["Pájaro", "Ratón", "Lagarto", "Gato"],
+      "respuesta_correcta": "Ratón"
+    },
+    {
+      "id": 44,
+      "categoria": "Música y Cine",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es la identidad secreta de Spider-Man?",
+      "opciones": ["Bruce Wayne", "Clark Kent", "Peter Parker", "Tony Stark"],
+      "respuesta_correcta": "Peter Parker"
+    },
+    {
+      "id": 45,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuántos colores tiene el arcoíris?",
+      "opciones": ["5", "6", "7", "8"],
+      "respuesta_correcta": "7"
+    },
+    {
+      "id": 46,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el perro detective que resuelve misterios con Shaggy?",
+      "opciones": ["Scooby-Doo", "Pluto", "Snoopy", "Odie"],
+      "respuesta_correcta": "Scooby-Doo"
+    },
+    {
+      "id": 47,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el instrumento principal del Vallenato?",
+      "opciones": ["Guitarra", "Acordeón", "Piano", "Flauta"],
+      "respuesta_correcta": "Acordeón"
+    },
+    {
+      "id": 48,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿En qué juego debes capturar monstruos en bolas rojas y blancas?",
+      "opciones": ["Digimon", "Pokémon", "Yu-Gi-Oh!", "Monster Hunter"],
+      "respuesta_correcta": "Pokémon"
+    },
+    {
+      "id": 49,
+      "categoria": "Música y Cine",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué película cuenta la historia de un león llamado Simba?",
+      "opciones": ["Madagascar", "El Rey León", "Bambi", "Tarzán"],
+      "respuesta_correcta": "El Rey León"
+    },
+    {
+      "id": 50,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué órgano del cuerpo bombea la sangre?",
+      "opciones": ["Cerebro", "Pulmones", "Corazón", "Hígado"],
+      "respuesta_correcta": "Corazón"
+    },
+    {
+      "id": 51,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llaman las tres Supernenas (Chicas Superpoderosas)?",
+      "opciones": [
+        "Pétalo, Burbuja y Cactus",
+        "Lola, Lulú y Lili",
+        "Ana, Bella y Clara",
+        "Mónica, Érika y Sandra"
+      ],
+      "respuesta_correcta": "Pétalo, Burbuja y Cactus"
+    },
+    {
+      "id": 52,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué animal representa el escudo de Colombia?",
+      "opciones": ["El Cóndor", "El Águila", "El Jaguar", "El Caballo"],
+      "respuesta_correcta": "El Cóndor"
+    },
+    {
+      "id": 53,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el personaje principal de 'The Legend of Zelda'?",
+      "opciones": ["Zelda", "Ganon", "Link", "Tingle"],
+      "respuesta_correcta": "Link"
+    },
+    {
+      "id": 54,
+      "categoria": "Música y Cine",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el color del traje de Iron Man?",
+      "opciones": [
+        "Negro y Gris",
+        "Azul y Blanco",
+        "Rojo y Dorado",
+        "Verde y Plateado"
+      ],
+      "respuesta_correcta": "Rojo y Dorado"
+    },
+    {
+      "id": 55,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el satélite natural de la Tierra?",
+      "opciones": ["El Sol", "La Luna", "Marte", "Venus"],
+      "respuesta_correcta": "La Luna"
+    },
+    {
+      "id": 56,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Quién es el mejor amigo de Bob Esponja?",
+      "opciones": [
+        "Calamardo",
+        "Patricio Estrella",
+        "Don Cangrejo",
+        "Plankton"
+      ],
+      "respuesta_correcta": "Patricio Estrella"
+    },
+    {
+      "id": 57,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "Complete el refrán: 'No por mucho madrugar...'",
+      "opciones": [
+        "Se duerme más",
+        "Amanece más temprano",
+        "Se encuentra más plata",
+        "Se llega primero"
+      ],
+      "respuesta_correcta": "Amanece más temprano"
+    },
+    {
+      "id": 58,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿De qué color son los fantasmas en el juego Pac-Man original?",
+      "opciones": [
+        "Solo rojos",
+        "Rojo, Rosa, Azul y Naranja",
+        "Blancos y Negros",
+        "Verdes y Amarillos"
+      ],
+      "respuesta_correcta": "Rojo, Rosa, Azul y Naranja"
+    },
+    {
+      "id": 59,
+      "categoria": "Música y Cine",
+      "dificultad": "Baja",
+      "pregunta": "¿Quién es el autor de 'Cien años de soledad'?",
+      "opciones": [
+        "Gabriel García Márquez",
+        "Rafael Pombo",
+        "Jorge Isaacs",
+        "Álvaro Mutis"
+      ],
+      "respuesta_correcta": "Gabriel García Márquez"
+    },
+    {
+      "id": 60,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué animal es la mayor fuente de leche para los humanos?",
+      "opciones": ["Cerdo", "Cabra", "Vaca", "Oveja"],
+      "respuesta_correcta": "Vaca"
+    },
+    {
+      "id": 61,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el gato cósmico que tiene un bolsillo mágico?",
+      "opciones": ["Doraemon", "Shin-Chan", "Goku", "Naruto"],
+      "respuesta_correcta": "Doraemon"
+    },
+    {
+      "id": 62,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es la flor nacional de Colombia?",
+      "opciones": ["La Rosa", "La Orquídea", "El Girasol", "La Margarita"],
+      "respuesta_correcta": "La Orquídea"
+    },
+    {
+      "id": 63,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿En qué consola debutó el primer juego de Halo?",
+      "opciones": ["PlayStation 2", "Xbox", "GameCube", "Dreamcast"],
+      "respuesta_correcta": "Xbox"
+    },
+    {
+      "id": 64,
+      "categoria": "Música y Cine",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el rayo de color rojo que sale de los ojos de Cíclope en X-Men?",
+      "opciones": ["Láser térmico", "Rayo óptico", "Fuego frío", "Luz solar"],
+      "respuesta_correcta": "Rayo óptico"
+    },
+    {
+      "id": 65,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el océano más grande del mundo?",
+      "opciones": ["Atlántico", "Pacífico", "Índico", "Ártico"],
+      "respuesta_correcta": "Pacífico"
+    },
+    {
+      "id": 66,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el nombre del ratón más famoso de Disney?",
+      "opciones": ["Mickey Mouse", "Jerry", "Speedy Gonzales", "Stuart Little"],
+      "respuesta_correcta": "Mickey Mouse"
+    },
+    {
+      "id": 67,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "Complete el refrán: 'A falta de pan...'",
+      "opciones": [
+        "Buenas son tortas",
+        "Agua con azúcar",
+        "Hambre hay",
+        "Arepa caliente"
+      ],
+      "respuesta_correcta": "Buenas son tortas"
+    },
+    {
+      "id": 68,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el color de las gemas que recolecta Crash Bandicoot?",
+      "opciones": [
+        "Solo blancas",
+        "Multicolores",
+        "Solo rojas",
+        "No recolecta gemas"
+      ],
+      "respuesta_correcta": "Multicolores"
+    },
+    {
+      "id": 69,
+      "categoria": "Música y Cine",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el dragón en la película 'Shrek'?",
+      "opciones": ["Drac", "Dragona", "Fuego", "Chimuelo"],
+      "respuesta_correcta": "Dragona"
+    },
+    {
+      "id": 70,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué animal pone los huevos más grandes?",
+      "opciones": ["Gallina", "Pato", "Avestruz", "Pingüino"],
+      "respuesta_correcta": "Avestruz"
+    }
+  ]
+}
