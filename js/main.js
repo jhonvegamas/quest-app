@@ -6,11 +6,11 @@ function updateLevelInfo() {
   const mode = getLevelMode();
   const total = getTotalQuestions();
   document.getElementById('levelInfo').innerHTML = mode === 3
-    ? '<i data-lucide="layers" class="w-3.5 h-3.5 inline"></i> 3 seguros · 10 preguntas · Fácil → Difícil'
-    : '<i data-lucide="layers" class="w-3.5 h-3.5 inline"></i> 5 seguros · 20 preguntas · Fácil → Difícil 🚀';
+    ? '<i data-lucide="layers" class="w-3.5 h-3.5 inline"></i> 3 zonas · 10 preguntas · Fácil → Difícil'
+    : '<i data-lucide="layers" class="w-3.5 h-3.5 inline"></i> 5 zonas · 20 preguntas · Fácil → Difícil 🚀';
   const m = getMilestones();
   document.getElementById('milestoneDisplay').innerHTML = m.map(i =>
-    '<p>Pregunta ' + (i + 1) + ': ' + formatMoney(prizeLadder[i]) + '</p>'
+    '<p>Pregunta ' + (i + 1) + ': ' + formatDrinks(i) + '</p>'
   ).join('');
 }
 
@@ -28,12 +28,12 @@ function toggleMute(type) {
     musicMuted = !musicMuted;
     musicSlider.value = musicMuted ? '0' : (musicSlider.dataset.last || '40');
     musicLabel.textContent = musicSlider.value + '%';
-    musicIcon.textContent = musicMuted ? '🔇' : '🎵';
+    musicIcon.textContent = musicMuted ? '🔇' : '🍺';
   } else {
     sfxMuted = !sfxMuted;
     sfxSlider.value = sfxMuted ? '0' : (sfxSlider.dataset.last || '70');
     sfxLabel.textContent = sfxSlider.value + '%';
-    sfxIcon.textContent = sfxMuted ? '🔇' : '🔊';
+    sfxIcon.textContent = sfxMuted ? '🔇' : '🍸';
   }
   updateAllVolumes();
 }
@@ -41,7 +41,7 @@ function toggleMute(type) {
 musicSlider.addEventListener('input', function() {
   musicLabel.textContent = this.value + '%';
   musicMuted = this.value === '0';
-  musicIcon.textContent = musicMuted ? '🔇' : '🎵';
+  musicIcon.textContent = musicMuted ? '🔇' : '🍺';
   if (this.value !== '0') this.dataset.last = this.value;
   updateAllVolumes();
 });
@@ -49,7 +49,7 @@ musicSlider.addEventListener('input', function() {
 sfxSlider.addEventListener('input', function() {
   sfxLabel.textContent = this.value + '%';
   sfxMuted = this.value === '0';
-  sfxIcon.textContent = sfxMuted ? '🔇' : '🔊';
+  sfxIcon.textContent = sfxMuted ? '🔇' : '🍸';
   if (this.value !== '0') this.dataset.last = this.value;
   updateAllVolumes();
 });

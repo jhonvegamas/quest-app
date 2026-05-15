@@ -13,12 +13,15 @@ let used5050              = false;
 let currentCorrectIndex   = 0;
 let awaitingMilestoneChoice = false;
 
-const prizeLadder = [
-  100000, 200000, 300000, 500000, 1000000,
-  2000000, 3000000, 5000000, 7000000, 10000000,
-  15000000, 20000000, 50000000, 100000000, 150000000,
-  200000000, 250000000, 300000000, 400000000, 500000000
+const drinkLadder = [
+  '🥃🥃 Toma 2', '🥃🥃 Toma 2', '🥃🥃 Toma 2', '🍀 SEGURO',
+  '🥃 Toma 1', '🥃 Toma 1', '🥃 Toma 1', '🍀 SEGURO',
+  '🥃+👉 Elige 1', '🥃+👉 Elige 1', '🥃+👉 Elige 1', '🍀 SEGURO',
+  '🍻 Todos 3', '🍻 Todos 3', '🍻 Todos 3', '🍀 SEGURO',
+  '🍻 Sin ti 3', '🍻 Sin ti 3', '🍻 Sin ti 3', '👑 REY'
 ];
+
+function formatDrinks(idx) { return drinkLadder[idx] || ''; }
 
 const themes = {
   facil:   { bg: 'from-cyan-200 via-sky-100 to-indigo-200',    accent: 'text-cyan-600',    progress: 'from-cyan-500 to-blue-500',    icon: 'sparkles',     label: 'Fácil' },
@@ -105,7 +108,7 @@ function renderMoneyLadder() {
     if (getMilestones().includes(i)) cls += ' milestone';
     if (i < currentQuestion) cls += ' passed';
     div.className = cls;
-    div.innerHTML = '<div class="flex justify-between items-center"><span>' + (i + 1) + '</span><span>' + formatMoney(prizeLadder[i]) + '</span></div>';
+    div.innerHTML = '<div class="flex justify-between items-center"><span>' + (i + 1) + '</span><span>' + formatDrinks(i) + '</span></div>';
     container.appendChild(div);
   }
 }
@@ -155,7 +158,7 @@ function loadQuestion() {
   document.getElementById('difficultyIcon').innerHTML = '<i data-lucide="' + t.icon + '" class="w-5 h-5 lg:w-6 lg:h-6"></i>';
   document.getElementById('categoryBadge').textContent = q.category || '';
   document.getElementById('question').textContent = q.question;
-  document.getElementById('money').textContent = formatMoney(prizeLadder[currentQuestion]);
+  document.getElementById('money').textContent = formatDrinks(currentQuestion);
   document.getElementById('levelText').textContent = 'Pregunta ' + (currentQuestion + 1) + '/' + total;
 
   const pct = ((currentQuestion + 1) / total) * 100;
@@ -201,7 +204,7 @@ function checkAnswer(selectedIndex) {
   buttons.forEach(b => b.disabled = true);
   if (selectedIndex === currentCorrectIndex) {
     buttons[selectedIndex].classList.add('correct');
-    currentPrize = prizeLadder[currentQuestion];
+    currentPrize = formatDrinks(currentQuestion);
     const phase = getGamePhase();
     const base = playSfx(audioFiles.respuestaCorrecta);
     if (phase !== 'early' && q.difficulty === 'media' && Math.random() < 0.3) {
@@ -210,7 +213,6 @@ function checkAnswer(selectedIndex) {
     if (phase !== 'early' && q.difficulty === 'dificil') {
       if (Math.random() < 0.6) { if (base) base.onended = () => playSfxRandom('correctas'); }
       if (Math.random() < 0.4) playSfxRandom('dificiles');
-    }
     }
 
     const wasMilestone = isMilestoneReached();
@@ -223,7 +225,7 @@ function checkAnswer(selectedIndex) {
         const m = getMilestones();
         const milestoneIdx = m.indexOf(currentQuestion - 1);
         if (milestoneIdx === 1) playSfx('assets/audio/preguntas-faciles/buenos-dias-estrellitas.mp3');
-        setTimeout(() => showMilestoneChoice(prizeLadder[currentQuestion - 1]), 800);
+        setTimeout(() => showMilestoneChoice(formatDrinks(currentQuestion - 1), currentQuestion - 1), 800);
       } else {
         loadQuestionWithSound();
       }
@@ -232,12 +234,8 @@ function checkAnswer(selectedIndex) {
     buttons[selectedIndex].classList.add('wrong');
     buttons[currentCorrectIndex].classList.add('correct');
     stopAmb();
-    const failAudio = playSfxRandom('incorrectas');
-    if (failAudio) {
-      failAudio.onended = () => endGame(false);
-    } else {
-      setTimeout(() => endGame(false), 2500);
-    }
+    playSfxRandom('incorrectas');
+    setTimeout(() => showLoseRoulette(), 2500);
   }
 }
 
@@ -290,41 +288,35 @@ function showModal(title, text) {
 
 function closeModal() { document.getElementById('modal').style.display = 'none'; }
 
-function showMilestoneChoice(prize) {
-  gLog('MILESTONE prize=' + formatMoney(prize));
+function showMilestoneChoice(label, idx) {
+  gLog('MILESTONE label=' + label);
   awaitingMilestoneChoice = true;
   const modal = document.getElementById('modal');
   modal.innerHTML = '<div class="bg-white/95 backdrop-blur-sm rounded-[32px] p-8 max-w-md w-full mx-4 text-slate-800 text-center shadow-2xl">' +
-    '<div class="text-2xl font-bold mb-4">🏆 ¡SEGURO ALCANZADO! 🏆</div>' +
-    '<div class="text-base text-slate-600 mb-6">Has asegurado <b>' + formatMoney(prize) + '</b>.<br><br>¿Qué deseas hacer?</div>' +
+    '<div class="text-2xl font-bold mb-4">🍀 ¡ZONA SEGURA! 🍀</div>' +
+    '<div class="text-base text-slate-600 mb-6">Estás en <b>' + label + '</b>.<br><br>¿Qué deseas hacer?</div>' +
     '<div class="flex flex-col sm:flex-row gap-3 justify-center">' +
     '<button id="continueBtn" class="bg-white text-slate-800 px-6 py-3 rounded-2xl font-semibold shadow hover:scale-105 transition">🎯 Seguir jugando</button>' +
-    '<button id="retireBtn" class="bg-emerald-500 text-white px-6 py-3 rounded-2xl font-semibold shadow hover:scale-105 transition">💰 Retirarme con ' + formatMoney(prize) + '</button>' +
+    '<button id="retireBtn" class="bg-emerald-500 text-white px-6 py-3 rounded-2xl font-semibold shadow hover:scale-105 transition">🍀 Retirarme</button>' +
     '</div></div>';
   modal.classList.remove('hidden');
   modal.style.display = 'flex';
   document.getElementById('continueBtn').onclick = () => {
     awaitingMilestoneChoice = false; modal.style.display = 'none';
-    restoreModal(); loadQuestionWithSound();
+    restoreRouletteModal(); loadQuestionWithSound();
   };
-  document.getElementById('retireBtn').onclick = () => {
-    awaitingMilestoneChoice = false; modal.style.display = 'none'; restoreModal();
+  document.getElementById('retireBtn').onclick = async () => {
+    awaitingMilestoneChoice = false; modal.style.display = 'none';
+    restoreRouletteModal();
     const meme = playSfxRandom('ayudas');
-    if (meme) meme.onended = () => endGame(false, false, prize);
-    else endGame(false, false, prize);
+    const result = await spinRoulette(retiroOptions);
+    endGame(false, false, label + ' → ' + (result ? result.emoji + ' ' + result.label : ''));
   };
-}
-
-function restoreModal() {
-  const modal = document.getElementById('modal');
-  modal.innerHTML = '<div class="bg-white/95 backdrop-blur-sm rounded-[32px] p-8 max-w-md w-full mx-4 text-slate-800 text-center shadow-2xl">' +
-    '<div class="modal-title text-2xl font-bold mb-4" id="modalTitle"></div>' +
-    '<div class="modal-text text-base text-slate-600 mb-6" id="modalText"></div>' +
-    '<button class="close-modal bg-white text-slate-800 px-6 py-3 rounded-2xl font-semibold shadow hover:scale-105 transition" onclick="closeModal()">Cerrar</button></div>';
 }
 
 function goToStart() {
   stopAllAudio();
+  restoreRouletteModal();
   document.getElementById('endScreen').classList.add('hidden');
   document.getElementById('startContent').classList.remove('hidden');
   document.getElementById('readyContent').classList.add('hidden');
@@ -333,27 +325,50 @@ function goToStart() {
   playBg(audioFiles.temaPrincipal);
 }
 
-function endGame(won, timeout = false, retiredPrize = 0) {
+async function showLoseRoulette() {
+  const result = await spinRoulette(castigoOptions);
+  endGame(false, false, '', result);
+}
+
+async function endGame(won, timeout = false, retiredMsg = '', rouletteResult = null) {
   clearInterval(timer);
-  stopAllAudio();
-  document.getElementById('gameArea').classList.add('hidden');
-  document.getElementById('endScreen').classList.remove('hidden');
-  playBg(audioFiles.resultados);
+
   const t = document.getElementById('endTitle');
   const m = document.getElementById('endMessage');
   const p = document.getElementById('endPrize');
-  if (retiredPrize > 0) {
-    t.textContent = '💰 ¡Sabia decisión! 💰';
-    m.textContent = 'Te retiraste a tiempo. ¡Bien jugado!';
-    p.textContent = 'Te llevas: ' + formatMoney(retiredPrize);
+
+  if (retiredMsg) {
+    stopAllAudio();
+    document.getElementById('gameArea').classList.add('hidden');
+    document.getElementById('endScreen').classList.remove('hidden');
+    t.textContent = '🍀 ¡Te retiraste!';
+    m.textContent = 'Zona segura alcanzada.';
+    p.textContent = retiredMsg;
     return;
   }
-  if (timeout) { t.textContent = '⏰ ¡Se acabó el tiempo!'; m.textContent = 'No respondiste a tiempo.'; }
-  else if (won) { t.textContent = '🎉 ¡FELICIDADES! 🎉'; m.textContent = '¡Eres millonario! Respondiste correctamente todas las preguntas.'; p.textContent = formatMoney(prizeLadder[getTotalQuestions() - 1]); return; }
-  else { t.textContent = '❌ PERDISTE'; m.textContent = 'Respuesta incorrecta.'; }
-  let gp = 0;
-  for (const ms of [...getMilestones()].reverse()) { if (currentQuestion > ms) { gp = prizeLadder[ms]; break; } }
-  p.textContent = gp > 0 ? 'Te llevas: ' + formatMoney(gp) : 'No ganas premio. ¡Inténtalo de nuevo!';
+
+  if (timeout) {
+    stopAllAudio();
+    document.getElementById('gameArea').classList.add('hidden');
+    document.getElementById('endScreen').classList.remove('hidden');
+    t.textContent = '⏰ ¡Se acabó el tiempo!';
+    m.textContent = 'No respondiste a tiempo.';
+  } else if (won) {
+    stopAllAudio();
+    document.getElementById('gameArea').classList.add('hidden');
+    document.getElementById('endScreen').classList.remove('hidden');
+    t.textContent = '👑 ¡ERES EL REY DE LA FIESTA! 👑';
+    m.textContent = 'Nadie toma sin tu permiso. ¡Ganaste!';
+    return;
+  } else {
+    document.getElementById('endScreen').classList.remove('hidden');
+    t.textContent = '💀 ¡A BEBER! 💀';
+    m.textContent = 'La ruleta decidió:';
+    if (rouletteResult) p.textContent = rouletteResult.emoji + ' ' + rouletteResult.label + ' — ' + rouletteResult.desc;
+    else p.textContent = '🥃 Toma 1 shot';
+    stopAllAudio();
+    document.getElementById('gameArea').classList.add('hidden');
+  }
 }
 
 function restartGame() { stopAllAudio(); shuffledQuestions = []; startGame(); }

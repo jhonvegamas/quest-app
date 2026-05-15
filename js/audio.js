@@ -128,7 +128,8 @@ const audioFiles = {
     'assets/audio/respuestas-correctas/tuve-fe.mp3'
   ],
   mitadJuego:     ['assets/audio/mitad-juego/quiero-tomar-cerveza.mp3'],
-  musicaPreguntas: ['assets/preguntas.mp3','assets/pregunta-suspenso.mp3','assets/audio/inicio-pregunta/quien-quiere-ser-millonario_ScfDHTc.mp3']
+  musicaPreguntas: ['assets/preguntas.mp3','assets/pregunta-suspenso.mp3','assets/audio/inicio-pregunta/quien-quiere-ser-millonario_ScfDHTc.mp3'],
+  ruletaGira: 'assets/ruleta-gira-faw.mp3'
 };
 
 function pickRandom(arr) { return arr[Math.floor(Math.random() * arr.length)]; }

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>¿Quién Quiere Ser Millonario? - Edición Colombia</title>
+  <title>¿Quién quiere ser el Borracho? 🍺</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@0.468.0"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -58,6 +58,11 @@
       80% { transform: translateX(4px); }
     }
     .timer-warn { animation: pulse 0.5s infinite !important; }
+    .animate-flip { animation: coinFlip 0.15s infinite linear; }
+    @keyframes coinFlip {
+      0% { transform: rotateY(0deg); }
+      100% { transform: rotateY(360deg); }
+    }
     @keyframes pulse {
       0%,100% { transform: scale(1); }
       50% { transform: scale(1.05); }
@@ -109,12 +114,12 @@
 
   <div class="volume-bar text-white/80">
     <div class="vol-row">
-      <span id="musicIcon" class="vol-icon cursor-pointer" onclick="toggleMute('music')">🎵</span>
+      <span id="musicIcon" class="vol-icon cursor-pointer" onclick="toggleMute('music')">🍺</span>
       <input type="range" id="musicVolume" min="0" max="100" value="40">
       <span class="vol-pct" id="musicVolumeLabel">40%</span>
     </div>
     <div class="vol-row">
-      <span id="sfxIcon" class="vol-icon cursor-pointer" onclick="toggleMute('sfx')">🔊</span>
+      <span id="sfxIcon" class="vol-icon cursor-pointer" onclick="toggleMute('sfx')">🍸</span>
       <input type="range" id="sfxVolume" min="0" max="100" value="70">
       <span class="vol-pct" id="sfxVolumeLabel">70%</span>
     </div>
@@ -123,18 +128,18 @@
   <div id="startScreen" class="relative z-10 w-full max-w-2xl mx-auto glass rounded-[32px] p-10 text-slate-800 text-center">
     <div id="startContent">
       <h1 class="text-4xl lg:text-5xl font-bold leading-tight mb-4">
-        ¿Quién quiere ser <span id="startHighlight" class="text-cyan-600">Millonario?</span>
+        🍺 ¿Quién quiere ser <span id="startHighlight" class="text-cyan-600">el Borracho?</span>
       </h1>
-      <p class="text-slate-500 text-lg mb-4">Edición Colombia 🇨🇴</p>
-      <p class="text-slate-600 mb-6">Responde preguntas y gana hasta <strong class="text-cyan-600">$300.000.000</strong></p>
+      <p class="text-slate-500 text-lg mb-4">Entre más sabes, menos tomas 🇨🇴</p>
+      <p class="text-slate-600 mb-6">Responde preguntas y evita los <strong class="text-cyan-600">shots</strong></p>
       <div class="mb-6 text-sm text-slate-600">
-        <p><i data-lucide="shield" class="w-4 h-4 inline"></i> <strong>Hitos garantizados:</strong></p>
+        <p><i data-lucide="shield" class="w-4 h-4 inline"></i> <strong>🍀 Seguros:</strong></p>
         <div id="milestoneDisplay" class="mt-2"></div>
       </div>
       <div class="level-selector mb-6 text-slate-600">
-        <strong>Seguros:</strong>
-        <label><input type="radio" name="levelMode" value="3" checked onchange="updateLevelInfo()"> 3 seguros</label>
-        <label><input type="radio" name="levelMode" value="5" onchange="updateLevelInfo()"> 5 seguros</label>
+        <strong>🍀 Zonas seguras:</strong>
+        <label><input type="radio" name="levelMode" value="3" checked onchange="updateLevelInfo()"> 3 zonas</label>
+        <label><input type="radio" name="levelMode" value="5" onchange="updateLevelInfo()"> 5 zonas</label>
         <div id="levelInfo" class="text-xs text-slate-500 mt-2"></div>
       </div>
       <div class="text-sm text-slate-500 mb-6"><i data-lucide="help-circle" class="w-4 h-4 inline"></i> Ayudas: 50:50 · 📞 Llamada · 👥 Público</div>
@@ -154,11 +159,11 @@
     <section class="glass rounded-[32px] p-6 lg:p-10 text-slate-800">
       <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-6">
         <div>
-          <p class="uppercase tracking-[0.3em] text-sm font-semibold text-slate-500 mb-2">Concurso interactivo</p>
-          <h1 class="text-3xl lg:text-4xl font-bold leading-tight">¿Quién quiere ser <span id="highlight" class="text-cyan-600">Millonario?</span></h1>
+          <p class="uppercase tracking-[0.3em] text-sm font-semibold text-slate-500 mb-2">Juego de tragos</p>
+          <h1 class="text-3xl lg:text-4xl font-bold leading-tight">🍺 ¿Quién quiere ser <span id="highlight" class="text-cyan-600">el Borracho?</span></h1>
         </div>
         <div class="glass rounded-3xl px-6 py-4 pulse-soft text-center min-w-[140px]">
-          <p class="text-xs text-slate-500">Premio actual</p>
+          <p class="text-xs text-slate-500">Nivel de peligro</p>
           <h2 id="money" class="text-2xl lg:text-3xl font-bold">$0</h2>
         </div>
       </div>
@@ -198,7 +203,7 @@
     </section>
     <aside class="glass rounded-[32px] p-6 text-slate-800 h-fit">
       <div class="flex items-center justify-between mb-5">
-        <h2 class="text-xl font-bold">Escalera</h2>
+        <h2 class="text-xl font-bold">⏫ Tragos</h2>
         <span id="ladderTotal" class="text-sm text-slate-500">15 niveles</span>
       </div>
       <div id="levels" class="space-y-1.5 text-sm"></div>
@@ -231,6 +236,7 @@
 
   <script src="js/audio.js"></script>
   <script src="js/questions.js"></script>
+  <script src="js/roulette.js"></script>
   <script src="js/game.js"></script>
   <script src="js/main.js"></script>
 </body>

@@ -708,15 +708,15 @@
     "difficulty": "facil"
   },
   {
-    "question": "¿Qué animal es la mayor fuente de leche para los humanos?",
+    "question": "Tiene escamas y no es un pez, tiene corona y no es un rey. ¿Qué es?",
     "answers": [
-      "Cerdo",
-      "Cabra",
-      "Vaca",
-      "Oveja"
+      "La piña",
+      "El coco",
+      "La sandía",
+      "La papaya"
     ],
-    "correct": 2,
-    "category": "Cultura General",
+    "correct": 0,
+    "category": "Acertijos",
     "difficulty": "facil"
   },
   {
