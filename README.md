@@ -50,10 +50,10 @@ quien-quiere-ser-millonario/
 │   ├── roulette.js         # Ruleta de castigo/retiro + moneda
 │   ├── game.js             # Lógica del juego (checkAnswer, timer, seguros)
 │   └── main.js             # Init, eventos DOM, control de volumen
-├── questions.json          # Banco combinado (185 preguntas, autogenerado)
-├── faciles.json            # Preguntas fáciles (70)
-├── medias.json             # Preguntas medias (50)
-├── dificiles.json          # Preguntas difíciles (65)
+├── questions.json          # Banco combinado (410 preguntas, autogenerado)
+├── faciles.json            # Preguntas fáciles (145)
+├── medias.json             # Preguntas medias (125)
+├── dificiles.json          # Preguntas difíciles (140)
 ├── assets/
 │   ├── audio/              # Memes organizados por categoría
 │   │   ├── inicio-pregunta/

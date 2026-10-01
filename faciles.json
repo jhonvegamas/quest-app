@@ -864,14 +864,14 @@
       "id": 67,
       "categoria": "Colombia y Refranes",
       "dificultad": "Baja",
-      "pregunta": "Complete el refrán: 'A falta de pan...'",
+      "pregunta": "Complete el refrán: 'Al mal tiempo...'",
       "opciones": [
-        "Buenas son tortas",
-        "Agua con azúcar",
-        "Hambre hay",
-        "Arepa caliente"
+        "Buena cara",
+        "Mala cara",
+        "Buen viento",
+        "Mucha lluvia"
       ],
-      "respuesta_correcta": "Buenas son tortas"
+      "respuesta_correcta": "Buena cara"
     },
     {
       "id": 68,
@@ -911,6 +911,981 @@
         "Pingüino"
       ],
       "respuesta_correcta": "Avestruz"
+    },
+    {
+      "id": 71,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el perro de la familia Simpson?",
+      "opciones": [
+        "Ayudante de Santa",
+        "Bola de Nieve",
+        "Rasca",
+        "Milo"
+      ],
+      "respuesta_correcta": "Ayudante de Santa"
+    },
+    {
+      "id": 72,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el gato de la familia Simpson?",
+      "opciones": [
+        "Bola de Nieve",
+        "Ayudante de Santa",
+        "Pelusa",
+        "Tom"
+      ],
+      "respuesta_correcta": "Bola de Nieve"
+    },
+    {
+      "id": 73,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿En qué ciudad ficticia viven los Simpson?",
+      "opciones": [
+        "Springfield",
+        "Quahog",
+        "South Park",
+        "Fondo de Bikini"
+      ],
+      "respuesta_correcta": "Springfield"
+    },
+    {
+      "id": 74,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el mejor amigo de Bob Esponja?",
+      "opciones": [
+        "Calamardo",
+        "Patricio",
+        "Arenita",
+        "Don Cangrejo"
+      ],
+      "respuesta_correcta": "Patricio"
+    },
+    {
+      "id": 75,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué tipo de animal es Bob Esponja?",
+      "opciones": [
+        "Un pulpo",
+        "Un calamar",
+        "Una esponja de mar",
+        "Una estrella de mar"
+      ],
+      "respuesta_correcta": "Una esponja de mar"
+    },
+    {
+      "id": 76,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el villano principal de las Tortugas Ninja?",
+      "opciones": [
+        "Krang",
+        "Bebop",
+        "Destructor",
+        "Rocksteady"
+      ],
+      "respuesta_correcta": "Destructor"
+    },
+    {
+      "id": 77,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿De qué color es la banda de Miguel Ángel en las Tortugas Ninja?",
+      "opciones": [
+        "Azul",
+        "Rojo",
+        "Naranja",
+        "Morado"
+      ],
+      "respuesta_correcta": "Naranja"
+    },
+    {
+      "id": 78,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el ratón más famoso de Disney?",
+      "opciones": [
+        "Mickey Mouse",
+        "Donald",
+        "Goofy",
+        "Pluto"
+      ],
+      "respuesta_correcta": "Mickey Mouse"
+    },
+    {
+      "id": 79,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué personaje de Disney es un pato que no usa pantalones?",
+      "opciones": [
+        "Mickey",
+        "Donald",
+        "Goofy",
+        "Pluto"
+      ],
+      "respuesta_correcta": "Donald"
+    },
+    {
+      "id": 80,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama la sirenita de Disney?",
+      "opciones": [
+        "Aurora",
+        "Ariel",
+        "Bella",
+        "Jasmine"
+      ],
+      "respuesta_correcta": "Ariel"
+    },
+    {
+      "id": 81,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el padre de la sirenita Ariel?",
+      "opciones": [
+        "Neptuno",
+        "Tritón",
+        "Poseidón",
+        "Eric"
+      ],
+      "respuesta_correcta": "Tritón"
+    },
+    {
+      "id": 82,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el dinosaurio mascota de los Picapiedra?",
+      "opciones": [
+        "Dino",
+        "Rex",
+        "Spike",
+        "Bronty"
+      ],
+      "respuesta_correcta": "Dino"
+    },
+    {
+      "id": 83,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿En qué época viven los Picapiedra?",
+      "opciones": [
+        "El futuro",
+        "La prehistoria",
+        "La Edad Media",
+        "El espacio"
+      ],
+      "respuesta_correcta": "La prehistoria"
+    },
+    {
+      "id": 84,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el alter ego del héroe He-Man?",
+      "opciones": [
+        "Príncipe Adam",
+        "Príncipe Eric",
+        "Skeletor",
+        "Man-At-Arms"
+      ],
+      "respuesta_correcta": "Príncipe Adam"
+    },
+    {
+      "id": 85,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el villano de He-Man?",
+      "opciones": [
+        "Skeletor",
+        "Gargamel",
+        "Mumm-Ra",
+        "Cobra"
+      ],
+      "respuesta_correcta": "Skeletor"
+    },
+    {
+      "id": 86,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el gato de los Pitufos?",
+      "opciones": [
+        "Azrael",
+        "Milú",
+        "Garfield",
+        "Sylvester"
+      ],
+      "respuesta_correcta": "Azrael"
+    },
+    {
+      "id": 87,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el villano que persigue a los Pitufos?",
+      "opciones": [
+        "Gargamel",
+        "Azrael",
+        "Skeletor",
+        "Dr. Malo"
+      ],
+      "respuesta_correcta": "Gargamel"
+    },
+    {
+      "id": 88,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿De qué color son los Pitufos?",
+      "opciones": [
+        "Verdes",
+        "Azules",
+        "Amarillos",
+        "Rojos"
+      ],
+      "respuesta_correcta": "Azules"
+    },
+    {
+      "id": 89,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama la ardilla que persigue la bellota en 'La Era de Hielo'?",
+      "opciones": [
+        "Scrat",
+        "Sid",
+        "Diego",
+        "Buck"
+      ],
+      "respuesta_correcta": "Scrat"
+    },
+    {
+      "id": 90,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué animal es Sid en 'La Era de Hielo'?",
+      "opciones": [
+        "Un mamut",
+        "Un tigre",
+        "Un perezoso",
+        "Un dodo"
+      ],
+      "respuesta_correcta": "Un perezoso"
+    },
+    {
+      "id": 91,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el mamut de 'La Era de Hielo'?",
+      "opciones": [
+        "Manny",
+        "Diego",
+        "Sid",
+        "Buck"
+      ],
+      "respuesta_correcta": "Manny"
+    },
+    {
+      "id": 92,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el jefe de los Minions?",
+      "opciones": [
+        "Gru",
+        "Kevin",
+        "Bob",
+        "Stuart"
+      ],
+      "respuesta_correcta": "Gru"
+    },
+    {
+      "id": 93,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué son los Minions?",
+      "opciones": [
+        "Robots",
+        "Criaturas amarillas",
+        "Pingüinos",
+        "Aliens"
+      ],
+      "respuesta_correcta": "Criaturas amarillas"
+    },
+    {
+      "id": 94,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué animal es 'Donkey', el compañero de Shrek?",
+      "opciones": [
+        "Un caballo",
+        "Un burro",
+        "Una mula",
+        "Un camello"
+      ],
+      "respuesta_correcta": "Un burro"
+    },
+    {
+      "id": 95,
+      "categoria": "Nostalgia TV y Animación",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el reino donde vive Shrek?",
+      "opciones": [
+        "Muy Muy Lejano",
+        "Encantado",
+        "Narnia",
+        "Arendelle"
+      ],
+      "respuesta_correcta": "Muy Muy Lejano"
+    },
+    {
+      "id": 96,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "Complete el refrán: 'Más vale pájaro en mano...'",
+      "opciones": [
+        "...que cien volando",
+        "...que uno en el árbol",
+        "...que nada",
+        "...que dos en el nido"
+      ],
+      "respuesta_correcta": "...que cien volando"
+    },
+    {
+      "id": 97,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "Complete el refrán: 'En casa del herrero...'",
+      "opciones": [
+        "...cuchillo de palo",
+        "...martillo de oro",
+        "...yunque de hierro",
+        "...llave de plata"
+      ],
+      "respuesta_correcta": "...cuchillo de palo"
+    },
+    {
+      "id": 98,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "Complete el refrán: 'Al que madruga...'",
+      "opciones": [
+        "...Dios lo ayuda",
+        "...le va bien",
+        "...nada le cuesta",
+        "...come temprano"
+      ],
+      "respuesta_correcta": "...Dios lo ayuda"
+    },
+    {
+      "id": 99,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "Complete el refrán: 'En boca cerrada...'",
+      "opciones": [
+        "...no entran moscas",
+        "...no salen palabras",
+        "...no hay mentiras",
+        "...no hay problemas"
+      ],
+      "respuesta_correcta": "...no entran moscas"
+    },
+    {
+      "id": 100,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "Complete el refrán: 'No dejes para mañana...'",
+      "opciones": [
+        "...lo que puedas hacer hoy",
+        "...lo que sea difícil",
+        "...lo que no quieras",
+        "...lo que otros hacen"
+      ],
+      "respuesta_correcta": "...lo que puedas hacer hoy"
+    },
+    {
+      "id": 101,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "Complete el refrán: 'Agua que no has de beber...'",
+      "opciones": [
+        "...déjala correr",
+        "...no la bebas",
+        "...no la toques",
+        "...échala a perder"
+      ],
+      "respuesta_correcta": "...déjala correr"
+    },
+    {
+      "id": 102,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuántos lados tiene un cuadrado?",
+      "opciones": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "respuesta_correcta": "4"
+    },
+    {
+      "id": 103,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el río más importante de Colombia?",
+      "opciones": [
+        "Cauca",
+        "Magdalena",
+        "Orinoco",
+        "Amazonas"
+      ],
+      "respuesta_correcta": "Magdalena"
+    },
+    {
+      "id": 104,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el ave nacional de Colombia?",
+      "opciones": [
+        "Águila",
+        "Cóndor",
+        "Tucán",
+        "Colibrí"
+      ],
+      "respuesta_correcta": "Cóndor"
+    },
+    {
+      "id": 105,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el insecto que produce la miel?",
+      "opciones": [
+        "La avispa",
+        "La abeja",
+        "El abejorro",
+        "La hormiga"
+      ],
+      "respuesta_correcta": "La abeja"
+    },
+    {
+      "id": 106,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "¿Por qué producto es reconocida Colombia en el mundo?",
+      "opciones": [
+        "Café",
+        "Cacao",
+        "Té",
+        "Trigo"
+      ],
+      "respuesta_correcta": "Café"
+    },
+    {
+      "id": 107,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el baile típico de la costa Caribe colombiana?",
+      "opciones": [
+        "Tango",
+        "Cumbia",
+        "Salsa",
+        "Merengue"
+      ],
+      "respuesta_correcta": "Cumbia"
+    },
+    {
+      "id": 108,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el instrumento típico del vallenato?",
+      "opciones": [
+        "Guitarra",
+        "Acordeón",
+        "Piano",
+        "Violín"
+      ],
+      "respuesta_correcta": "Acordeón"
+    },
+    {
+      "id": 109,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuántos departamentos tiene Colombia?",
+      "opciones": [
+        "30",
+        "31",
+        "32",
+        "33"
+      ],
+      "respuesta_correcta": "32"
+    },
+    {
+      "id": 110,
+      "categoria": "Colombia y Refranes",
+      "dificultad": "Baja",
+      "pregunta": "Complete el refrán: 'Perro que ladra...'",
+      "opciones": [
+        "...no muerde",
+        "...sí muerde",
+        "...se asusta",
+        "...se calla"
+      ],
+      "respuesta_correcta": "...no muerde"
+    },
+    {
+      "id": 111,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el fontanero rojo más famoso de Nintendo?",
+      "opciones": [
+        "Luigi",
+        "Mario",
+        "Wario",
+        "Peach"
+      ],
+      "respuesta_correcta": "Mario"
+    },
+    {
+      "id": 112,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el hermano de Mario?",
+      "opciones": [
+        "Wario",
+        "Luigi",
+        "Toad",
+        "Yoshi"
+      ],
+      "respuesta_correcta": "Luigi"
+    },
+    {
+      "id": 113,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el dinosaurio verde que ayuda a Mario?",
+      "opciones": [
+        "Yoshi",
+        "Toad",
+        "Bowser",
+        "Donkey"
+      ],
+      "respuesta_correcta": "Yoshi"
+    },
+    {
+      "id": 114,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el villano principal de la saga Mario?",
+      "opciones": [
+        "Wario",
+        "Bowser",
+        "Donkey Kong",
+        "Ganon"
+      ],
+      "respuesta_correcta": "Bowser"
+    },
+    {
+      "id": 115,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿De qué color es el erizo Sonic?",
+      "opciones": [
+        "Rojo",
+        "Verde",
+        "Azul",
+        "Amarillo"
+      ],
+      "respuesta_correcta": "Azul"
+    },
+    {
+      "id": 116,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama la princesa que Mario suele rescatar?",
+      "opciones": [
+        "Zelda",
+        "Peach",
+        "Daisy",
+        "Rosalina"
+      ],
+      "respuesta_correcta": "Peach"
+    },
+    {
+      "id": 117,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama la consola híbrida de Nintendo?",
+      "opciones": [
+        "Xbox",
+        "Switch",
+        "Game Boy",
+        "Mega Drive"
+      ],
+      "respuesta_correcta": "Switch"
+    },
+    {
+      "id": 118,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el protagonista de 'The Legend of Zelda'?",
+      "opciones": [
+        "Zelda",
+        "Link",
+        "Ganon",
+        "Navi"
+      ],
+      "respuesta_correcta": "Link"
+    },
+    {
+      "id": 119,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el clásico juego de bloques que caen y se acomodan?",
+      "opciones": [
+        "Tetris",
+        "Minecraft",
+        "Pong",
+        "Snake"
+      ],
+      "respuesta_correcta": "Tetris"
+    },
+    {
+      "id": 120,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el juego de construcción con cubos?",
+      "opciones": [
+        "Roblox",
+        "Minecraft",
+        "Terraria",
+        "Fortnite"
+      ],
+      "respuesta_correcta": "Minecraft"
+    },
+    {
+      "id": 121,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué come Pac-Man mientras recorre el laberinto?",
+      "opciones": [
+        "Frutas",
+        "Puntos",
+        "Monedas",
+        "Estrellas"
+      ],
+      "respuesta_correcta": "Puntos"
+    },
+    {
+      "id": 122,
+      "categoria": "Videojuegos",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama el fantasma rojo de Pac-Man?",
+      "opciones": [
+        "Blinky",
+        "Pinky",
+        "Inky",
+        "Clyde"
+      ],
+      "respuesta_correcta": "Blinky"
+    },
+    {
+      "id": 123,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuántos días tiene una semana?",
+      "opciones": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "respuesta_correcta": "7"
+    },
+    {
+      "id": 124,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué color resulta de mezclar azul y amarillo?",
+      "opciones": [
+        "Verde",
+        "Naranja",
+        "Morado",
+        "Café"
+      ],
+      "respuesta_correcta": "Verde"
+    },
+    {
+      "id": 125,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuántas patas tiene una araña?",
+      "opciones": [
+        "6",
+        "8",
+        "10",
+        "4"
+      ],
+      "respuesta_correcta": "8"
+    },
+    {
+      "id": 126,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el continente más grande del mundo?",
+      "opciones": [
+        "África",
+        "Asia",
+        "América",
+        "Europa"
+      ],
+      "respuesta_correcta": "Asia"
+    },
+    {
+      "id": 127,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el continente más pequeño del mundo?",
+      "opciones": [
+        "Europa",
+        "Oceanía",
+        "La Antártida",
+        "América"
+      ],
+      "respuesta_correcta": "Oceanía"
+    },
+    {
+      "id": 128,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el planeta más grande del sistema solar?",
+      "opciones": [
+        "Saturno",
+        "Júpiter",
+        "Neptuno",
+        "Tierra"
+      ],
+      "respuesta_correcta": "Júpiter"
+    },
+    {
+      "id": 129,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuántos meses tiene un año?",
+      "opciones": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "respuesta_correcta": "12"
+    },
+    {
+      "id": 130,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué elemento químico tiene el símbolo 'Fe'?",
+      "opciones": [
+        "Oro",
+        "Plata",
+        "Hierro",
+        "Cobre"
+      ],
+      "respuesta_correcta": "Hierro"
+    },
+    {
+      "id": 131,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el animal terrestre más grande?",
+      "opciones": [
+        "Jirafa",
+        "Elefante",
+        "Rinoceronte",
+        "Hipopótamo"
+      ],
+      "respuesta_correcta": "Elefante"
+    },
+    {
+      "id": 132,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuántas horas tiene un día?",
+      "opciones": [
+        "12",
+        "20",
+        "24",
+        "48"
+      ],
+      "respuesta_correcta": "24"
+    },
+    {
+      "id": 133,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuál es el idioma con más hablantes nativos del mundo?",
+      "opciones": [
+        "Inglés",
+        "Español",
+        "Chino mandarín",
+        "Hindi"
+      ],
+      "respuesta_correcta": "Chino mandarín"
+    },
+    {
+      "id": 134,
+      "categoria": "Cultura General",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué órgano bombea la sangre en el cuerpo humano?",
+      "opciones": [
+        "El hígado",
+        "El corazón",
+        "Los pulmones",
+        "El cerebro"
+      ],
+      "respuesta_correcta": "El corazón"
+    },
+    {
+      "id": 135,
+      "categoria": "Música y Cine",
+      "dificultad": "Baja",
+      "pregunta": "¿Quién interpreta 'Despacito' junto a Daddy Yankee?",
+      "opciones": [
+        "Enrique Iglesias",
+        "Luis Fonsi",
+        "Ricky Martin",
+        "Maluma"
+      ],
+      "respuesta_correcta": "Luis Fonsi"
+    },
+    {
+      "id": 136,
+      "categoria": "Música y Cine",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué artista es conocida como 'La Bichota'?",
+      "opciones": [
+        "Shakira",
+        "Karol G",
+        "Greeicy",
+        "Anitta"
+      ],
+      "respuesta_correcta": "Karol G"
+    },
+    {
+      "id": 137,
+      "categoria": "Música y Cine",
+      "dificultad": "Baja",
+      "pregunta": "¿Cómo se llama la película de Pixar sobre juguetes que cobran vida?",
+      "opciones": [
+        "Cars",
+        "Toy Story",
+        "Up",
+        "Coco"
+      ],
+      "respuesta_correcta": "Toy Story"
+    },
+    {
+      "id": 138,
+      "categoria": "Música y Cine",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué película coreana ganó el Óscar a Mejor Película en 2020?",
+      "opciones": [
+        "Joker",
+        "Parásitos",
+        "1917",
+        "Roma"
+      ],
+      "respuesta_correcta": "Parásitos"
+    },
+    {
+      "id": 139,
+      "categoria": "Música y Cine",
+      "dificultad": "Baja",
+      "pregunta": "¿Quién canta 'Rolling in the Deep'?",
+      "opciones": [
+        "Beyoncé",
+        "Adele",
+        "Rihanna",
+        "Taylor Swift"
+      ],
+      "respuesta_correcta": "Adele"
+    },
+    {
+      "id": 140,
+      "categoria": "Música y Cine",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué actor interpreta a Iron Man en el cine?",
+      "opciones": [
+        "Chris Evans",
+        "Robert Downey Jr.",
+        "Chris Hemsworth",
+        "Mark Ruffalo"
+      ],
+      "respuesta_correcta": "Robert Downey Jr."
+    },
+    {
+      "id": 141,
+      "categoria": "Música y Cine",
+      "dificultad": "Baja",
+      "pregunta": "¿Quién escribió los libros de Harry Potter?",
+      "opciones": [
+        "J.R.R. Tolkien",
+        "J.K. Rowling",
+        "Stephen King",
+        "Roald Dahl"
+      ],
+      "respuesta_correcta": "J.K. Rowling"
+    },
+    {
+      "id": 142,
+      "categoria": "Música y Cine",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué banda británica cantó 'Hey Jude'?",
+      "opciones": [
+        "Queen",
+        "The Beatles",
+        "Rolling Stones",
+        "Pink Floyd"
+      ],
+      "respuesta_correcta": "The Beatles"
+    },
+    {
+      "id": 143,
+      "categoria": "Acertijos",
+      "dificultad": "Baja",
+      "pregunta": "¿Cuántos meses del año tienen 28 días?",
+      "opciones": [
+        "Uno",
+        "Dos",
+        "Ninguno",
+        "Todos"
+      ],
+      "respuesta_correcta": "Todos"
+    },
+    {
+      "id": 144,
+      "categoria": "Acertijos",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué se moja mientras más se seca?",
+      "opciones": [
+        "La esponja",
+        "La toalla",
+        "El jabón",
+        "El agua"
+      ],
+      "respuesta_correcta": "La toalla"
+    },
+    {
+      "id": 145,
+      "categoria": "Acertijos",
+      "dificultad": "Baja",
+      "pregunta": "¿Qué tiene ojos pero no puede ver?",
+      "opciones": [
+        "La aguja",
+        "El gato",
+        "La ventana",
+        "El espejo"
+      ],
+      "respuesta_correcta": "La aguja"
     }
   ]
 }

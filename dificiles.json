@@ -845,6 +845,981 @@
         "Paladio"
       ],
       "respuesta_correcta": "Cobre"
+    },
+    {
+      "id": 66,
+      "categoria": "Acertijo / Lógica",
+      "dificultad": "Alta",
+      "pregunta": "Dos cuerdas tardan 1 hora en arder (a ritmo irregular). ¿Cómo mides 45 minutos?",
+      "opciones": [
+        "Una por los dos extremos y la otra por uno",
+        "Las dos por un solo extremo",
+        "Cortar una cuerda por la mitad",
+        "No se puede medir"
+      ],
+      "respuesta_correcta": "Una por los dos extremos y la otra por uno"
+    },
+    {
+      "id": 67,
+      "categoria": "Acertijo / Lógica",
+      "dificultad": "Alta",
+      "pregunta": "3 interruptores encienden 3 bombillas de otra sala. Entras una sola vez. ¿Cómo sabes cuál es cuál?",
+      "opciones": [
+        "Encender uno, apagarlo y tocar la bombilla",
+        "Encender los tres y entrar",
+        "Encender uno y mirar el brillo",
+        "No se puede saber"
+      ],
+      "respuesta_correcta": "Encender uno, apagarlo y tocar la bombilla"
+    },
+    {
+      "id": 68,
+      "categoria": "Acertijo / Lógica",
+      "dificultad": "Alta",
+      "pregunta": "Un hombre vive en el piso 10, pero solo sube al 7; si llueve, sube al 10. ¿Por qué?",
+      "opciones": [
+        "Es bajito y con el paraguas alcanza el botón",
+        "Le gusta caminar",
+        "El ascensor se daña si llueve",
+        "En realidad vive en el 7"
+      ],
+      "respuesta_correcta": "Es bajito y con el paraguas alcanza el botón"
+    },
+    {
+      "id": 69,
+      "categoria": "Acertijo / Lógica",
+      "dificultad": "Alta",
+      "pregunta": "El padre muere en un accidente; del hijo, el cirujano dice: \"No puedo operarlo, es mi hijo\". ¿Cómo?",
+      "opciones": [
+        "El cirujano es su madre",
+        "El padre no murió",
+        "El cirujano es el abuelo",
+        "El niño era adoptado"
+      ],
+      "respuesta_correcta": "El cirujano es su madre"
+    },
+    {
+      "id": 70,
+      "categoria": "Acertijo / Lógica",
+      "dificultad": "Alta",
+      "pregunta": "3 cajas: manzanas, naranjas y mezcla, todas mal etiquetadas. Sacas 1 fruta de 1 caja. ¿De cuál?",
+      "opciones": [
+        "De la caja \"mezcla\"",
+        "De la caja \"manzanas\"",
+        "De la caja \"naranjas\"",
+        "De cualquiera"
+      ],
+      "respuesta_correcta": "De la caja \"mezcla\""
+    },
+    {
+      "id": 71,
+      "categoria": "Acertijo / Lógica",
+      "dificultad": "Alta",
+      "pregunta": "Dos padres y dos hijos pescan 3 peces, uno cada uno. ¿Cómo es posible?",
+      "opciones": [
+        "Son abuelo, padre y nieto",
+        "Uno pescó dos peces",
+        "Uno se escapó",
+        "Son cuatro y uno no pescó"
+      ],
+      "respuesta_correcta": "Son abuelo, padre y nieto"
+    },
+    {
+      "id": 72,
+      "categoria": "Acertijo / Lógica",
+      "dificultad": "Alta",
+      "pregunta": "¿Cómo repartes 10 caramelos entre 10 niños y aún queda 1 dentro de la caja?",
+      "opciones": [
+        "Al último le das la caja con su caramelo",
+        "Te comes uno",
+        "Le das dos a un niño",
+        "No es posible"
+      ],
+      "respuesta_correcta": "Al último le das la caja con su caramelo"
+    },
+    {
+      "id": 73,
+      "categoria": "Acertijo / Lógica",
+      "dificultad": "Alta",
+      "pregunta": "Un rey ordena tener hijos hasta que nazca una niña. ¿Qué proporción de niñas y niños habrá?",
+      "opciones": [
+        "1 niña por cada niño",
+        "Muchas más niñas",
+        "Muchos más niños",
+        "2 niñas por niño"
+      ],
+      "respuesta_correcta": "1 niña por cada niño"
+    },
+    {
+      "id": 74,
+      "categoria": "Acertijo / Lógica",
+      "dificultad": "Alta",
+      "pregunta": "3 edades multiplican 72 y suman el nº de casa. Con la suma no basta, pero hay un solo mayor. ¿Edades?",
+      "opciones": [
+        "3, 3 y 8",
+        "2, 6 y 6",
+        "2, 4 y 9",
+        "1, 8 y 9"
+      ],
+      "respuesta_correcta": "3, 3 y 8"
+    },
+    {
+      "id": 75,
+      "categoria": "Acertijo / Lógica",
+      "dificultad": "Alta",
+      "pregunta": "Un mono equilibra con un peso por una polea. Si el mono sube por la cuerda, ¿qué pasa?",
+      "opciones": [
+        "El peso sube igual que él",
+        "El peso baja",
+        "El peso sube y el mono no",
+        "El mono no puede subir"
+      ],
+      "respuesta_correcta": "El peso sube igual que él"
+    },
+    {
+      "id": 76,
+      "categoria": "Acertijo / Lógica",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué número sigue: 1, 11, 21, 1211, 111221, 312211...?",
+      "opciones": [
+        "13112221",
+        "122111",
+        "3122111",
+        "1112221"
+      ],
+      "respuesta_correcta": "13112221"
+    },
+    {
+      "id": 77,
+      "categoria": "Acertijo / Lógica",
+      "dificultad": "Alta",
+      "pregunta": "4 personas cruzan un puente de noche (1, 2, 5 y 8 min) con 1 linterna; máximo 2 a la vez. ¿Tiempo mínimo?",
+      "opciones": [
+        "15 minutos",
+        "19 minutos",
+        "16 minutos",
+        "14 minutos"
+      ],
+      "respuesta_correcta": "15 minutos"
+    },
+    {
+      "id": 78,
+      "categoria": "Acertijo / Lógica",
+      "dificultad": "Alta",
+      "pregunta": "Con relojes de arena de 7 y 11 minutos, ¿cómo mides exactamente 15 minutos?",
+      "opciones": [
+        "Girar los dos y reiniciar el de 7 al terminar",
+        "Usar el de 7 dos veces",
+        "Sumar 7 + 11 y restar 3",
+        "No es posible"
+      ],
+      "respuesta_correcta": "Girar los dos y reiniciar el de 7 al terminar"
+    },
+    {
+      "id": 79,
+      "categoria": "Acertijo / Lógica",
+      "dificultad": "Alta",
+      "pregunta": "Cruzas zorro, gallina y trigo; la barca lleva 1. Zorro y gallina no pueden quedar solos, ni gallina y trigo. ¿Primero?",
+      "opciones": [
+        "La gallina",
+        "El zorro",
+        "El trigo",
+        "No se puede"
+      ],
+      "respuesta_correcta": "La gallina"
+    },
+    {
+      "id": 80,
+      "categoria": "Acertijo / Lógica",
+      "dificultad": "Alta",
+      "pregunta": "Un juez declara culpable a un hombre de un crimen grave, pero lo deja libre. ¿Por qué?",
+      "opciones": [
+        "Es siamés de un inocente",
+        "El herido no murió",
+        "Fue en defensa propia",
+        "El juez fue sobornado"
+      ],
+      "respuesta_correcta": "Es siamés de un inocente"
+    },
+    {
+      "id": 81,
+      "categoria": "Biología",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el hueso más pequeño del cuerpo humano?",
+      "opciones": [
+        "El martillo",
+        "El estribo",
+        "El yunque",
+        "El hioides"
+      ],
+      "respuesta_correcta": "El estribo"
+    },
+    {
+      "id": 82,
+      "categoria": "Biología",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuántos cromosomas tiene una célula humana normal?",
+      "opciones": [
+        "44",
+        "46",
+        "48",
+        "23"
+      ],
+      "respuesta_correcta": "46"
+    },
+    {
+      "id": 83,
+      "categoria": "Biología",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué órgano produce la insulina?",
+      "opciones": [
+        "El hígado",
+        "El páncreas",
+        "El riñón",
+        "El bazo"
+      ],
+      "respuesta_correcta": "El páncreas"
+    },
+    {
+      "id": 84,
+      "categoria": "Biología",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el grupo sanguíneo considerado donante universal?",
+      "opciones": [
+        "AB positivo",
+        "O negativo",
+        "A positivo",
+        "B negativo"
+      ],
+      "respuesta_correcta": "O negativo"
+    },
+    {
+      "id": 85,
+      "categoria": "Biología",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué tipo de animal es el ornitorrinco?",
+      "opciones": [
+        "Un reptil",
+        "Un mamífero que pone huevos",
+        "Un anfibio",
+        "Un ave"
+      ],
+      "respuesta_correcta": "Un mamífero que pone huevos"
+    },
+    {
+      "id": 86,
+      "categoria": "Biología",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué célula de la sangre transporta el oxígeno?",
+      "opciones": [
+        "El glóbulo blanco",
+        "El glóbulo rojo",
+        "La plaqueta",
+        "La neurona"
+      ],
+      "respuesta_correcta": "El glóbulo rojo"
+    },
+    {
+      "id": 87,
+      "categoria": "Biología",
+      "dificultad": "Alta",
+      "pregunta": "¿Cómo se llama el proceso con el que las plantas producen su alimento?",
+      "opciones": [
+        "Respiración",
+        "Fotosíntesis",
+        "Digestión",
+        "Fermentación"
+      ],
+      "respuesta_correcta": "Fotosíntesis"
+    },
+    {
+      "id": 88,
+      "categoria": "Biología",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuántas cavidades tiene el corazón humano?",
+      "opciones": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "respuesta_correcta": "4"
+    },
+    {
+      "id": 89,
+      "categoria": "Biología",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el animal más grande del planeta?",
+      "opciones": [
+        "El elefante",
+        "La ballena azul",
+        "El tiburón blanco",
+        "La jirafa"
+      ],
+      "respuesta_correcta": "La ballena azul"
+    },
+    {
+      "id": 90,
+      "categoria": "Biología",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué parte de la célula contiene el ADN?",
+      "opciones": [
+        "La membrana",
+        "El núcleo",
+        "El citoplasma",
+        "La mitocondria"
+      ],
+      "respuesta_correcta": "El núcleo"
+    },
+    {
+      "id": 91,
+      "categoria": "Biología",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el animal terrestre más rápido?",
+      "opciones": [
+        "El león",
+        "El guepardo",
+        "El antílope",
+        "El caballo"
+      ],
+      "respuesta_correcta": "El guepardo"
+    },
+    {
+      "id": 92,
+      "categoria": "Biología",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué vitamina produce el cuerpo con la exposición al sol?",
+      "opciones": [
+        "Vitamina A",
+        "Vitamina C",
+        "Vitamina D",
+        "Vitamina K"
+      ],
+      "respuesta_correcta": "Vitamina D"
+    },
+    {
+      "id": 93,
+      "categoria": "Química",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el elemento más abundante del universo?",
+      "opciones": [
+        "Oxígeno",
+        "Hidrógeno",
+        "Helio",
+        "Carbono"
+      ],
+      "respuesta_correcta": "Hidrógeno"
+    },
+    {
+      "id": 94,
+      "categoria": "Química",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el símbolo químico del oro?",
+      "opciones": [
+        "Ag",
+        "Au",
+        "Fe",
+        "Or"
+      ],
+      "respuesta_correcta": "Au"
+    },
+    {
+      "id": 95,
+      "categoria": "Química",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el gas que respiramos para vivir?",
+      "opciones": [
+        "Nitrógeno",
+        "Oxígeno",
+        "Dióxido de carbono",
+        "Hidrógeno"
+      ],
+      "respuesta_correcta": "Oxígeno"
+    },
+    {
+      "id": 96,
+      "categoria": "Física",
+      "dificultad": "Alta",
+      "pregunta": "¿A qué velocidad viaja la luz en el vacío, aproximadamente?",
+      "opciones": [
+        "30.000 km/s",
+        "300.000 km/s",
+        "3.000.000 km/s",
+        "3.000 km/s"
+      ],
+      "respuesta_correcta": "300.000 km/s"
+    },
+    {
+      "id": 97,
+      "categoria": "Química",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el único metal líquido a temperatura ambiente?",
+      "opciones": [
+        "Plomo",
+        "Mercurio",
+        "Aluminio",
+        "Estaño"
+      ],
+      "respuesta_correcta": "Mercurio"
+    },
+    {
+      "id": 98,
+      "categoria": "Física",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué fuerza nos mantiene pegados a la superficie de la Tierra?",
+      "opciones": [
+        "El magnetismo",
+        "La gravedad",
+        "La fricción",
+        "La inercia"
+      ],
+      "respuesta_correcta": "La gravedad"
+    },
+    {
+      "id": 99,
+      "categoria": "Química",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es la fórmula química del agua?",
+      "opciones": [
+        "CO2",
+        "H2O",
+        "O2",
+        "NaCl"
+      ],
+      "respuesta_correcta": "H2O"
+    },
+    {
+      "id": 100,
+      "categoria": "Física",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué científico formuló la teoría de la relatividad?",
+      "opciones": [
+        "Newton",
+        "Einstein",
+        "Galileo",
+        "Tesla"
+      ],
+      "respuesta_correcta": "Einstein"
+    },
+    {
+      "id": 101,
+      "categoria": "Química",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el pH del agua pura?",
+      "opciones": [
+        "0",
+        "7",
+        "14",
+        "1"
+      ],
+      "respuesta_correcta": "7"
+    },
+    {
+      "id": 102,
+      "categoria": "Física",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué partícula subatómica tiene carga negativa?",
+      "opciones": [
+        "El protón",
+        "El neutrón",
+        "El electrón",
+        "El fotón"
+      ],
+      "respuesta_correcta": "El electrón"
+    },
+    {
+      "id": 103,
+      "categoria": "Química",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el elemento más abundante en la corteza terrestre?",
+      "opciones": [
+        "Silicio",
+        "Oxígeno",
+        "Aluminio",
+        "Hierro"
+      ],
+      "respuesta_correcta": "Oxígeno"
+    },
+    {
+      "id": 104,
+      "categoria": "Física",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué unidad se usa para medir la fuerza?",
+      "opciones": [
+        "El joule",
+        "El newton",
+        "El watt",
+        "El voltio"
+      ],
+      "respuesta_correcta": "El newton"
+    },
+    {
+      "id": 105,
+      "categoria": "Geografía",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el país más poblado del mundo en la actualidad?",
+      "opciones": [
+        "China",
+        "India",
+        "Estados Unidos",
+        "Indonesia"
+      ],
+      "respuesta_correcta": "India"
+    },
+    {
+      "id": 106,
+      "categoria": "Geografía",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el lago más profundo del mundo?",
+      "opciones": [
+        "Titicaca",
+        "Baikal",
+        "Victoria",
+        "Superior"
+      ],
+      "respuesta_correcta": "Baikal"
+    },
+    {
+      "id": 107,
+      "categoria": "Geografía",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el país más pequeño del mundo?",
+      "opciones": [
+        "Mónaco",
+        "El Vaticano",
+        "Nauru",
+        "San Marino"
+      ],
+      "respuesta_correcta": "El Vaticano"
+    },
+    {
+      "id": 108,
+      "categoria": "Geografía",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es la capital de Australia?",
+      "opciones": [
+        "Sídney",
+        "Canberra",
+        "Melbourne",
+        "Perth"
+      ],
+      "respuesta_correcta": "Canberra"
+    },
+    {
+      "id": 109,
+      "categoria": "Geografía",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué dos países comparten la cima del Everest?",
+      "opciones": [
+        "India y Nepal",
+        "Nepal y China",
+        "China e India",
+        "Bután y Nepal"
+      ],
+      "respuesta_correcta": "Nepal y China"
+    },
+    {
+      "id": 110,
+      "categoria": "Geografía",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el cuerpo de agua más salado del mundo?",
+      "opciones": [
+        "Mar Rojo",
+        "Mar Muerto",
+        "Mar Negro",
+        "Mar Caspio"
+      ],
+      "respuesta_correcta": "Mar Muerto"
+    },
+    {
+      "id": 111,
+      "categoria": "Geografía",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el país más extenso de Sudamérica?",
+      "opciones": [
+        "Argentina",
+        "Brasil",
+        "Perú",
+        "Colombia"
+      ],
+      "respuesta_correcta": "Brasil"
+    },
+    {
+      "id": 112,
+      "categoria": "Geografía",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es la capital de Canadá?",
+      "opciones": [
+        "Toronto",
+        "Ottawa",
+        "Montreal",
+        "Vancouver"
+      ],
+      "respuesta_correcta": "Ottawa"
+    },
+    {
+      "id": 113,
+      "categoria": "Geografía",
+      "dificultad": "Alta",
+      "pregunta": "¿En qué continente se encuentra el desierto de Atacama?",
+      "opciones": [
+        "África",
+        "Asia",
+        "América",
+        "Oceanía"
+      ],
+      "respuesta_correcta": "América"
+    },
+    {
+      "id": 114,
+      "categoria": "Geografía",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el río más caudaloso del mundo?",
+      "opciones": [
+        "Nilo",
+        "Amazonas",
+        "Yangtsé",
+        "Misisipi"
+      ],
+      "respuesta_correcta": "Amazonas"
+    },
+    {
+      "id": 115,
+      "categoria": "Historia",
+      "dificultad": "Alta",
+      "pregunta": "¿En qué año comenzó la Segunda Guerra Mundial?",
+      "opciones": [
+        "1914",
+        "1939",
+        "1945",
+        "1929"
+      ],
+      "respuesta_correcta": "1939"
+    },
+    {
+      "id": 116,
+      "categoria": "Historia",
+      "dificultad": "Alta",
+      "pregunta": "¿En qué año terminó la Segunda Guerra Mundial?",
+      "opciones": [
+        "1939",
+        "1945",
+        "1950",
+        "1918"
+      ],
+      "respuesta_correcta": "1945"
+    },
+    {
+      "id": 117,
+      "categoria": "Historia",
+      "dificultad": "Alta",
+      "pregunta": "¿Quién fue el primer emperador romano?",
+      "opciones": [
+        "Julio César",
+        "Augusto",
+        "Nerón",
+        "Constantino"
+      ],
+      "respuesta_correcta": "Augusto"
+    },
+    {
+      "id": 118,
+      "categoria": "Historia",
+      "dificultad": "Alta",
+      "pregunta": "¿En qué año cayó el Muro de Berlín?",
+      "opciones": [
+        "1985",
+        "1989",
+        "1991",
+        "1979"
+      ],
+      "respuesta_correcta": "1989"
+    },
+    {
+      "id": 119,
+      "categoria": "Historia",
+      "dificultad": "Alta",
+      "pregunta": "¿Quién llegó a América en 1492?",
+      "opciones": [
+        "Magallanes",
+        "Cristóbal Colón",
+        "Vasco da Gama",
+        "Américo Vespucio"
+      ],
+      "respuesta_correcta": "Cristóbal Colón"
+    },
+    {
+      "id": 120,
+      "categoria": "Historia",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál fue una de las primeras civilizaciones en desarrollar la escritura?",
+      "opciones": [
+        "Los egipcios",
+        "Los sumerios",
+        "Los griegos",
+        "Los romanos"
+      ],
+      "respuesta_correcta": "Los sumerios"
+    },
+    {
+      "id": 121,
+      "categoria": "Historia",
+      "dificultad": "Alta",
+      "pregunta": "¿Quién fue el líder de la independencia de la India?",
+      "opciones": [
+        "Nehru",
+        "Mahatma Gandhi",
+        "Nelson Mandela",
+        "Tagore"
+      ],
+      "respuesta_correcta": "Mahatma Gandhi"
+    },
+    {
+      "id": 122,
+      "categoria": "Historia",
+      "dificultad": "Alta",
+      "pregunta": "¿En qué año llegó el hombre a la Luna?",
+      "opciones": [
+        "1959",
+        "1969",
+        "1972",
+        "1965"
+      ],
+      "respuesta_correcta": "1969"
+    },
+    {
+      "id": 123,
+      "categoria": "Historia",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué civilización construyó Machu Picchu?",
+      "opciones": [
+        "Los mayas",
+        "Los aztecas",
+        "El Imperio Inca",
+        "Los olmecas"
+      ],
+      "respuesta_correcta": "El Imperio Inca"
+    },
+    {
+      "id": 124,
+      "categoria": "Historia",
+      "dificultad": "Alta",
+      "pregunta": "¿Quién fue el primer presidente de Estados Unidos?",
+      "opciones": [
+        "Lincoln",
+        "George Washington",
+        "Jefferson",
+        "Adams"
+      ],
+      "respuesta_correcta": "George Washington"
+    },
+    {
+      "id": 125,
+      "categoria": "Matemáticas",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuánto es 7 × 8?",
+      "opciones": [
+        "54",
+        "56",
+        "48",
+        "64"
+      ],
+      "respuesta_correcta": "56"
+    },
+    {
+      "id": 126,
+      "categoria": "Matemáticas",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es la raíz cuadrada de 144?",
+      "opciones": [
+        "11",
+        "12",
+        "14",
+        "16"
+      ],
+      "respuesta_correcta": "12"
+    },
+    {
+      "id": 127,
+      "categoria": "Matemáticas",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuánto es el factorial de 5 (5!)?",
+      "opciones": [
+        "25",
+        "60",
+        "120",
+        "720"
+      ],
+      "respuesta_correcta": "120"
+    },
+    {
+      "id": 128,
+      "categoria": "Matemáticas",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuánto es el 15% de 200?",
+      "opciones": [
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "respuesta_correcta": "30"
+    },
+    {
+      "id": 129,
+      "categoria": "Matemáticas",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el número primo que sigue después del 7?",
+      "opciones": [
+        "9",
+        "10",
+        "11",
+        "13"
+      ],
+      "respuesta_correcta": "11"
+    },
+    {
+      "id": 130,
+      "categoria": "Matemáticas",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuánto es 2 elevado a la 10?",
+      "opciones": [
+        "512",
+        "1024",
+        "2048",
+        "100"
+      ],
+      "respuesta_correcta": "1024"
+    },
+    {
+      "id": 131,
+      "categoria": "Matemáticas",
+      "dificultad": "Alta",
+      "pregunta": "Si un triángulo rectángulo tiene catetos de 3 y 4, ¿cuánto mide la hipotenusa?",
+      "opciones": [
+        "6",
+        "7",
+        "5",
+        "4"
+      ],
+      "respuesta_correcta": "5"
+    },
+    {
+      "id": 132,
+      "categoria": "Matemáticas",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuántos segundos tiene una hora?",
+      "opciones": [
+        "600",
+        "3600",
+        "60",
+        "360"
+      ],
+      "respuesta_correcta": "3600"
+    },
+    {
+      "id": 133,
+      "categoria": "Matemáticas",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el resultado de 100 ÷ 4?",
+      "opciones": [
+        "20",
+        "25",
+        "40",
+        "50"
+      ],
+      "respuesta_correcta": "25"
+    },
+    {
+      "id": 134,
+      "categoria": "Matemáticas",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el resultado de la mitad de 2 más 2?",
+      "opciones": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "respuesta_correcta": "3"
+    },
+    {
+      "id": 135,
+      "categoria": "Astronomía",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el planeta más cercano al Sol?",
+      "opciones": [
+        "Venus",
+        "Mercurio",
+        "Tierra",
+        "Marte"
+      ],
+      "respuesta_correcta": "Mercurio"
+    },
+    {
+      "id": 136,
+      "categoria": "Astronomía",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuál es el planeta conocido como el 'planeta rojo'?",
+      "opciones": [
+        "Júpiter",
+        "Marte",
+        "Venus",
+        "Saturno"
+      ],
+      "respuesta_correcta": "Marte"
+    },
+    {
+      "id": 137,
+      "categoria": "Astronomía",
+      "dificultad": "Alta",
+      "pregunta": "¿Qué planeta es conocido como el gemelo de la Tierra por su tamaño?",
+      "opciones": [
+        "Marte",
+        "Venus",
+        "Mercurio",
+        "Neptuno"
+      ],
+      "respuesta_correcta": "Venus"
+    },
+    {
+      "id": 138,
+      "categoria": "Astronomía",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuántos satélites naturales tiene Marte?",
+      "opciones": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "respuesta_correcta": "2"
+    },
+    {
+      "id": 139,
+      "categoria": "Astronomía",
+      "dificultad": "Alta",
+      "pregunta": "¿Cómo se llama nuestra galaxia?",
+      "opciones": [
+        "Andrómeda",
+        "Vía Láctea",
+        "Orión",
+        "Magallanes"
+      ],
+      "respuesta_correcta": "Vía Láctea"
+    },
+    {
+      "id": 140,
+      "categoria": "Astronomía",
+      "dificultad": "Alta",
+      "pregunta": "¿Cuántos planetas tiene el sistema solar?",
+      "opciones": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "respuesta_correcta": "8"
     }
   ]
 }

@@ -33,7 +33,12 @@
       "categoria": "Disney",
       "dificultad": "Media",
       "pregunta": "¿Cómo se llama el muñeco de nieve que sueña con el verano en 'Frozen'?",
-      "opciones": ["Sven", "Kristoff", "Olaf", "Hans"],
+      "opciones": [
+        "Sven",
+        "Kristoff",
+        "Olaf",
+        "Hans"
+      ],
       "respuesta_correcta": "Olaf"
     },
     {
@@ -132,7 +137,12 @@
       "categoria": "Disney",
       "dificultad": "Media",
       "pregunta": "¿Cómo se llama el pez cirujano azul que tiene mala memoria en 'Buscando a Nemo'?",
-      "opciones": ["Marlin", "Dory", "Nemo", "Bruce"],
+      "opciones": [
+        "Marlin",
+        "Dory",
+        "Nemo",
+        "Bruce"
+      ],
       "respuesta_correcta": "Dory"
     },
     {
@@ -179,7 +189,12 @@
       "categoria": "Disney",
       "dificultad": "Media",
       "pregunta": "¿Cuál es el nombre de la villana que quiere hacerse un abrigo con cachorros dálmatas?",
-      "opciones": ["Maléfica", "Ursula", "Cruella de Vil", "Gothel"],
+      "opciones": [
+        "Maléfica",
+        "Ursula",
+        "Cruella de Vil",
+        "Gothel"
+      ],
       "respuesta_correcta": "Cruella de Vil"
     },
     {
@@ -200,7 +215,12 @@
       "categoria": "Música y Parranda",
       "dificultad": "Media",
       "pregunta": "¿De qué parte de Colombia es originario el género musical Vallenato?",
-      "opciones": ["Barranquilla", "Valledupar", "Santa Marta", "Montería"],
+      "opciones": [
+        "Barranquilla",
+        "Valledupar",
+        "Santa Marta",
+        "Montería"
+      ],
       "respuesta_correcta": "Valledupar"
     },
     {
@@ -208,7 +228,12 @@
       "categoria": "Videojuegos",
       "dificultad": "Media",
       "pregunta": "¿Cómo se llama el protagonista del juego 'God of War'?",
-      "opciones": ["Zeus", "Kratos", "Thor", "Atreus"],
+      "opciones": [
+        "Zeus",
+        "Kratos",
+        "Thor",
+        "Atreus"
+      ],
       "respuesta_correcta": "Kratos"
     },
     {
@@ -216,7 +241,12 @@
       "categoria": "Disney",
       "dificultad": "Media",
       "pregunta": "¿Cuál es el nombre del vaquero protagonista en 'Toy Story'?",
-      "opciones": ["Buzz Lightyear", "Rex", "Woody", "Slinky"],
+      "opciones": [
+        "Buzz Lightyear",
+        "Rex",
+        "Woody",
+        "Slinky"
+      ],
       "respuesta_correcta": "Woody"
     },
     {
@@ -224,7 +254,12 @@
       "categoria": "Telenovelas",
       "dificultad": "Media",
       "pregunta": "En la novela 'Pedro el Escamoso', ¿cómo se llamaba el baile icónico de Pedro Coral?",
-      "opciones": ["El Meneaito", "El Pirulino", "La Macarena", "El Gallinazo"],
+      "opciones": [
+        "El Meneaito",
+        "El Pirulino",
+        "La Macarena",
+        "El Gallinazo"
+      ],
       "respuesta_correcta": "El Pirulino"
     },
     {
@@ -245,7 +280,12 @@
       "categoria": "Música Pop",
       "dificultad": "Media",
       "pregunta": "¿A qué cantante colombiana se le conoce mundialmente como 'La Bichota'?",
-      "opciones": ["Greeicy", "Shakira", "Karol G", "Farina"],
+      "opciones": [
+        "Greeicy",
+        "Shakira",
+        "Karol G",
+        "Farina"
+      ],
       "respuesta_correcta": "Karol G"
     },
     {
@@ -253,7 +293,12 @@
       "categoria": "Disney",
       "dificultad": "Media",
       "pregunta": "¿Cómo se llama la princesa que tiene una larga cabellera mágica en 'Enredados'?",
-      "opciones": ["Mérida", "Rapunzel", "Tiana", "Aurora"],
+      "opciones": [
+        "Mérida",
+        "Rapunzel",
+        "Tiana",
+        "Aurora"
+      ],
       "respuesta_correcta": "Rapunzel"
     },
     {
@@ -287,7 +332,12 @@
       "categoria": "Videojuegos",
       "dificultad": "Media",
       "pregunta": "¿En qué consola salió originalmente el juego 'Super Mario 64'?",
-      "opciones": ["Super Nintendo", "Nintendo 64", "GameCube", "Game Boy"],
+      "opciones": [
+        "Super Nintendo",
+        "Nintendo 64",
+        "GameCube",
+        "Game Boy"
+      ],
       "respuesta_correcta": "Nintendo 64"
     },
     {
@@ -295,7 +345,12 @@
       "categoria": "Disney/Pixar",
       "dificultad": "Media",
       "pregunta": "¿Cómo se llama el rayo de carreras protagonista en 'Cars'?",
-      "opciones": ["Rayo McQueen", "Mate", "Chick Hicks", "Hudson Hornet"],
+      "opciones": [
+        "Rayo McQueen",
+        "Mate",
+        "Chick Hicks",
+        "Hudson Hornet"
+      ],
       "respuesta_correcta": "Rayo McQueen"
     },
     {
@@ -342,7 +397,12 @@
       "categoria": "Disney",
       "dificultad": "Media",
       "pregunta": "¿Cómo se llama el cangrejo que canta 'Bajo el mar' en 'La Sirenita'?",
-      "opciones": ["Flounder", "Sebastián", "Scuttle", "Tritón"],
+      "opciones": [
+        "Flounder",
+        "Sebastián",
+        "Scuttle",
+        "Tritón"
+      ],
       "respuesta_correcta": "Sebastián"
     },
     {
@@ -363,7 +423,12 @@
       "categoria": "Cultura Pop Colombia",
       "dificultad": "Media",
       "pregunta": "¿En qué año ganó la Selección Colombia el histórico 5-0 contra Argentina?",
-      "opciones": ["1990", "1993", "1994", "1998"],
+      "opciones": [
+        "1990",
+        "1993",
+        "1994",
+        "1998"
+      ],
       "respuesta_correcta": "1993"
     },
     {
@@ -423,7 +488,12 @@
       "categoria": "Disney",
       "dificultad": "Media",
       "pregunta": "¿Cuál es el nombre de la marioneta de madera que quiere ser un niño de verdad?",
-      "opciones": ["Gepetto", "Pinocho", "Pepito Grillo", "Figaro"],
+      "opciones": [
+        "Gepetto",
+        "Pinocho",
+        "Pepito Grillo",
+        "Figaro"
+      ],
       "respuesta_correcta": "Pinocho"
     },
     {
@@ -444,7 +514,12 @@
       "categoria": "Videojuegos",
       "dificultad": "Media",
       "pregunta": "¿Cuál es el nombre del mundo donde vive Mario Bros?",
-      "opciones": ["Reino Champiñón", "Hyrule", "Dream Land", "Isla Yoshi"],
+      "opciones": [
+        "Reino Champiñón",
+        "Hyrule",
+        "Dream Land",
+        "Isla Yoshi"
+      ],
       "respuesta_correcta": "Reino Champiñón"
     },
     {
@@ -465,7 +540,12 @@
       "categoria": "Disney",
       "dificultad": "Media",
       "pregunta": "¿Cómo se llama el mejor amigo extraterrestre de Lilo en su película?",
-      "opciones": ["Nani", "Stitch", "Angel", "Jumba"],
+      "opciones": [
+        "Nani",
+        "Stitch",
+        "Angel",
+        "Jumba"
+      ],
       "respuesta_correcta": "Stitch"
     },
     {
@@ -473,7 +553,12 @@
       "categoria": "Telenovelas",
       "dificultad": "Media",
       "pregunta": "¿Qué profesión tenía el protagonista de 'Pedro el Escamoso'?",
-      "opciones": ["Arquitecto", "Chofer", "Vendedor", "Modelo"],
+      "opciones": [
+        "Arquitecto",
+        "Chofer",
+        "Vendedor",
+        "Modelo"
+      ],
       "respuesta_correcta": "Chofer"
     },
     {
@@ -494,7 +579,12 @@
       "categoria": "Disney",
       "dificultad": "Media",
       "pregunta": "¿Cuál es el nombre del perro de Mickey Mouse?",
-      "opciones": ["Goofy", "Donald", "Pluto", "Max"],
+      "opciones": [
+        "Goofy",
+        "Donald",
+        "Pluto",
+        "Max"
+      ],
       "respuesta_correcta": "Pluto"
     },
     {
@@ -554,8 +644,988 @@
       "categoria": "Disney/Pixar",
       "dificultad": "Media",
       "pregunta": "¿Cuál es el nombre del niño que viaja al mundo de los muertos en 'Coco'?",
-      "opciones": ["Héctor", "Miguel", "Dante", "Ernesto"],
+      "opciones": [
+        "Héctor",
+        "Miguel",
+        "Dante",
+        "Ernesto"
+      ],
       "respuesta_correcta": "Miguel"
+    },
+    {
+      "id": 51,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "Complete el refrán: 'A quien buen árbol se arrima...'",
+      "opciones": [
+        "...buena sombra le cobija",
+        "...buen fruto le da",
+        "...buen viento le llega",
+        "...buena casa le dan"
+      ],
+      "respuesta_correcta": "...buena sombra le cobija"
+    },
+    {
+      "id": 52,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "Complete el refrán: 'No es oro todo...'",
+      "opciones": [
+        "...lo que reluce",
+        "...lo que brilla",
+        "...lo que se ve",
+        "...lo que pesa"
+      ],
+      "respuesta_correcta": "...lo que reluce"
+    },
+    {
+      "id": 53,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "Complete el refrán: 'Cría cuervos y...'",
+      "opciones": [
+        "...te darán suerte",
+        "...te sacarán los ojos",
+        "...volarán lejos",
+        "...cantarán bonito"
+      ],
+      "respuesta_correcta": "...te sacarán los ojos"
+    },
+    {
+      "id": 54,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "Complete el refrán: 'Cuando las barbas de tu vecino veas cortar...'",
+      "opciones": [
+        "...pon las tuyas a remojar",
+        "...corta las tuyas ya",
+        "...no hagas nada",
+        "...alaba al vecino"
+      ],
+      "respuesta_correcta": "...pon las tuyas a remojar"
+    },
+    {
+      "id": 55,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "Complete el refrán: 'El que ríe último...'",
+      "opciones": [
+        "...ríe mejor",
+        "...llora después",
+        "...gana",
+        "...se queda solo"
+      ],
+      "respuesta_correcta": "...ríe mejor"
+    },
+    {
+      "id": 56,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "Complete el refrán: 'Más vale tarde...'",
+      "opciones": [
+        "...que nunca",
+        "...que temprano",
+        "...que solo",
+        "...que nada"
+      ],
+      "respuesta_correcta": "...que nunca"
+    },
+    {
+      "id": 57,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "Complete el refrán: 'Donde hay confianza...'",
+      "opciones": [
+        "...da asco",
+        "...hay amor",
+        "...hay respeto",
+        "...hay dinero"
+      ],
+      "respuesta_correcta": "...da asco"
+    },
+    {
+      "id": 58,
+      "categoria": "Refranes Colombianos",
+      "dificultad": "Media",
+      "pregunta": "Complete el refrán: 'A palabras necias...'",
+      "opciones": [
+        "...oídos sordos",
+        "...ojos ciegos",
+        "...bocas mudas",
+        "...manos quietas"
+      ],
+      "respuesta_correcta": "...oídos sordos"
+    },
+    {
+      "id": 59,
+      "categoria": "Cultura Pop Colombia",
+      "dificultad": "Media",
+      "pregunta": "¿Cuál es el plato típico de la región Andina colombiana?",
+      "opciones": [
+        "Ajiaco",
+        "Ceviche",
+        "Bandeja paisa",
+        "Sancocho de pescado"
+      ],
+      "respuesta_correcta": "Ajiaco"
+    },
+    {
+      "id": 60,
+      "categoria": "Cultura Pop Colombia",
+      "dificultad": "Media",
+      "pregunta": "¿Cuál es el plato típico de la región paisa?",
+      "opciones": [
+        "Ajiaco",
+        "Bandeja paisa",
+        "Cazuela",
+        "Mute"
+      ],
+      "respuesta_correcta": "Bandeja paisa"
+    },
+    {
+      "id": 61,
+      "categoria": "Cultura Pop Colombia",
+      "dificultad": "Media",
+      "pregunta": "¿En qué ciudad se celebra el famoso Carnaval colombiano?",
+      "opciones": [
+        "Cartagena",
+        "Barranquilla",
+        "Santa Marta",
+        "Riohacha"
+      ],
+      "respuesta_correcta": "Barranquilla"
+    },
+    {
+      "id": 62,
+      "categoria": "Cultura Pop Colombia",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el sombrero típico de la costa Caribe colombiana?",
+      "opciones": [
+        "El panamá",
+        "El vueltiao",
+        "El aguadeño",
+        "El cordobés"
+      ],
+      "respuesta_correcta": "El vueltiao"
+    },
+    {
+      "id": 63,
+      "categoria": "Cultura Pop Colombia",
+      "dificultad": "Media",
+      "pregunta": "¿Qué escritor colombiano ganó el Premio Nobel de Literatura?",
+      "opciones": [
+        "Álvaro Mutis",
+        "Gabriel García Márquez",
+        "Jorge Isaacs",
+        "William Ospina"
+      ],
+      "respuesta_correcta": "Gabriel García Márquez"
+    },
+    {
+      "id": 64,
+      "categoria": "Cultura Pop Colombia",
+      "dificultad": "Media",
+      "pregunta": "¿Cuál es la moneda oficial de Colombia?",
+      "opciones": [
+        "El dólar",
+        "El peso",
+        "El bolívar",
+        "El sol"
+      ],
+      "respuesta_correcta": "El peso"
+    },
+    {
+      "id": 65,
+      "categoria": "Cultura Pop Colombia",
+      "dificultad": "Media",
+      "pregunta": "¿En qué municipio se encuentra la Piedra del Peñol?",
+      "opciones": [
+        "Medellín",
+        "Guatapé",
+        "Bogotá",
+        "Cali"
+      ],
+      "respuesta_correcta": "Guatapé"
+    },
+    {
+      "id": 66,
+      "categoria": "Disney/Pixar",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el padre de Simba en 'El Rey León'?",
+      "opciones": [
+        "Scar",
+        "Mufasa",
+        "Rafiki",
+        "Zazú"
+      ],
+      "respuesta_correcta": "Mufasa"
+    },
+    {
+      "id": 67,
+      "categoria": "Disney/Pixar",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el malvado tío de Simba?",
+      "opciones": [
+        "Scar",
+        "Mufasa",
+        "Rafiki",
+        "Banzai"
+      ],
+      "respuesta_correcta": "Scar"
+    },
+    {
+      "id": 68,
+      "categoria": "Disney/Pixar",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el genio que concede deseos en 'Aladdín'?",
+      "opciones": [
+        "Jafar",
+        "Genio",
+        "Abu",
+        "Iago"
+      ],
+      "respuesta_correcta": "Genio"
+    },
+    {
+      "id": 69,
+      "categoria": "Disney/Pixar",
+      "dificultad": "Media",
+      "pregunta": "¿Qué tipo de deseo NO puede conceder el Genio de 'Aladdín'?",
+      "opciones": [
+        "Volar",
+        "Resucitar a los muertos",
+        "Ser príncipe",
+        "Hacer magia"
+      ],
+      "respuesta_correcta": "Resucitar a los muertos"
+    },
+    {
+      "id": 70,
+      "categoria": "Disney/Pixar",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama la protagonista de 'Mulán'?",
+      "opciones": [
+        "Mushu",
+        "Mulán",
+        "Li Shang",
+        "Fa Zhou"
+      ],
+      "respuesta_correcta": "Mulán"
+    },
+    {
+      "id": 71,
+      "categoria": "Disney/Pixar",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el pequeño dragón que acompaña a Mulán?",
+      "opciones": [
+        "Mushu",
+        "Sisu",
+        "Sven",
+        "Pascal"
+      ],
+      "respuesta_correcta": "Mushu"
+    },
+    {
+      "id": 72,
+      "categoria": "Disney/Pixar",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama la protagonista de 'Enredados'?",
+      "opciones": [
+        "Rapunzel",
+        "Elsa",
+        "Mérida",
+        "Tiana"
+      ],
+      "respuesta_correcta": "Rapunzel"
+    },
+    {
+      "id": 73,
+      "categoria": "Disney/Pixar",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el camaleón de Rapunzel en 'Enredados'?",
+      "opciones": [
+        "Pascal",
+        "Sven",
+        "Mushu",
+        "Olaf"
+      ],
+      "respuesta_correcta": "Pascal"
+    },
+    {
+      "id": 74,
+      "categoria": "Disney/Pixar",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama la protagonista de 'Brave'?",
+      "opciones": [
+        "Mérida",
+        "Elsa",
+        "Moana",
+        "Vaiana"
+      ],
+      "respuesta_correcta": "Mérida"
+    },
+    {
+      "id": 75,
+      "categoria": "Disney/Pixar",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama la protagonista de 'Moana'?",
+      "opciones": [
+        "Vaiana",
+        "Mérida",
+        "Tiana",
+        "Elsa"
+      ],
+      "respuesta_correcta": "Vaiana"
+    },
+    {
+      "id": 76,
+      "categoria": "Disney/Pixar",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el semidiós tatuado que ayuda a Moana?",
+      "opciones": [
+        "Maui",
+        "Heihei",
+        "Tamatoa",
+        "Te Fiti"
+      ],
+      "respuesta_correcta": "Maui"
+    },
+    {
+      "id": 77,
+      "categoria": "Disney/Pixar",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el pez payaso protagonista de 'Buscando a Nemo'?",
+      "opciones": [
+        "Marlin",
+        "Nemo",
+        "Dory",
+        "Gill"
+      ],
+      "respuesta_correcta": "Nemo"
+    },
+    {
+      "id": 78,
+      "categoria": "Cine y Series",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el profesor de magia con barba blanca en Harry Potter?",
+      "opciones": [
+        "Snape",
+        "Dumbledore",
+        "Hagrid",
+        "Voldemort"
+      ],
+      "respuesta_correcta": "Dumbledore"
+    },
+    {
+      "id": 79,
+      "categoria": "Cine y Series",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el villano sin nariz de Harry Potter?",
+      "opciones": [
+        "Voldemort",
+        "Snape",
+        "Draco",
+        "Lucius"
+      ],
+      "respuesta_correcta": "Voldemort"
+    },
+    {
+      "id": 80,
+      "categoria": "Cine y Series",
+      "dificultad": "Media",
+      "pregunta": "¿En qué saga aparece el personaje 'Gollum'?",
+      "opciones": [
+        "Harry Potter",
+        "El Señor de los Anillos",
+        "Narnia",
+        "Star Wars"
+      ],
+      "respuesta_correcta": "El Señor de los Anillos"
+    },
+    {
+      "id": 81,
+      "categoria": "Cine y Series",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el arma de luz que usan los Jedi en Star Wars?",
+      "opciones": [
+        "Sable de luz",
+        "Espada láser",
+        "Katana",
+        "Sable"
+      ],
+      "respuesta_correcta": "Sable de luz"
+    },
+    {
+      "id": 82,
+      "categoria": "Cine y Series",
+      "dificultad": "Media",
+      "pregunta": "¿Quién es el padre de Luke Skywalker?",
+      "opciones": [
+        "Obi-Wan",
+        "Darth Vader",
+        "Yoda",
+        "Palpatine"
+      ],
+      "respuesta_correcta": "Darth Vader"
+    },
+    {
+      "id": 83,
+      "categoria": "Cine y Series",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el grupo de superhéroes de Marvel liderado por Iron Man?",
+      "opciones": [
+        "La Liga de la Justicia",
+        "Los Vengadores",
+        "X-Men",
+        "Guardianes"
+      ],
+      "respuesta_correcta": "Los Vengadores"
+    },
+    {
+      "id": 84,
+      "categoria": "Cine y Series",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el martillo de Thor?",
+      "opciones": [
+        "Stormbreaker",
+        "Mjölnir",
+        "Gungnir",
+        "Excalibur"
+      ],
+      "respuesta_correcta": "Mjölnir"
+    },
+    {
+      "id": 85,
+      "categoria": "Cine y Series",
+      "dificultad": "Media",
+      "pregunta": "¿Qué serie trata de unos amigos en Hawkins que enfrentan al Demogorgon?",
+      "opciones": [
+        "Dark",
+        "Stranger Things",
+        "The Boys",
+        "Lost"
+      ],
+      "respuesta_correcta": "Stranger Things"
+    },
+    {
+      "id": 86,
+      "categoria": "Cine y Series",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama la familia amarilla animada creada por Matt Groening?",
+      "opciones": [
+        "Los Simpson",
+        "Padre de Familia",
+        "Futurama",
+        "South Park"
+      ],
+      "respuesta_correcta": "Los Simpson"
+    },
+    {
+      "id": 87,
+      "categoria": "Cine y Series",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el científico de 'Volver al Futuro'?",
+      "opciones": [
+        "Doc Brown",
+        "Marty McFly",
+        "Biff",
+        "Einstein"
+      ],
+      "respuesta_correcta": "Doc Brown"
+    },
+    {
+      "id": 88,
+      "categoria": "Cine y Series",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el auto viajero del tiempo de 'Volver al Futuro'?",
+      "opciones": [
+        "DeLorean",
+        "Mustang",
+        "Tesla",
+        "Impala"
+      ],
+      "respuesta_correcta": "DeLorean"
+    },
+    {
+      "id": 89,
+      "categoria": "Cine y Series",
+      "dificultad": "Media",
+      "pregunta": "¿Qué película de animación japonesa ganó el Óscar en 2003?",
+      "opciones": [
+        "Mi vecino Totoro",
+        "El Viaje de Chihiro",
+        "Akira",
+        "Your Name"
+      ],
+      "respuesta_correcta": "El Viaje de Chihiro"
+    },
+    {
+      "id": 90,
+      "categoria": "Videojuegos",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el protagonista de 'God of War'?",
+      "opciones": [
+        "Kratos",
+        "Atreus",
+        "Ares",
+        "Zeus"
+      ],
+      "respuesta_correcta": "Kratos"
+    },
+    {
+      "id": 91,
+      "categoria": "Videojuegos",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el hijo de Kratos en 'God of War' (2018)?",
+      "opciones": [
+        "Atreus",
+        "Loki",
+        "Baldur",
+        "Thor"
+      ],
+      "respuesta_correcta": "Atreus"
+    },
+    {
+      "id": 92,
+      "categoria": "Videojuegos",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el protagonista de 'The Last of Us'?",
+      "opciones": [
+        "Joel",
+        "Ellie",
+        "Tommy",
+        "Nathan"
+      ],
+      "respuesta_correcta": "Joel"
+    },
+    {
+      "id": 93,
+      "categoria": "Videojuegos",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama la joven que acompaña a Joel en 'The Last of Us'?",
+      "opciones": [
+        "Ellie",
+        "Abby",
+        "Tess",
+        "Sarah"
+      ],
+      "respuesta_correcta": "Ellie"
+    },
+    {
+      "id": 94,
+      "categoria": "Videojuegos",
+      "dificultad": "Media",
+      "pregunta": "¿Qué compañía creó 'Minecraft'?",
+      "opciones": [
+        "Mojang",
+        "Valve",
+        "Epic",
+        "Rockstar"
+      ],
+      "respuesta_correcta": "Mojang"
+    },
+    {
+      "id": 95,
+      "categoria": "Videojuegos",
+      "dificultad": "Media",
+      "pregunta": "¿Qué compañía desarrolló 'Grand Theft Auto'?",
+      "opciones": [
+        "Ubisoft",
+        "Rockstar",
+        "EA",
+        "Activision"
+      ],
+      "respuesta_correcta": "Rockstar"
+    },
+    {
+      "id": 96,
+      "categoria": "Videojuegos",
+      "dificultad": "Media",
+      "pregunta": "¿Cuántos jugadores compiten en una partida estándar de 'Fortnite'?",
+      "opciones": [
+        "50",
+        "100",
+        "150",
+        "200"
+      ],
+      "respuesta_correcta": "100"
+    },
+    {
+      "id": 97,
+      "categoria": "Videojuegos",
+      "dificultad": "Media",
+      "pregunta": "¿En qué saga aparece el personaje 'Master Chief'?",
+      "opciones": [
+        "Halo",
+        "Doom",
+        "Gears of War",
+        "Destiny"
+      ],
+      "respuesta_correcta": "Halo"
+    },
+    {
+      "id": 98,
+      "categoria": "Videojuegos",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama el protagonista de 'Assassin's Creed' original?",
+      "opciones": [
+        "Ezio",
+        "Altaïr",
+        "Connor",
+        "Desmond"
+      ],
+      "respuesta_correcta": "Altaïr"
+    },
+    {
+      "id": 99,
+      "categoria": "Videojuegos",
+      "dificultad": "Media",
+      "pregunta": "¿Qué juego popularizó el modo Battle Royale junto a Fortnite?",
+      "opciones": [
+        "PUBG",
+        "Overwatch",
+        "CS:GO",
+        "Apex"
+      ],
+      "respuesta_correcta": "PUBG"
+    },
+    {
+      "id": 100,
+      "categoria": "Música y Parranda",
+      "dificultad": "Media",
+      "pregunta": "¿Qué banda cantó 'Bohemian Rhapsody'?",
+      "opciones": [
+        "The Beatles",
+        "Queen",
+        "Led Zeppelin",
+        "ABBA"
+      ],
+      "respuesta_correcta": "Queen"
+    },
+    {
+      "id": 101,
+      "categoria": "Música y Parranda",
+      "dificultad": "Media",
+      "pregunta": "¿A quién se le conoce como el 'Rey del Pop'?",
+      "opciones": [
+        "Elvis Presley",
+        "Michael Jackson",
+        "Prince",
+        "Madonna"
+      ],
+      "respuesta_correcta": "Michael Jackson"
+    },
+    {
+      "id": 102,
+      "categoria": "Música y Parranda",
+      "dificultad": "Media",
+      "pregunta": "¿Quién canta 'Like a Prayer'?",
+      "opciones": [
+        "Madonna",
+        "Cher",
+        "Whitney Houston",
+        "Cyndi Lauper"
+      ],
+      "respuesta_correcta": "Madonna"
+    },
+    {
+      "id": 103,
+      "categoria": "Música y Parranda",
+      "dificultad": "Media",
+      "pregunta": "¿Qué banda grabó la canción 'Yellow Submarine'?",
+      "opciones": [
+        "The Rolling Stones",
+        "The Beatles",
+        "The Who",
+        "Queen"
+      ],
+      "respuesta_correcta": "The Beatles"
+    },
+    {
+      "id": 104,
+      "categoria": "Música y Parranda",
+      "dificultad": "Media",
+      "pregunta": "¿Quién compuso la sonata 'Claro de Luna'?",
+      "opciones": [
+        "Mozart",
+        "Beethoven",
+        "Bach",
+        "Chopin"
+      ],
+      "respuesta_correcta": "Beethoven"
+    },
+    {
+      "id": 105,
+      "categoria": "Música y Parranda",
+      "dificultad": "Media",
+      "pregunta": "¿Quién canta 'La Bicicleta' junto a Shakira?",
+      "opciones": [
+        "Carlos Vives",
+        "Maluma",
+        "J Balvin",
+        "Juanes"
+      ],
+      "respuesta_correcta": "Carlos Vives"
+    },
+    {
+      "id": 106,
+      "categoria": "Música y Parranda",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llamó el grupo de rock colombiano liderado por Juanes?",
+      "opciones": [
+        "Ekhymosis",
+        "Aterciopelados",
+        "Doctor Krápula",
+        "Los de Adentro"
+      ],
+      "respuesta_correcta": "Ekhymosis"
+    },
+    {
+      "id": 107,
+      "categoria": "Música y Parranda",
+      "dificultad": "Media",
+      "pregunta": "¿Quién canta 'La Camisa Negra'?",
+      "opciones": [
+        "Juanes",
+        "Carlos Vives",
+        "Fonseca",
+        "Sebastián Yatra"
+      ],
+      "respuesta_correcta": "Juanes"
+    },
+    {
+      "id": 108,
+      "categoria": "Música y Parranda",
+      "dificultad": "Media",
+      "pregunta": "¿A qué cantante se le conocía como la 'Reina del Tex-Mex'?",
+      "opciones": [
+        "Selena",
+        "Thalía",
+        "Paulina Rubio",
+        "Gloria Estefan"
+      ],
+      "respuesta_correcta": "Selena"
+    },
+    {
+      "id": 109,
+      "categoria": "Música y Parranda",
+      "dificultad": "Media",
+      "pregunta": "¿Qué artista colombiano canta 'Ay Vamos'?",
+      "opciones": [
+        "Maluma",
+        "J Balvin",
+        "Nicky Jam",
+        "Ozuna"
+      ],
+      "respuesta_correcta": "J Balvin"
+    },
+    {
+      "id": 110,
+      "categoria": "Cultura General",
+      "dificultad": "Media",
+      "pregunta": "¿Quién pintó la Mona Lisa?",
+      "opciones": [
+        "Miguel Ángel",
+        "Leonardo da Vinci",
+        "Rafael",
+        "Van Gogh"
+      ],
+      "respuesta_correcta": "Leonardo da Vinci"
+    },
+    {
+      "id": 111,
+      "categoria": "Cultura General",
+      "dificultad": "Media",
+      "pregunta": "¿En qué país se construyeron las pirámides de Giza?",
+      "opciones": [
+        "México",
+        "Egipto",
+        "Irak",
+        "Grecia"
+      ],
+      "respuesta_correcta": "Egipto"
+    },
+    {
+      "id": 112,
+      "categoria": "Cultura General",
+      "dificultad": "Media",
+      "pregunta": "¿Cuál es el desierto cálido más grande del mundo?",
+      "opciones": [
+        "Gobi",
+        "Sahara",
+        "Atacama",
+        "Kalahari"
+      ],
+      "respuesta_correcta": "Sahara"
+    },
+    {
+      "id": 113,
+      "categoria": "Cultura General",
+      "dificultad": "Media",
+      "pregunta": "¿Cuántos huesos tiene el cuerpo humano adulto?",
+      "opciones": [
+        "186",
+        "206",
+        "226",
+        "300"
+      ],
+      "respuesta_correcta": "206"
+    },
+    {
+      "id": 114,
+      "categoria": "Cultura General",
+      "dificultad": "Media",
+      "pregunta": "¿Cuál es el hueso más largo del cuerpo humano?",
+      "opciones": [
+        "La tibia",
+        "El fémur",
+        "El húmero",
+        "La clavícula"
+      ],
+      "respuesta_correcta": "El fémur"
+    },
+    {
+      "id": 115,
+      "categoria": "Cultura General",
+      "dificultad": "Media",
+      "pregunta": "¿Quién fue el primer ser humano en pisar la Luna?",
+      "opciones": [
+        "Buzz Aldrin",
+        "Neil Armstrong",
+        "Yuri Gagarin",
+        "Michael Collins"
+      ],
+      "respuesta_correcta": "Neil Armstrong"
+    },
+    {
+      "id": 116,
+      "categoria": "Cultura General",
+      "dificultad": "Media",
+      "pregunta": "¿Cuál es el país más grande del mundo por superficie?",
+      "opciones": [
+        "Canadá",
+        "China",
+        "Rusia",
+        "Estados Unidos"
+      ],
+      "respuesta_correcta": "Rusia"
+    },
+    {
+      "id": 117,
+      "categoria": "Cultura General",
+      "dificultad": "Media",
+      "pregunta": "¿Cuál es la montaña más alta del mundo?",
+      "opciones": [
+        "K2",
+        "Everest",
+        "Aconcagua",
+        "Kilimanjaro"
+      ],
+      "respuesta_correcta": "Everest"
+    },
+    {
+      "id": 118,
+      "categoria": "Cultura General",
+      "dificultad": "Media",
+      "pregunta": "¿Cuál es el idioma oficial de Brasil?",
+      "opciones": [
+        "Español",
+        "Portugués",
+        "Francés",
+        "Inglés"
+      ],
+      "respuesta_correcta": "Portugués"
+    },
+    {
+      "id": 119,
+      "categoria": "Cultura General",
+      "dificultad": "Media",
+      "pregunta": "¿Cuántos lados tiene un hexágono?",
+      "opciones": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "respuesta_correcta": "6"
+    },
+    {
+      "id": 120,
+      "categoria": "Telenovelas",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama la telenovela colombiana protagonizada por una economista poco agraciada?",
+      "opciones": [
+        "Café con aroma de mujer",
+        "Yo soy Betty, la fea",
+        "Pasión de gavilanes",
+        "La Reina del Flow"
+      ],
+      "respuesta_correcta": "Yo soy Betty, la fea"
+    },
+    {
+      "id": 121,
+      "categoria": "Telenovelas",
+      "dificultad": "Media",
+      "pregunta": "¿En qué telenovela aparece el personaje 'Don Armando'?",
+      "opciones": [
+        "Betty la fea",
+        "Pasión de gavilanes",
+        "La viuda de Blanco",
+        "Sin senos no hay paraíso"
+      ],
+      "respuesta_correcta": "Betty la fea"
+    },
+    {
+      "id": 122,
+      "categoria": "Telenovelas",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama la telenovela protagonizada por los hermanos Reyes?",
+      "opciones": [
+        "Pasión de Gavilanes",
+        "Café con aroma de mujer",
+        "Betty la fea",
+        "La Tormenta"
+      ],
+      "respuesta_correcta": "Pasión de Gavilanes"
+    },
+    {
+      "id": 123,
+      "categoria": "Telenovelas",
+      "dificultad": "Media",
+      "pregunta": "¿Qué serie narra la vida del narcotraficante Pablo Escobar?",
+      "opciones": [
+        "Narcos",
+        "Betty la fea",
+        "Café con aroma de mujer",
+        "La Reina del Flow"
+      ],
+      "respuesta_correcta": "Narcos"
+    },
+    {
+      "id": 124,
+      "categoria": "Telenovelas",
+      "dificultad": "Media",
+      "pregunta": "¿Cómo se llama la telenovela de una cantante que sale de la cárcel y busca venganza?",
+      "opciones": [
+        "La Reina del Flow",
+        "Sin senos no hay paraíso",
+        "La Niña",
+        "La Doña"
+      ],
+      "respuesta_correcta": "La Reina del Flow"
+    },
+    {
+      "id": 125,
+      "categoria": "Telenovelas",
+      "dificultad": "Media",
+      "pregunta": "¿En qué país se produjo la telenovela 'Café con aroma de mujer'?",
+      "opciones": [
+        "México",
+        "Colombia",
+        "Venezuela",
+        "Brasil"
+      ],
+      "respuesta_correcta": "Colombia"
     }
   ]
 }

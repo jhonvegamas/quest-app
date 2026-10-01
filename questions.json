@@ -792,12 +792,12 @@
     "difficulty": "facil"
   },
   {
-    "question": "Complete el refrán: 'A falta de pan...'",
+    "question": "Complete el refrán: 'Al mal tiempo...'",
     "answers": [
-      "Buenas son tortas",
-      "Agua con azúcar",
-      "Hambre hay",
-      "Arepa caliente"
+      "Buena cara",
+      "Mala cara",
+      "Buen viento",
+      "Mucha lluvia"
     ],
     "correct": 0,
     "category": "Colombia y Refranes",
@@ -837,6 +837,906 @@
     ],
     "correct": 2,
     "category": "Cultura General",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el perro de la familia Simpson?",
+    "answers": [
+      "Ayudante de Santa",
+      "Bola de Nieve",
+      "Rasca",
+      "Milo"
+    ],
+    "correct": 0,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el gato de la familia Simpson?",
+    "answers": [
+      "Bola de Nieve",
+      "Ayudante de Santa",
+      "Pelusa",
+      "Tom"
+    ],
+    "correct": 0,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿En qué ciudad ficticia viven los Simpson?",
+    "answers": [
+      "Springfield",
+      "Quahog",
+      "South Park",
+      "Fondo de Bikini"
+    ],
+    "correct": 0,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el mejor amigo de Bob Esponja?",
+    "answers": [
+      "Calamardo",
+      "Patricio",
+      "Arenita",
+      "Don Cangrejo"
+    ],
+    "correct": 1,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Qué tipo de animal es Bob Esponja?",
+    "answers": [
+      "Un pulpo",
+      "Un calamar",
+      "Una esponja de mar",
+      "Una estrella de mar"
+    ],
+    "correct": 2,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el villano principal de las Tortugas Ninja?",
+    "answers": [
+      "Krang",
+      "Bebop",
+      "Destructor",
+      "Rocksteady"
+    ],
+    "correct": 2,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿De qué color es la banda de Miguel Ángel en las Tortugas Ninja?",
+    "answers": [
+      "Azul",
+      "Rojo",
+      "Naranja",
+      "Morado"
+    ],
+    "correct": 2,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el ratón más famoso de Disney?",
+    "answers": [
+      "Mickey Mouse",
+      "Donald",
+      "Goofy",
+      "Pluto"
+    ],
+    "correct": 0,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Qué personaje de Disney es un pato que no usa pantalones?",
+    "answers": [
+      "Mickey",
+      "Donald",
+      "Goofy",
+      "Pluto"
+    ],
+    "correct": 1,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama la sirenita de Disney?",
+    "answers": [
+      "Aurora",
+      "Ariel",
+      "Bella",
+      "Jasmine"
+    ],
+    "correct": 1,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el padre de la sirenita Ariel?",
+    "answers": [
+      "Neptuno",
+      "Tritón",
+      "Poseidón",
+      "Eric"
+    ],
+    "correct": 1,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el dinosaurio mascota de los Picapiedra?",
+    "answers": [
+      "Dino",
+      "Rex",
+      "Spike",
+      "Bronty"
+    ],
+    "correct": 0,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿En qué época viven los Picapiedra?",
+    "answers": [
+      "El futuro",
+      "La prehistoria",
+      "La Edad Media",
+      "El espacio"
+    ],
+    "correct": 1,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el alter ego del héroe He-Man?",
+    "answers": [
+      "Príncipe Adam",
+      "Príncipe Eric",
+      "Skeletor",
+      "Man-At-Arms"
+    ],
+    "correct": 0,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el villano de He-Man?",
+    "answers": [
+      "Skeletor",
+      "Gargamel",
+      "Mumm-Ra",
+      "Cobra"
+    ],
+    "correct": 0,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el gato de los Pitufos?",
+    "answers": [
+      "Azrael",
+      "Milú",
+      "Garfield",
+      "Sylvester"
+    ],
+    "correct": 0,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el villano que persigue a los Pitufos?",
+    "answers": [
+      "Gargamel",
+      "Azrael",
+      "Skeletor",
+      "Dr. Malo"
+    ],
+    "correct": 0,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿De qué color son los Pitufos?",
+    "answers": [
+      "Verdes",
+      "Azules",
+      "Amarillos",
+      "Rojos"
+    ],
+    "correct": 1,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama la ardilla que persigue la bellota en 'La Era de Hielo'?",
+    "answers": [
+      "Scrat",
+      "Sid",
+      "Diego",
+      "Buck"
+    ],
+    "correct": 0,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Qué animal es Sid en 'La Era de Hielo'?",
+    "answers": [
+      "Un mamut",
+      "Un tigre",
+      "Un perezoso",
+      "Un dodo"
+    ],
+    "correct": 2,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el mamut de 'La Era de Hielo'?",
+    "answers": [
+      "Manny",
+      "Diego",
+      "Sid",
+      "Buck"
+    ],
+    "correct": 0,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el jefe de los Minions?",
+    "answers": [
+      "Gru",
+      "Kevin",
+      "Bob",
+      "Stuart"
+    ],
+    "correct": 0,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Qué son los Minions?",
+    "answers": [
+      "Robots",
+      "Criaturas amarillas",
+      "Pingüinos",
+      "Aliens"
+    ],
+    "correct": 1,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Qué animal es 'Donkey', el compañero de Shrek?",
+    "answers": [
+      "Un caballo",
+      "Un burro",
+      "Una mula",
+      "Un camello"
+    ],
+    "correct": 1,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el reino donde vive Shrek?",
+    "answers": [
+      "Muy Muy Lejano",
+      "Encantado",
+      "Narnia",
+      "Arendelle"
+    ],
+    "correct": 0,
+    "category": "Nostalgia TV y Animación",
+    "difficulty": "facil"
+  },
+  {
+    "question": "Complete el refrán: 'Más vale pájaro en mano...'",
+    "answers": [
+      "...que cien volando",
+      "...que uno en el árbol",
+      "...que nada",
+      "...que dos en el nido"
+    ],
+    "correct": 0,
+    "category": "Colombia y Refranes",
+    "difficulty": "facil"
+  },
+  {
+    "question": "Complete el refrán: 'En casa del herrero...'",
+    "answers": [
+      "...cuchillo de palo",
+      "...martillo de oro",
+      "...yunque de hierro",
+      "...llave de plata"
+    ],
+    "correct": 0,
+    "category": "Colombia y Refranes",
+    "difficulty": "facil"
+  },
+  {
+    "question": "Complete el refrán: 'Al que madruga...'",
+    "answers": [
+      "...Dios lo ayuda",
+      "...le va bien",
+      "...nada le cuesta",
+      "...come temprano"
+    ],
+    "correct": 0,
+    "category": "Colombia y Refranes",
+    "difficulty": "facil"
+  },
+  {
+    "question": "Complete el refrán: 'En boca cerrada...'",
+    "answers": [
+      "...no entran moscas",
+      "...no salen palabras",
+      "...no hay mentiras",
+      "...no hay problemas"
+    ],
+    "correct": 0,
+    "category": "Colombia y Refranes",
+    "difficulty": "facil"
+  },
+  {
+    "question": "Complete el refrán: 'No dejes para mañana...'",
+    "answers": [
+      "...lo que puedas hacer hoy",
+      "...lo que sea difícil",
+      "...lo que no quieras",
+      "...lo que otros hacen"
+    ],
+    "correct": 0,
+    "category": "Colombia y Refranes",
+    "difficulty": "facil"
+  },
+  {
+    "question": "Complete el refrán: 'Agua que no has de beber...'",
+    "answers": [
+      "...déjala correr",
+      "...no la bebas",
+      "...no la toques",
+      "...échala a perder"
+    ],
+    "correct": 0,
+    "category": "Colombia y Refranes",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cuántos lados tiene un cuadrado?",
+    "answers": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 1,
+    "category": "Cultura General",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cuál es el río más importante de Colombia?",
+    "answers": [
+      "Cauca",
+      "Magdalena",
+      "Orinoco",
+      "Amazonas"
+    ],
+    "correct": 1,
+    "category": "Colombia y Refranes",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cuál es el ave nacional de Colombia?",
+    "answers": [
+      "Águila",
+      "Cóndor",
+      "Tucán",
+      "Colibrí"
+    ],
+    "correct": 1,
+    "category": "Colombia y Refranes",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el insecto que produce la miel?",
+    "answers": [
+      "La avispa",
+      "La abeja",
+      "El abejorro",
+      "La hormiga"
+    ],
+    "correct": 1,
+    "category": "Cultura General",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Por qué producto es reconocida Colombia en el mundo?",
+    "answers": [
+      "Café",
+      "Cacao",
+      "Té",
+      "Trigo"
+    ],
+    "correct": 0,
+    "category": "Colombia y Refranes",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cuál es el baile típico de la costa Caribe colombiana?",
+    "answers": [
+      "Tango",
+      "Cumbia",
+      "Salsa",
+      "Merengue"
+    ],
+    "correct": 1,
+    "category": "Colombia y Refranes",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cuál es el instrumento típico del vallenato?",
+    "answers": [
+      "Guitarra",
+      "Acordeón",
+      "Piano",
+      "Violín"
+    ],
+    "correct": 1,
+    "category": "Colombia y Refranes",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cuántos departamentos tiene Colombia?",
+    "answers": [
+      "30",
+      "31",
+      "32",
+      "33"
+    ],
+    "correct": 2,
+    "category": "Colombia y Refranes",
+    "difficulty": "facil"
+  },
+  {
+    "question": "Complete el refrán: 'Perro que ladra...'",
+    "answers": [
+      "...no muerde",
+      "...sí muerde",
+      "...se asusta",
+      "...se calla"
+    ],
+    "correct": 0,
+    "category": "Colombia y Refranes",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el fontanero rojo más famoso de Nintendo?",
+    "answers": [
+      "Luigi",
+      "Mario",
+      "Wario",
+      "Peach"
+    ],
+    "correct": 1,
+    "category": "Videojuegos",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el hermano de Mario?",
+    "answers": [
+      "Wario",
+      "Luigi",
+      "Toad",
+      "Yoshi"
+    ],
+    "correct": 1,
+    "category": "Videojuegos",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el dinosaurio verde que ayuda a Mario?",
+    "answers": [
+      "Yoshi",
+      "Toad",
+      "Bowser",
+      "Donkey"
+    ],
+    "correct": 0,
+    "category": "Videojuegos",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el villano principal de la saga Mario?",
+    "answers": [
+      "Wario",
+      "Bowser",
+      "Donkey Kong",
+      "Ganon"
+    ],
+    "correct": 1,
+    "category": "Videojuegos",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿De qué color es el erizo Sonic?",
+    "answers": [
+      "Rojo",
+      "Verde",
+      "Azul",
+      "Amarillo"
+    ],
+    "correct": 2,
+    "category": "Videojuegos",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama la princesa que Mario suele rescatar?",
+    "answers": [
+      "Zelda",
+      "Peach",
+      "Daisy",
+      "Rosalina"
+    ],
+    "correct": 1,
+    "category": "Videojuegos",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama la consola híbrida de Nintendo?",
+    "answers": [
+      "Xbox",
+      "Switch",
+      "Game Boy",
+      "Mega Drive"
+    ],
+    "correct": 1,
+    "category": "Videojuegos",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el protagonista de 'The Legend of Zelda'?",
+    "answers": [
+      "Zelda",
+      "Link",
+      "Ganon",
+      "Navi"
+    ],
+    "correct": 1,
+    "category": "Videojuegos",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el clásico juego de bloques que caen y se acomodan?",
+    "answers": [
+      "Tetris",
+      "Minecraft",
+      "Pong",
+      "Snake"
+    ],
+    "correct": 0,
+    "category": "Videojuegos",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el juego de construcción con cubos?",
+    "answers": [
+      "Roblox",
+      "Minecraft",
+      "Terraria",
+      "Fortnite"
+    ],
+    "correct": 1,
+    "category": "Videojuegos",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Qué come Pac-Man mientras recorre el laberinto?",
+    "answers": [
+      "Frutas",
+      "Puntos",
+      "Monedas",
+      "Estrellas"
+    ],
+    "correct": 1,
+    "category": "Videojuegos",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama el fantasma rojo de Pac-Man?",
+    "answers": [
+      "Blinky",
+      "Pinky",
+      "Inky",
+      "Clyde"
+    ],
+    "correct": 0,
+    "category": "Videojuegos",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cuántos días tiene una semana?",
+    "answers": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct": 2,
+    "category": "Cultura General",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Qué color resulta de mezclar azul y amarillo?",
+    "answers": [
+      "Verde",
+      "Naranja",
+      "Morado",
+      "Café"
+    ],
+    "correct": 0,
+    "category": "Cultura General",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cuántas patas tiene una araña?",
+    "answers": [
+      "6",
+      "8",
+      "10",
+      "4"
+    ],
+    "correct": 1,
+    "category": "Cultura General",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cuál es el continente más grande del mundo?",
+    "answers": [
+      "África",
+      "Asia",
+      "América",
+      "Europa"
+    ],
+    "correct": 1,
+    "category": "Cultura General",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cuál es el continente más pequeño del mundo?",
+    "answers": [
+      "Europa",
+      "Oceanía",
+      "La Antártida",
+      "América"
+    ],
+    "correct": 1,
+    "category": "Cultura General",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cuál es el planeta más grande del sistema solar?",
+    "answers": [
+      "Saturno",
+      "Júpiter",
+      "Neptuno",
+      "Tierra"
+    ],
+    "correct": 1,
+    "category": "Cultura General",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cuántos meses tiene un año?",
+    "answers": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correct": 2,
+    "category": "Cultura General",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Qué elemento químico tiene el símbolo 'Fe'?",
+    "answers": [
+      "Oro",
+      "Plata",
+      "Hierro",
+      "Cobre"
+    ],
+    "correct": 2,
+    "category": "Cultura General",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cuál es el animal terrestre más grande?",
+    "answers": [
+      "Jirafa",
+      "Elefante",
+      "Rinoceronte",
+      "Hipopótamo"
+    ],
+    "correct": 1,
+    "category": "Cultura General",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cuántas horas tiene un día?",
+    "answers": [
+      "12",
+      "20",
+      "24",
+      "48"
+    ],
+    "correct": 2,
+    "category": "Cultura General",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cuál es el idioma con más hablantes nativos del mundo?",
+    "answers": [
+      "Inglés",
+      "Español",
+      "Chino mandarín",
+      "Hindi"
+    ],
+    "correct": 2,
+    "category": "Cultura General",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Qué órgano bombea la sangre en el cuerpo humano?",
+    "answers": [
+      "El hígado",
+      "El corazón",
+      "Los pulmones",
+      "El cerebro"
+    ],
+    "correct": 1,
+    "category": "Cultura General",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Quién interpreta 'Despacito' junto a Daddy Yankee?",
+    "answers": [
+      "Enrique Iglesias",
+      "Luis Fonsi",
+      "Ricky Martin",
+      "Maluma"
+    ],
+    "correct": 1,
+    "category": "Música y Cine",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Qué artista es conocida como 'La Bichota'?",
+    "answers": [
+      "Shakira",
+      "Karol G",
+      "Greeicy",
+      "Anitta"
+    ],
+    "correct": 1,
+    "category": "Música y Cine",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cómo se llama la película de Pixar sobre juguetes que cobran vida?",
+    "answers": [
+      "Cars",
+      "Toy Story",
+      "Up",
+      "Coco"
+    ],
+    "correct": 1,
+    "category": "Música y Cine",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Qué película coreana ganó el Óscar a Mejor Película en 2020?",
+    "answers": [
+      "Joker",
+      "Parásitos",
+      "1917",
+      "Roma"
+    ],
+    "correct": 1,
+    "category": "Música y Cine",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Quién canta 'Rolling in the Deep'?",
+    "answers": [
+      "Beyoncé",
+      "Adele",
+      "Rihanna",
+      "Taylor Swift"
+    ],
+    "correct": 1,
+    "category": "Música y Cine",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Qué actor interpreta a Iron Man en el cine?",
+    "answers": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Chris Hemsworth",
+      "Mark Ruffalo"
+    ],
+    "correct": 1,
+    "category": "Música y Cine",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Quién escribió los libros de Harry Potter?",
+    "answers": [
+      "J.R.R. Tolkien",
+      "J.K. Rowling",
+      "Stephen King",
+      "Roald Dahl"
+    ],
+    "correct": 1,
+    "category": "Música y Cine",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Qué banda británica cantó 'Hey Jude'?",
+    "answers": [
+      "Queen",
+      "The Beatles",
+      "Rolling Stones",
+      "Pink Floyd"
+    ],
+    "correct": 1,
+    "category": "Música y Cine",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Cuántos meses del año tienen 28 días?",
+    "answers": [
+      "Uno",
+      "Dos",
+      "Ninguno",
+      "Todos"
+    ],
+    "correct": 3,
+    "category": "Acertijos",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Qué se moja mientras más se seca?",
+    "answers": [
+      "La esponja",
+      "La toalla",
+      "El jabón",
+      "El agua"
+    ],
+    "correct": 1,
+    "category": "Acertijos",
+    "difficulty": "facil"
+  },
+  {
+    "question": "¿Qué tiene ojos pero no puede ver?",
+    "answers": [
+      "La aguja",
+      "El gato",
+      "La ventana",
+      "El espejo"
+    ],
+    "correct": 0,
+    "category": "Acertijos",
     "difficulty": "facil"
   },
   {
@@ -1437,6 +2337,906 @@
     ],
     "correct": 1,
     "category": "Disney/Pixar",
+    "difficulty": "media"
+  },
+  {
+    "question": "Complete el refrán: 'A quien buen árbol se arrima...'",
+    "answers": [
+      "...buena sombra le cobija",
+      "...buen fruto le da",
+      "...buen viento le llega",
+      "...buena casa le dan"
+    ],
+    "correct": 0,
+    "category": "Refranes Colombianos",
+    "difficulty": "media"
+  },
+  {
+    "question": "Complete el refrán: 'No es oro todo...'",
+    "answers": [
+      "...lo que reluce",
+      "...lo que brilla",
+      "...lo que se ve",
+      "...lo que pesa"
+    ],
+    "correct": 0,
+    "category": "Refranes Colombianos",
+    "difficulty": "media"
+  },
+  {
+    "question": "Complete el refrán: 'Cría cuervos y...'",
+    "answers": [
+      "...te darán suerte",
+      "...te sacarán los ojos",
+      "...volarán lejos",
+      "...cantarán bonito"
+    ],
+    "correct": 1,
+    "category": "Refranes Colombianos",
+    "difficulty": "media"
+  },
+  {
+    "question": "Complete el refrán: 'Cuando las barbas de tu vecino veas cortar...'",
+    "answers": [
+      "...pon las tuyas a remojar",
+      "...corta las tuyas ya",
+      "...no hagas nada",
+      "...alaba al vecino"
+    ],
+    "correct": 0,
+    "category": "Refranes Colombianos",
+    "difficulty": "media"
+  },
+  {
+    "question": "Complete el refrán: 'El que ríe último...'",
+    "answers": [
+      "...ríe mejor",
+      "...llora después",
+      "...gana",
+      "...se queda solo"
+    ],
+    "correct": 0,
+    "category": "Refranes Colombianos",
+    "difficulty": "media"
+  },
+  {
+    "question": "Complete el refrán: 'Más vale tarde...'",
+    "answers": [
+      "...que nunca",
+      "...que temprano",
+      "...que solo",
+      "...que nada"
+    ],
+    "correct": 0,
+    "category": "Refranes Colombianos",
+    "difficulty": "media"
+  },
+  {
+    "question": "Complete el refrán: 'Donde hay confianza...'",
+    "answers": [
+      "...da asco",
+      "...hay amor",
+      "...hay respeto",
+      "...hay dinero"
+    ],
+    "correct": 0,
+    "category": "Refranes Colombianos",
+    "difficulty": "media"
+  },
+  {
+    "question": "Complete el refrán: 'A palabras necias...'",
+    "answers": [
+      "...oídos sordos",
+      "...ojos ciegos",
+      "...bocas mudas",
+      "...manos quietas"
+    ],
+    "correct": 0,
+    "category": "Refranes Colombianos",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cuál es el plato típico de la región Andina colombiana?",
+    "answers": [
+      "Ajiaco",
+      "Ceviche",
+      "Bandeja paisa",
+      "Sancocho de pescado"
+    ],
+    "correct": 0,
+    "category": "Cultura Pop Colombia",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cuál es el plato típico de la región paisa?",
+    "answers": [
+      "Ajiaco",
+      "Bandeja paisa",
+      "Cazuela",
+      "Mute"
+    ],
+    "correct": 1,
+    "category": "Cultura Pop Colombia",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿En qué ciudad se celebra el famoso Carnaval colombiano?",
+    "answers": [
+      "Cartagena",
+      "Barranquilla",
+      "Santa Marta",
+      "Riohacha"
+    ],
+    "correct": 1,
+    "category": "Cultura Pop Colombia",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama el sombrero típico de la costa Caribe colombiana?",
+    "answers": [
+      "El panamá",
+      "El vueltiao",
+      "El aguadeño",
+      "El cordobés"
+    ],
+    "correct": 1,
+    "category": "Cultura Pop Colombia",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Qué escritor colombiano ganó el Premio Nobel de Literatura?",
+    "answers": [
+      "Álvaro Mutis",
+      "Gabriel García Márquez",
+      "Jorge Isaacs",
+      "William Ospina"
+    ],
+    "correct": 1,
+    "category": "Cultura Pop Colombia",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cuál es la moneda oficial de Colombia?",
+    "answers": [
+      "El dólar",
+      "El peso",
+      "El bolívar",
+      "El sol"
+    ],
+    "correct": 1,
+    "category": "Cultura Pop Colombia",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿En qué municipio se encuentra la Piedra del Peñol?",
+    "answers": [
+      "Medellín",
+      "Guatapé",
+      "Bogotá",
+      "Cali"
+    ],
+    "correct": 1,
+    "category": "Cultura Pop Colombia",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama el padre de Simba en 'El Rey León'?",
+    "answers": [
+      "Scar",
+      "Mufasa",
+      "Rafiki",
+      "Zazú"
+    ],
+    "correct": 1,
+    "category": "Disney/Pixar",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama el malvado tío de Simba?",
+    "answers": [
+      "Scar",
+      "Mufasa",
+      "Rafiki",
+      "Banzai"
+    ],
+    "correct": 0,
+    "category": "Disney/Pixar",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama el genio que concede deseos en 'Aladdín'?",
+    "answers": [
+      "Jafar",
+      "Genio",
+      "Abu",
+      "Iago"
+    ],
+    "correct": 1,
+    "category": "Disney/Pixar",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Qué tipo de deseo NO puede conceder el Genio de 'Aladdín'?",
+    "answers": [
+      "Volar",
+      "Resucitar a los muertos",
+      "Ser príncipe",
+      "Hacer magia"
+    ],
+    "correct": 1,
+    "category": "Disney/Pixar",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama la protagonista de 'Mulán'?",
+    "answers": [
+      "Mushu",
+      "Mulán",
+      "Li Shang",
+      "Fa Zhou"
+    ],
+    "correct": 1,
+    "category": "Disney/Pixar",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama el pequeño dragón que acompaña a Mulán?",
+    "answers": [
+      "Mushu",
+      "Sisu",
+      "Sven",
+      "Pascal"
+    ],
+    "correct": 0,
+    "category": "Disney/Pixar",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama la protagonista de 'Enredados'?",
+    "answers": [
+      "Rapunzel",
+      "Elsa",
+      "Mérida",
+      "Tiana"
+    ],
+    "correct": 0,
+    "category": "Disney/Pixar",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama el camaleón de Rapunzel en 'Enredados'?",
+    "answers": [
+      "Pascal",
+      "Sven",
+      "Mushu",
+      "Olaf"
+    ],
+    "correct": 0,
+    "category": "Disney/Pixar",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama la protagonista de 'Brave'?",
+    "answers": [
+      "Mérida",
+      "Elsa",
+      "Moana",
+      "Vaiana"
+    ],
+    "correct": 0,
+    "category": "Disney/Pixar",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama la protagonista de 'Moana'?",
+    "answers": [
+      "Vaiana",
+      "Mérida",
+      "Tiana",
+      "Elsa"
+    ],
+    "correct": 0,
+    "category": "Disney/Pixar",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama el semidiós tatuado que ayuda a Moana?",
+    "answers": [
+      "Maui",
+      "Heihei",
+      "Tamatoa",
+      "Te Fiti"
+    ],
+    "correct": 0,
+    "category": "Disney/Pixar",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama el pez payaso protagonista de 'Buscando a Nemo'?",
+    "answers": [
+      "Marlin",
+      "Nemo",
+      "Dory",
+      "Gill"
+    ],
+    "correct": 1,
+    "category": "Disney/Pixar",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama el profesor de magia con barba blanca en Harry Potter?",
+    "answers": [
+      "Snape",
+      "Dumbledore",
+      "Hagrid",
+      "Voldemort"
+    ],
+    "correct": 1,
+    "category": "Cine y Series",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama el villano sin nariz de Harry Potter?",
+    "answers": [
+      "Voldemort",
+      "Snape",
+      "Draco",
+      "Lucius"
+    ],
+    "correct": 0,
+    "category": "Cine y Series",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿En qué saga aparece el personaje 'Gollum'?",
+    "answers": [
+      "Harry Potter",
+      "El Señor de los Anillos",
+      "Narnia",
+      "Star Wars"
+    ],
+    "correct": 1,
+    "category": "Cine y Series",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama el arma de luz que usan los Jedi en Star Wars?",
+    "answers": [
+      "Sable de luz",
+      "Espada láser",
+      "Katana",
+      "Sable"
+    ],
+    "correct": 0,
+    "category": "Cine y Series",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Quién es el padre de Luke Skywalker?",
+    "answers": [
+      "Obi-Wan",
+      "Darth Vader",
+      "Yoda",
+      "Palpatine"
+    ],
+    "correct": 1,
+    "category": "Cine y Series",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama el grupo de superhéroes de Marvel liderado por Iron Man?",
+    "answers": [
+      "La Liga de la Justicia",
+      "Los Vengadores",
+      "X-Men",
+      "Guardianes"
+    ],
+    "correct": 1,
+    "category": "Cine y Series",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama el martillo de Thor?",
+    "answers": [
+      "Stormbreaker",
+      "Mjölnir",
+      "Gungnir",
+      "Excalibur"
+    ],
+    "correct": 1,
+    "category": "Cine y Series",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Qué serie trata de unos amigos en Hawkins que enfrentan al Demogorgon?",
+    "answers": [
+      "Dark",
+      "Stranger Things",
+      "The Boys",
+      "Lost"
+    ],
+    "correct": 1,
+    "category": "Cine y Series",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama la familia amarilla animada creada por Matt Groening?",
+    "answers": [
+      "Los Simpson",
+      "Padre de Familia",
+      "Futurama",
+      "South Park"
+    ],
+    "correct": 0,
+    "category": "Cine y Series",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama el científico de 'Volver al Futuro'?",
+    "answers": [
+      "Doc Brown",
+      "Marty McFly",
+      "Biff",
+      "Einstein"
+    ],
+    "correct": 0,
+    "category": "Cine y Series",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama el auto viajero del tiempo de 'Volver al Futuro'?",
+    "answers": [
+      "DeLorean",
+      "Mustang",
+      "Tesla",
+      "Impala"
+    ],
+    "correct": 0,
+    "category": "Cine y Series",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Qué película de animación japonesa ganó el Óscar en 2003?",
+    "answers": [
+      "Mi vecino Totoro",
+      "El Viaje de Chihiro",
+      "Akira",
+      "Your Name"
+    ],
+    "correct": 1,
+    "category": "Cine y Series",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama el protagonista de 'God of War'?",
+    "answers": [
+      "Kratos",
+      "Atreus",
+      "Ares",
+      "Zeus"
+    ],
+    "correct": 0,
+    "category": "Videojuegos",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama el hijo de Kratos en 'God of War' (2018)?",
+    "answers": [
+      "Atreus",
+      "Loki",
+      "Baldur",
+      "Thor"
+    ],
+    "correct": 0,
+    "category": "Videojuegos",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama el protagonista de 'The Last of Us'?",
+    "answers": [
+      "Joel",
+      "Ellie",
+      "Tommy",
+      "Nathan"
+    ],
+    "correct": 0,
+    "category": "Videojuegos",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama la joven que acompaña a Joel en 'The Last of Us'?",
+    "answers": [
+      "Ellie",
+      "Abby",
+      "Tess",
+      "Sarah"
+    ],
+    "correct": 0,
+    "category": "Videojuegos",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Qué compañía creó 'Minecraft'?",
+    "answers": [
+      "Mojang",
+      "Valve",
+      "Epic",
+      "Rockstar"
+    ],
+    "correct": 0,
+    "category": "Videojuegos",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Qué compañía desarrolló 'Grand Theft Auto'?",
+    "answers": [
+      "Ubisoft",
+      "Rockstar",
+      "EA",
+      "Activision"
+    ],
+    "correct": 1,
+    "category": "Videojuegos",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cuántos jugadores compiten en una partida estándar de 'Fortnite'?",
+    "answers": [
+      "50",
+      "100",
+      "150",
+      "200"
+    ],
+    "correct": 1,
+    "category": "Videojuegos",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿En qué saga aparece el personaje 'Master Chief'?",
+    "answers": [
+      "Halo",
+      "Doom",
+      "Gears of War",
+      "Destiny"
+    ],
+    "correct": 0,
+    "category": "Videojuegos",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama el protagonista de 'Assassin's Creed' original?",
+    "answers": [
+      "Ezio",
+      "Altaïr",
+      "Connor",
+      "Desmond"
+    ],
+    "correct": 1,
+    "category": "Videojuegos",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Qué juego popularizó el modo Battle Royale junto a Fortnite?",
+    "answers": [
+      "PUBG",
+      "Overwatch",
+      "CS:GO",
+      "Apex"
+    ],
+    "correct": 0,
+    "category": "Videojuegos",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Qué banda cantó 'Bohemian Rhapsody'?",
+    "answers": [
+      "The Beatles",
+      "Queen",
+      "Led Zeppelin",
+      "ABBA"
+    ],
+    "correct": 1,
+    "category": "Música y Parranda",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿A quién se le conoce como el 'Rey del Pop'?",
+    "answers": [
+      "Elvis Presley",
+      "Michael Jackson",
+      "Prince",
+      "Madonna"
+    ],
+    "correct": 1,
+    "category": "Música y Parranda",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Quién canta 'Like a Prayer'?",
+    "answers": [
+      "Madonna",
+      "Cher",
+      "Whitney Houston",
+      "Cyndi Lauper"
+    ],
+    "correct": 0,
+    "category": "Música y Parranda",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Qué banda grabó la canción 'Yellow Submarine'?",
+    "answers": [
+      "The Rolling Stones",
+      "The Beatles",
+      "The Who",
+      "Queen"
+    ],
+    "correct": 1,
+    "category": "Música y Parranda",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Quién compuso la sonata 'Claro de Luna'?",
+    "answers": [
+      "Mozart",
+      "Beethoven",
+      "Bach",
+      "Chopin"
+    ],
+    "correct": 1,
+    "category": "Música y Parranda",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Quién canta 'La Bicicleta' junto a Shakira?",
+    "answers": [
+      "Carlos Vives",
+      "Maluma",
+      "J Balvin",
+      "Juanes"
+    ],
+    "correct": 0,
+    "category": "Música y Parranda",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llamó el grupo de rock colombiano liderado por Juanes?",
+    "answers": [
+      "Ekhymosis",
+      "Aterciopelados",
+      "Doctor Krápula",
+      "Los de Adentro"
+    ],
+    "correct": 0,
+    "category": "Música y Parranda",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Quién canta 'La Camisa Negra'?",
+    "answers": [
+      "Juanes",
+      "Carlos Vives",
+      "Fonseca",
+      "Sebastián Yatra"
+    ],
+    "correct": 0,
+    "category": "Música y Parranda",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿A qué cantante se le conocía como la 'Reina del Tex-Mex'?",
+    "answers": [
+      "Selena",
+      "Thalía",
+      "Paulina Rubio",
+      "Gloria Estefan"
+    ],
+    "correct": 0,
+    "category": "Música y Parranda",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Qué artista colombiano canta 'Ay Vamos'?",
+    "answers": [
+      "Maluma",
+      "J Balvin",
+      "Nicky Jam",
+      "Ozuna"
+    ],
+    "correct": 1,
+    "category": "Música y Parranda",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Quién pintó la Mona Lisa?",
+    "answers": [
+      "Miguel Ángel",
+      "Leonardo da Vinci",
+      "Rafael",
+      "Van Gogh"
+    ],
+    "correct": 1,
+    "category": "Cultura General",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿En qué país se construyeron las pirámides de Giza?",
+    "answers": [
+      "México",
+      "Egipto",
+      "Irak",
+      "Grecia"
+    ],
+    "correct": 1,
+    "category": "Cultura General",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cuál es el desierto cálido más grande del mundo?",
+    "answers": [
+      "Gobi",
+      "Sahara",
+      "Atacama",
+      "Kalahari"
+    ],
+    "correct": 1,
+    "category": "Cultura General",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cuántos huesos tiene el cuerpo humano adulto?",
+    "answers": [
+      "186",
+      "206",
+      "226",
+      "300"
+    ],
+    "correct": 1,
+    "category": "Cultura General",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cuál es el hueso más largo del cuerpo humano?",
+    "answers": [
+      "La tibia",
+      "El fémur",
+      "El húmero",
+      "La clavícula"
+    ],
+    "correct": 1,
+    "category": "Cultura General",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Quién fue el primer ser humano en pisar la Luna?",
+    "answers": [
+      "Buzz Aldrin",
+      "Neil Armstrong",
+      "Yuri Gagarin",
+      "Michael Collins"
+    ],
+    "correct": 1,
+    "category": "Cultura General",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cuál es el país más grande del mundo por superficie?",
+    "answers": [
+      "Canadá",
+      "China",
+      "Rusia",
+      "Estados Unidos"
+    ],
+    "correct": 2,
+    "category": "Cultura General",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cuál es la montaña más alta del mundo?",
+    "answers": [
+      "K2",
+      "Everest",
+      "Aconcagua",
+      "Kilimanjaro"
+    ],
+    "correct": 1,
+    "category": "Cultura General",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cuál es el idioma oficial de Brasil?",
+    "answers": [
+      "Español",
+      "Portugués",
+      "Francés",
+      "Inglés"
+    ],
+    "correct": 1,
+    "category": "Cultura General",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cuántos lados tiene un hexágono?",
+    "answers": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct": 1,
+    "category": "Cultura General",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama la telenovela colombiana protagonizada por una economista poco agraciada?",
+    "answers": [
+      "Café con aroma de mujer",
+      "Yo soy Betty, la fea",
+      "Pasión de gavilanes",
+      "La Reina del Flow"
+    ],
+    "correct": 1,
+    "category": "Telenovelas",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿En qué telenovela aparece el personaje 'Don Armando'?",
+    "answers": [
+      "Betty la fea",
+      "Pasión de gavilanes",
+      "La viuda de Blanco",
+      "Sin senos no hay paraíso"
+    ],
+    "correct": 0,
+    "category": "Telenovelas",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama la telenovela protagonizada por los hermanos Reyes?",
+    "answers": [
+      "Pasión de Gavilanes",
+      "Café con aroma de mujer",
+      "Betty la fea",
+      "La Tormenta"
+    ],
+    "correct": 0,
+    "category": "Telenovelas",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Qué serie narra la vida del narcotraficante Pablo Escobar?",
+    "answers": [
+      "Narcos",
+      "Betty la fea",
+      "Café con aroma de mujer",
+      "La Reina del Flow"
+    ],
+    "correct": 0,
+    "category": "Telenovelas",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿Cómo se llama la telenovela de una cantante que sale de la cárcel y busca venganza?",
+    "answers": [
+      "La Reina del Flow",
+      "Sin senos no hay paraíso",
+      "La Niña",
+      "La Doña"
+    ],
+    "correct": 0,
+    "category": "Telenovelas",
+    "difficulty": "media"
+  },
+  {
+    "question": "¿En qué país se produjo la telenovela 'Café con aroma de mujer'?",
+    "answers": [
+      "México",
+      "Colombia",
+      "Venezuela",
+      "Brasil"
+    ],
+    "correct": 1,
+    "category": "Telenovelas",
     "difficulty": "media"
   },
   {
@@ -2217,6 +4017,906 @@
     ],
     "correct": 1,
     "category": "Química",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "Dos cuerdas tardan 1 hora en arder (a ritmo irregular). ¿Cómo mides 45 minutos?",
+    "answers": [
+      "Una por los dos extremos y la otra por uno",
+      "Las dos por un solo extremo",
+      "Cortar una cuerda por la mitad",
+      "No se puede medir"
+    ],
+    "correct": 0,
+    "category": "Acertijo / Lógica",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "3 interruptores encienden 3 bombillas de otra sala. Entras una sola vez. ¿Cómo sabes cuál es cuál?",
+    "answers": [
+      "Encender uno, apagarlo y tocar la bombilla",
+      "Encender los tres y entrar",
+      "Encender uno y mirar el brillo",
+      "No se puede saber"
+    ],
+    "correct": 0,
+    "category": "Acertijo / Lógica",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "Un hombre vive en el piso 10, pero solo sube al 7; si llueve, sube al 10. ¿Por qué?",
+    "answers": [
+      "Es bajito y con el paraguas alcanza el botón",
+      "Le gusta caminar",
+      "El ascensor se daña si llueve",
+      "En realidad vive en el 7"
+    ],
+    "correct": 0,
+    "category": "Acertijo / Lógica",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "El padre muere en un accidente; del hijo, el cirujano dice: \"No puedo operarlo, es mi hijo\". ¿Cómo?",
+    "answers": [
+      "El cirujano es su madre",
+      "El padre no murió",
+      "El cirujano es el abuelo",
+      "El niño era adoptado"
+    ],
+    "correct": 0,
+    "category": "Acertijo / Lógica",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "3 cajas: manzanas, naranjas y mezcla, todas mal etiquetadas. Sacas 1 fruta de 1 caja. ¿De cuál?",
+    "answers": [
+      "De la caja \"mezcla\"",
+      "De la caja \"manzanas\"",
+      "De la caja \"naranjas\"",
+      "De cualquiera"
+    ],
+    "correct": 0,
+    "category": "Acertijo / Lógica",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "Dos padres y dos hijos pescan 3 peces, uno cada uno. ¿Cómo es posible?",
+    "answers": [
+      "Son abuelo, padre y nieto",
+      "Uno pescó dos peces",
+      "Uno se escapó",
+      "Son cuatro y uno no pescó"
+    ],
+    "correct": 0,
+    "category": "Acertijo / Lógica",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cómo repartes 10 caramelos entre 10 niños y aún queda 1 dentro de la caja?",
+    "answers": [
+      "Al último le das la caja con su caramelo",
+      "Te comes uno",
+      "Le das dos a un niño",
+      "No es posible"
+    ],
+    "correct": 0,
+    "category": "Acertijo / Lógica",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "Un rey ordena tener hijos hasta que nazca una niña. ¿Qué proporción de niñas y niños habrá?",
+    "answers": [
+      "1 niña por cada niño",
+      "Muchas más niñas",
+      "Muchos más niños",
+      "2 niñas por niño"
+    ],
+    "correct": 0,
+    "category": "Acertijo / Lógica",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "3 edades multiplican 72 y suman el nº de casa. Con la suma no basta, pero hay un solo mayor. ¿Edades?",
+    "answers": [
+      "3, 3 y 8",
+      "2, 6 y 6",
+      "2, 4 y 9",
+      "1, 8 y 9"
+    ],
+    "correct": 0,
+    "category": "Acertijo / Lógica",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "Un mono equilibra con un peso por una polea. Si el mono sube por la cuerda, ¿qué pasa?",
+    "answers": [
+      "El peso sube igual que él",
+      "El peso baja",
+      "El peso sube y el mono no",
+      "El mono no puede subir"
+    ],
+    "correct": 0,
+    "category": "Acertijo / Lógica",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Qué número sigue: 1, 11, 21, 1211, 111221, 312211...?",
+    "answers": [
+      "13112221",
+      "122111",
+      "3122111",
+      "1112221"
+    ],
+    "correct": 0,
+    "category": "Acertijo / Lógica",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "4 personas cruzan un puente de noche (1, 2, 5 y 8 min) con 1 linterna; máximo 2 a la vez. ¿Tiempo mínimo?",
+    "answers": [
+      "15 minutos",
+      "19 minutos",
+      "16 minutos",
+      "14 minutos"
+    ],
+    "correct": 0,
+    "category": "Acertijo / Lógica",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "Con relojes de arena de 7 y 11 minutos, ¿cómo mides exactamente 15 minutos?",
+    "answers": [
+      "Girar los dos y reiniciar el de 7 al terminar",
+      "Usar el de 7 dos veces",
+      "Sumar 7 + 11 y restar 3",
+      "No es posible"
+    ],
+    "correct": 0,
+    "category": "Acertijo / Lógica",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "Cruzas zorro, gallina y trigo; la barca lleva 1. Zorro y gallina no pueden quedar solos, ni gallina y trigo. ¿Primero?",
+    "answers": [
+      "La gallina",
+      "El zorro",
+      "El trigo",
+      "No se puede"
+    ],
+    "correct": 0,
+    "category": "Acertijo / Lógica",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "Un juez declara culpable a un hombre de un crimen grave, pero lo deja libre. ¿Por qué?",
+    "answers": [
+      "Es siamés de un inocente",
+      "El herido no murió",
+      "Fue en defensa propia",
+      "El juez fue sobornado"
+    ],
+    "correct": 0,
+    "category": "Acertijo / Lógica",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es el hueso más pequeño del cuerpo humano?",
+    "answers": [
+      "El martillo",
+      "El estribo",
+      "El yunque",
+      "El hioides"
+    ],
+    "correct": 1,
+    "category": "Biología",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuántos cromosomas tiene una célula humana normal?",
+    "answers": [
+      "44",
+      "46",
+      "48",
+      "23"
+    ],
+    "correct": 1,
+    "category": "Biología",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Qué órgano produce la insulina?",
+    "answers": [
+      "El hígado",
+      "El páncreas",
+      "El riñón",
+      "El bazo"
+    ],
+    "correct": 1,
+    "category": "Biología",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es el grupo sanguíneo considerado donante universal?",
+    "answers": [
+      "AB positivo",
+      "O negativo",
+      "A positivo",
+      "B negativo"
+    ],
+    "correct": 1,
+    "category": "Biología",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Qué tipo de animal es el ornitorrinco?",
+    "answers": [
+      "Un reptil",
+      "Un mamífero que pone huevos",
+      "Un anfibio",
+      "Un ave"
+    ],
+    "correct": 1,
+    "category": "Biología",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Qué célula de la sangre transporta el oxígeno?",
+    "answers": [
+      "El glóbulo blanco",
+      "El glóbulo rojo",
+      "La plaqueta",
+      "La neurona"
+    ],
+    "correct": 1,
+    "category": "Biología",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cómo se llama el proceso con el que las plantas producen su alimento?",
+    "answers": [
+      "Respiración",
+      "Fotosíntesis",
+      "Digestión",
+      "Fermentación"
+    ],
+    "correct": 1,
+    "category": "Biología",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuántas cavidades tiene el corazón humano?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 2,
+    "category": "Biología",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es el animal más grande del planeta?",
+    "answers": [
+      "El elefante",
+      "La ballena azul",
+      "El tiburón blanco",
+      "La jirafa"
+    ],
+    "correct": 1,
+    "category": "Biología",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Qué parte de la célula contiene el ADN?",
+    "answers": [
+      "La membrana",
+      "El núcleo",
+      "El citoplasma",
+      "La mitocondria"
+    ],
+    "correct": 1,
+    "category": "Biología",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es el animal terrestre más rápido?",
+    "answers": [
+      "El león",
+      "El guepardo",
+      "El antílope",
+      "El caballo"
+    ],
+    "correct": 1,
+    "category": "Biología",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Qué vitamina produce el cuerpo con la exposición al sol?",
+    "answers": [
+      "Vitamina A",
+      "Vitamina C",
+      "Vitamina D",
+      "Vitamina K"
+    ],
+    "correct": 2,
+    "category": "Biología",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es el elemento más abundante del universo?",
+    "answers": [
+      "Oxígeno",
+      "Hidrógeno",
+      "Helio",
+      "Carbono"
+    ],
+    "correct": 1,
+    "category": "Química",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es el símbolo químico del oro?",
+    "answers": [
+      "Ag",
+      "Au",
+      "Fe",
+      "Or"
+    ],
+    "correct": 1,
+    "category": "Química",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es el gas que respiramos para vivir?",
+    "answers": [
+      "Nitrógeno",
+      "Oxígeno",
+      "Dióxido de carbono",
+      "Hidrógeno"
+    ],
+    "correct": 1,
+    "category": "Química",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿A qué velocidad viaja la luz en el vacío, aproximadamente?",
+    "answers": [
+      "30.000 km/s",
+      "300.000 km/s",
+      "3.000.000 km/s",
+      "3.000 km/s"
+    ],
+    "correct": 1,
+    "category": "Física",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es el único metal líquido a temperatura ambiente?",
+    "answers": [
+      "Plomo",
+      "Mercurio",
+      "Aluminio",
+      "Estaño"
+    ],
+    "correct": 1,
+    "category": "Química",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Qué fuerza nos mantiene pegados a la superficie de la Tierra?",
+    "answers": [
+      "El magnetismo",
+      "La gravedad",
+      "La fricción",
+      "La inercia"
+    ],
+    "correct": 1,
+    "category": "Física",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es la fórmula química del agua?",
+    "answers": [
+      "CO2",
+      "H2O",
+      "O2",
+      "NaCl"
+    ],
+    "correct": 1,
+    "category": "Química",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Qué científico formuló la teoría de la relatividad?",
+    "answers": [
+      "Newton",
+      "Einstein",
+      "Galileo",
+      "Tesla"
+    ],
+    "correct": 1,
+    "category": "Física",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es el pH del agua pura?",
+    "answers": [
+      "0",
+      "7",
+      "14",
+      "1"
+    ],
+    "correct": 1,
+    "category": "Química",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Qué partícula subatómica tiene carga negativa?",
+    "answers": [
+      "El protón",
+      "El neutrón",
+      "El electrón",
+      "El fotón"
+    ],
+    "correct": 2,
+    "category": "Física",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es el elemento más abundante en la corteza terrestre?",
+    "answers": [
+      "Silicio",
+      "Oxígeno",
+      "Aluminio",
+      "Hierro"
+    ],
+    "correct": 1,
+    "category": "Química",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Qué unidad se usa para medir la fuerza?",
+    "answers": [
+      "El joule",
+      "El newton",
+      "El watt",
+      "El voltio"
+    ],
+    "correct": 1,
+    "category": "Física",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es el país más poblado del mundo en la actualidad?",
+    "answers": [
+      "China",
+      "India",
+      "Estados Unidos",
+      "Indonesia"
+    ],
+    "correct": 1,
+    "category": "Geografía",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es el lago más profundo del mundo?",
+    "answers": [
+      "Titicaca",
+      "Baikal",
+      "Victoria",
+      "Superior"
+    ],
+    "correct": 1,
+    "category": "Geografía",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es el país más pequeño del mundo?",
+    "answers": [
+      "Mónaco",
+      "El Vaticano",
+      "Nauru",
+      "San Marino"
+    ],
+    "correct": 1,
+    "category": "Geografía",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es la capital de Australia?",
+    "answers": [
+      "Sídney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correct": 1,
+    "category": "Geografía",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Qué dos países comparten la cima del Everest?",
+    "answers": [
+      "India y Nepal",
+      "Nepal y China",
+      "China e India",
+      "Bután y Nepal"
+    ],
+    "correct": 1,
+    "category": "Geografía",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es el cuerpo de agua más salado del mundo?",
+    "answers": [
+      "Mar Rojo",
+      "Mar Muerto",
+      "Mar Negro",
+      "Mar Caspio"
+    ],
+    "correct": 1,
+    "category": "Geografía",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es el país más extenso de Sudamérica?",
+    "answers": [
+      "Argentina",
+      "Brasil",
+      "Perú",
+      "Colombia"
+    ],
+    "correct": 1,
+    "category": "Geografía",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es la capital de Canadá?",
+    "answers": [
+      "Toronto",
+      "Ottawa",
+      "Montreal",
+      "Vancouver"
+    ],
+    "correct": 1,
+    "category": "Geografía",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿En qué continente se encuentra el desierto de Atacama?",
+    "answers": [
+      "África",
+      "Asia",
+      "América",
+      "Oceanía"
+    ],
+    "correct": 2,
+    "category": "Geografía",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es el río más caudaloso del mundo?",
+    "answers": [
+      "Nilo",
+      "Amazonas",
+      "Yangtsé",
+      "Misisipi"
+    ],
+    "correct": 1,
+    "category": "Geografía",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿En qué año comenzó la Segunda Guerra Mundial?",
+    "answers": [
+      "1914",
+      "1939",
+      "1945",
+      "1929"
+    ],
+    "correct": 1,
+    "category": "Historia",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿En qué año terminó la Segunda Guerra Mundial?",
+    "answers": [
+      "1939",
+      "1945",
+      "1950",
+      "1918"
+    ],
+    "correct": 1,
+    "category": "Historia",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Quién fue el primer emperador romano?",
+    "answers": [
+      "Julio César",
+      "Augusto",
+      "Nerón",
+      "Constantino"
+    ],
+    "correct": 1,
+    "category": "Historia",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿En qué año cayó el Muro de Berlín?",
+    "answers": [
+      "1985",
+      "1989",
+      "1991",
+      "1979"
+    ],
+    "correct": 1,
+    "category": "Historia",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Quién llegó a América en 1492?",
+    "answers": [
+      "Magallanes",
+      "Cristóbal Colón",
+      "Vasco da Gama",
+      "Américo Vespucio"
+    ],
+    "correct": 1,
+    "category": "Historia",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál fue una de las primeras civilizaciones en desarrollar la escritura?",
+    "answers": [
+      "Los egipcios",
+      "Los sumerios",
+      "Los griegos",
+      "Los romanos"
+    ],
+    "correct": 1,
+    "category": "Historia",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Quién fue el líder de la independencia de la India?",
+    "answers": [
+      "Nehru",
+      "Mahatma Gandhi",
+      "Nelson Mandela",
+      "Tagore"
+    ],
+    "correct": 1,
+    "category": "Historia",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿En qué año llegó el hombre a la Luna?",
+    "answers": [
+      "1959",
+      "1969",
+      "1972",
+      "1965"
+    ],
+    "correct": 1,
+    "category": "Historia",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Qué civilización construyó Machu Picchu?",
+    "answers": [
+      "Los mayas",
+      "Los aztecas",
+      "El Imperio Inca",
+      "Los olmecas"
+    ],
+    "correct": 2,
+    "category": "Historia",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Quién fue el primer presidente de Estados Unidos?",
+    "answers": [
+      "Lincoln",
+      "George Washington",
+      "Jefferson",
+      "Adams"
+    ],
+    "correct": 1,
+    "category": "Historia",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuánto es 7 × 8?",
+    "answers": [
+      "54",
+      "56",
+      "48",
+      "64"
+    ],
+    "correct": 1,
+    "category": "Matemáticas",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es la raíz cuadrada de 144?",
+    "answers": [
+      "11",
+      "12",
+      "14",
+      "16"
+    ],
+    "correct": 1,
+    "category": "Matemáticas",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuánto es el factorial de 5 (5!)?",
+    "answers": [
+      "25",
+      "60",
+      "120",
+      "720"
+    ],
+    "correct": 2,
+    "category": "Matemáticas",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuánto es el 15% de 200?",
+    "answers": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "correct": 2,
+    "category": "Matemáticas",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es el número primo que sigue después del 7?",
+    "answers": [
+      "9",
+      "10",
+      "11",
+      "13"
+    ],
+    "correct": 2,
+    "category": "Matemáticas",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuánto es 2 elevado a la 10?",
+    "answers": [
+      "512",
+      "1024",
+      "2048",
+      "100"
+    ],
+    "correct": 1,
+    "category": "Matemáticas",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "Si un triángulo rectángulo tiene catetos de 3 y 4, ¿cuánto mide la hipotenusa?",
+    "answers": [
+      "6",
+      "7",
+      "5",
+      "4"
+    ],
+    "correct": 2,
+    "category": "Matemáticas",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuántos segundos tiene una hora?",
+    "answers": [
+      "600",
+      "3600",
+      "60",
+      "360"
+    ],
+    "correct": 1,
+    "category": "Matemáticas",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es el resultado de 100 ÷ 4?",
+    "answers": [
+      "20",
+      "25",
+      "40",
+      "50"
+    ],
+    "correct": 1,
+    "category": "Matemáticas",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es el resultado de la mitad de 2 más 2?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "correct": 1,
+    "category": "Matemáticas",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es el planeta más cercano al Sol?",
+    "answers": [
+      "Venus",
+      "Mercurio",
+      "Tierra",
+      "Marte"
+    ],
+    "correct": 1,
+    "category": "Astronomía",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuál es el planeta conocido como el 'planeta rojo'?",
+    "answers": [
+      "Júpiter",
+      "Marte",
+      "Venus",
+      "Saturno"
+    ],
+    "correct": 1,
+    "category": "Astronomía",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Qué planeta es conocido como el gemelo de la Tierra por su tamaño?",
+    "answers": [
+      "Marte",
+      "Venus",
+      "Mercurio",
+      "Neptuno"
+    ],
+    "correct": 1,
+    "category": "Astronomía",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuántos satélites naturales tiene Marte?",
+    "answers": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "correct": 2,
+    "category": "Astronomía",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cómo se llama nuestra galaxia?",
+    "answers": [
+      "Andrómeda",
+      "Vía Láctea",
+      "Orión",
+      "Magallanes"
+    ],
+    "correct": 1,
+    "category": "Astronomía",
+    "difficulty": "dificil"
+  },
+  {
+    "question": "¿Cuántos planetas tiene el sistema solar?",
+    "answers": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct": 1,
+    "category": "Astronomía",
     "difficulty": "dificil"
   }
 ]
